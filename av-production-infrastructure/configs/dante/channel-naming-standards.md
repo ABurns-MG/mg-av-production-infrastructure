@@ -12,17 +12,13 @@ Currently all TX channels are labeled generically ("01", "02", etc.). Assign the
 
 | TX Ch | Current Label | Suggested Name | Signal |
 |-------|---------------|----------------|--------|
-| 1 | 01 | ***Spotify L*** | Spotify playback left (to DM7 Ch 32) |
-| 2 | 02 | ***Spotify R*** | Spotify playback right (to DM7 Ch 33) |
-| 3 | 03 | ***Resolume L*** | Resolume Arena audio left (to DM7 Ch 49) |
-| 4 | 04 | ***Resolume R*** | Resolume Arena audio right (to DM7 Ch 50) |
-| 5-21 | 05-21 | *(leave as-is unless assigned)* | Unused |
+| 1 | 01 | ***Resolume-Spotify L*** | Shared: Resolume Arena + Spotify audio left |
+| 2 | 02 | ***Resolume-Spotify R*** | Shared: Resolume Arena + Spotify audio right |
+| 3-21 | 03-21 | *(leave as-is unless assigned)* | Unused |
 
-> **Note:** DM7 subscribes to Resolume-Mac-Studio TX 1-2 for Spotify (RX 32-33 mapped to "SPOTIFY" channels) and TX 1-2 also route to Resolume L/R on DM7 RX 49-50. **Clarification needed:** Are Spotify and Resolume on separate TX pairs, or are TX 1-2 shared for both? Based on DM7 RX 49-50 subscribing to Resolume TX 01-02 in the Dante export, they appear shared. Consider separating:
-> - TX 1-2 = Spotify
-> - TX 3-4 = Resolume video audio
+> **Note:** TX 1-2 carry both Spotify and Resolume video audio as a shared stereo pair. DM7 subscribes twice — once for "SPOTIFY" (Ch 32-33) and once for "Resolume" (Ch 49-50) — but these are the same source signal. The DM7 handles them as separate console channels for independent level/mute control at the console layer.
 >
-> Then re-subscribe DM7 RX 49-50 to TX 3-4 instead of TX 1-2.
+> **Future consideration:** If independent network-level muting of Spotify vs. Resolume is desired, separate them to TX 1-2 (Resolume) and TX 3-4 (Spotify) within the Mac Studio's audio routing, then re-subscribe DM7 accordingly.
 
 ---
 
