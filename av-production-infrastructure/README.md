@@ -75,11 +75,17 @@ Documentation should help someone fix a problem during a live service.
 
 ## Tools Used
 
-- Yamaha DM7
-- Dante / Dante Virtual Soundcard
-- Ableton Live
-- Datavideo SE‑3200
-- Various lighting systems
+- **Audio Console:** Yamaha DM7 (144 ch, Dante clock master)
+- **Audio Network:** Dante (25 devices, 96 kHz)
+- **Stage Boxes:** Yamaha Rio3224-D2, Rio1608-D2
+- **IEM System:** KLANG-IEM → 12× AVIO-DAO2, Allen & Heath ME-1 (backup)
+- **Broadcast Processing:** Ableton Live (multitrack + limiting)
+- **Video Switcher:** Datavideo SE-3200
+- **Lighting Console:** Obsidian Onyx NX4 (DMX-512)
+- **Lighting Fixtures:** 20+ types (Chauvet, Martin, ETC, Vari-Lite)
+- **Distribution:** Blackmagic 40×40, Teranex Mini, Biamp Tesira
+- **Playback:** Resolume (Mac Studio), ProPresenter (Mac Mini)
+- **Wireless:** Shure ULXD4Q (4× receivers)
 
 ---
 
