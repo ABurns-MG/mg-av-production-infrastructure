@@ -103,8 +103,8 @@
 |----|------|-------|------|--------|--------|
 | 51 | BCastRet | White | — | MG-AVL-Ableton TX 47 | Broadcast processed return left |
 | 52 | BCastRet | White | — | MG-AVL-Ableton TX 48 | Broadcast processed return right |
-| 53 | TRACKS L | Blue | — | Rio3224 TX 23 | Playback tracks left (from stage box input) |
-| 54 | TRACKS R | Blue | — | Rio3224 TX 24 | Playback tracks right (from stage box input) |
+| 53 | TRACKS L | Blue | — | Rio3224 TX 23 | Focusrite stage input left (guest iPad / MultiTracks Playback) |
+| 54 | TRACKS R | Blue | — | Rio3224 TX 24 | Focusrite stage input right (guest iPad / MultiTracks Playback) |
 | 55 | FA L Aux | Red | — | DM7 Omni In (XLR→1/8") | Foldback aux left (physical media) |
 | 56 | FA R Aux | Red | — | DM7 Omni In (XLR→1/8") | Foldback aux right (physical media) |
 

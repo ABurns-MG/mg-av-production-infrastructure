@@ -85,7 +85,7 @@
 | 43 | TALKBACK | PRECISE | GATE | Classic Comp | |
 | 49–50 | CROWD | PRECISE | GATE | Classic Comp | |
 | 51–52 | BCastRet | PRECISE | GATE | Classic Comp | |
-| 53–54 | TRACKS | PRECISE | GATE | Classic Comp | |
+| 53–54 | TRACKS | PRECISE | GATE | Classic Comp | Focusrite stage input (guest iPad / MultiTracks) |
 
 ### Processed Returns from Ableton (Ch 57–67, 100–114)
 
