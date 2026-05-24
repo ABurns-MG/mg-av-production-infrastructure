@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<preset version="2.1.0">
+    <name>MGC-LC-Ableton Dante Channel Names</name>
+    <description>Dante Controller preset</description>
+    <device>
+        <name>MGC-LC-L-AVL-001</name>
+        <default_name>MGC-LC-L-AVL-001</default_name>
+        <instance_id>
+            <device_id>6C6E07FFFE17D4A7</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>417564696E617465</manufacturer_id>
+        <manufacturer_name>Audinate Pty Ltd</manufacturer_name>
+        <model_id>4476734D61634F73</model_id>
+        <model_name>Dante Virtual Soundcard</model_name>
+        <model_version>4.5.1</model_version>
+        <model_version_string>4.5.1.1</model_version_string>
+        <device_type>4476734D61630000</device_type>
+        <device_type_string>Dante Virtual Soundcard macOS</device_type_string>
+        <txchannel danteId="1" mediaType="audio">
+            <label>FL1</label>
+        </txchannel>
+        <txchannel danteId="2" mediaType="audio">
+            <label>FL2</label>
+        </txchannel>
+        <txchannel danteId="3" mediaType="audio">
+            <label>FL3</label>
+        </txchannel>
+        <txchannel danteId="4" mediaType="audio">
+            <label>FL4</label>
+        </txchannel>
+        <txchannel danteId="5" mediaType="audio">
+            <label>FL5</label>
+        </txchannel>
+        <txchannel danteId="6" mediaType="audio">
+            <label>Pastor</label>
+        </txchannel>
+        <txchannel danteId="7" mediaType="audio">
+            <label>MC1</label>
+        </txchannel>
+        <txchannel danteId="8" mediaType="audio">
+            <label>Crowd 1</label>
+        </txchannel>
+        <txchannel danteId="9" mediaType="audio">
+            <label>Crowd 2</label>
+        </txchannel>
+        <txchannel danteId="10" mediaType="audio">
+            <label>Bass</label>
+        </txchannel>
+        <txchannel danteId="11" mediaType="audio">
+            <label>Acoustic</label>
+        </txchannel>
+        <txchannel danteId="12" mediaType="audio">
+            <label>EG1</label>
+        </txchannel>
+        <txchannel danteId="13" mediaType="audio">
+            <label>EG2</label>
+        </txchannel>
+        <txchannel danteId="14" mediaType="audio">
+            <label>Kick</label>
+        </txchannel>
+        <txchannel danteId="15" mediaType="audio">
+            <label>Snare</label>
+        </txchannel>
+        <txchannel danteId="16" mediaType="audio">
+            <label>Rack 1</label>
+        </txchannel>
+        <txchannel danteId="17" mediaType="audio">
+            <label>Rack 2</label>
+        </txchannel>
+        <txchannel danteId="18" mediaType="audio">
+            <label>Keys L</label>
+        </txchannel>
+        <txchannel danteId="19" mediaType="audio">
+            <label>Keys R</label>
+        </txchannel>
+        <txchannel danteId="20" mediaType="audio">
+            <label>Keys 2L</label>
+        </txchannel>
+        <txchannel danteId="21" mediaType="audio">
+            <label>Keys 2R</label>
+        </txchannel>
+        <txchannel danteId="22" mediaType="audio">
+            <label>FL1 FX</label>
+        </txchannel>
+        <txchannel danteId="23" mediaType="audio">
+            <label>FL2 FX</label>
+        </txchannel>
+        <txchannel danteId="24" mediaType="audio">
+            <label>FL3 FX</label>
+        </txchannel>
+        <txchannel danteId="25" mediaType="audio">
+            <label>FL4 FX</label>
+        </txchannel>
+        <txchannel danteId="26" mediaType="audio">
+            <label>26</label>
+        </txchannel>
+        <txchannel danteId="27" mediaType="audio">
+            <label>27</label>
+        </txchannel>
+        <txchannel danteId="28" mediaType="audio">
+            <label>28</label>
+        </txchannel>
+        <txchannel danteId="29" mediaType="audio">
+            <label>29</label>
+        </txchannel>
+        <txchannel danteId="30" mediaType="audio">
+            <label>30</label>
+        </txchannel>
+        <txchannel danteId="31" mediaType="audio">
+            <label>31</label>
+        </txchannel>
+        <txchannel danteId="32" mediaType="audio">
+            <label>32</label>
+        </txchannel>
+        <rxchannel danteId="1" mediaType="audio">
+            <name>Kick</name>
+        </rxchannel>
+        <rxchannel danteId="2" mediaType="audio">
+            <name>Snare</name>
+        </rxchannel>
+        <rxchannel danteId="3" mediaType="audio">
+            <name>Rack 1</name>
+        </rxchannel>
+        <rxchannel danteId="4" mediaType="audio">
+            <name>Rack 2</name>
+        </rxchannel>
+        <rxchannel danteId="5" mediaType="audio">
+            <name>Floor Tom</name>
+        </rxchannel>
+        <rxchannel danteId="6" mediaType="audio">
+            <name>Key2 L</name>
+        </rxchannel>
+        <rxchannel danteId="7" mediaType="audio">
+            <name>Key2 R</name>
+        </rxchannel>
+        <rxchannel danteId="8" mediaType="audio">
+            <name>Click</name>
+        </rxchannel>
+        <rxchannel danteId="9" mediaType="audio">
+            <name>Bass</name>
+        </rxchannel>
+        <rxchannel danteId="10" mediaType="audio">
+            <name>Spare</name>
+        </rxchannel>
+        <rxchannel danteId="11" mediaType="audio">
+            <name>EG 1</name>
+        </rxchannel>
+        <rxchannel danteId="12" mediaType="audio">
+            <name>EG 2</name>
+        </rxchannel>
+        <rxchannel danteId="13" mediaType="audio">
+            <name>Keys L</name>
+        </rxchannel>
+        <rxchannel danteId="14" mediaType="audio">
+            <name>Keys R</name>
+        </rxchannel>
+        <rxchannel danteId="15" mediaType="audio">
+            <name>Acoustic</name>
+        </rxchannel>
+        <rxchannel danteId="16" mediaType="audio">
+            <name>FL1</name>
+        </rxchannel>
+        <rxchannel danteId="17" mediaType="audio">
+            <name>FL2</name>
+        </rxchannel>
+        <rxchannel danteId="18" mediaType="audio">
+            <name>FL3</name>
+        </rxchannel>
+        <rxchannel danteId="19" mediaType="audio">
+            <name>FL4</name>
+        </rxchannel>
+        <rxchannel danteId="20" mediaType="audio">
+            <name>FL5</name>
+        </rxchannel>
+        <rxchannel danteId="21" mediaType="audio">
+            <name>MC1</name>
+        </rxchannel>
+        <rxchannel danteId="22" mediaType="audio">
+            <name>Pastor</name>
+        </rxchannel>
+        <rxchannel danteId="23" mediaType="audio">
+            <name>Crowd1</name>
+        </rxchannel>
+        <rxchannel danteId="24" mediaType="audio">
+            <name>Crowd2</name>
+        </rxchannel>
+        <rxchannel danteId="25" mediaType="audio">
+            <name>25</name>
+        </rxchannel>
+        <rxchannel danteId="26" mediaType="audio">
+            <name>26</name>
+        </rxchannel>
+        <rxchannel danteId="27" mediaType="audio">
+            <name>27</name>
+        </rxchannel>
+        <rxchannel danteId="28" mediaType="audio">
+            <name>28</name>
+        </rxchannel>
+        <rxchannel danteId="29" mediaType="audio">
+            <name>29</name>
+        </rxchannel>
+        <rxchannel danteId="30" mediaType="audio">
+            <name>30</name>
+        </rxchannel>
+        <rxchannel danteId="31" mediaType="audio">
+            <name>31</name>
+        </rxchannel>
+        <rxchannel danteId="32" mediaType="audio">
+            <name>32</name>
+        </rxchannel>
+    </device>
+</preset>

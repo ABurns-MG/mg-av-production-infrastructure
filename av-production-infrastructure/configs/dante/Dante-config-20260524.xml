@@ -1,0 +1,3771 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<preset version="3.0.0">
+    <name>Dante-config-20260524</name>
+    <description>Dante Controller preset</description>
+    <device>
+        <captureInfo>
+            <device_name/>
+            <device_switch_vlan/>
+            <interface_ipv4_addresses/>
+            <device_samplerate/>
+            <device_unicast_latency/>
+            <rtp/>
+            <clock/>
+            <clock_priority/>
+            <device_external_word_clock/>
+            <txchannel_names/>
+            <txflows/>
+            <rxchannel_names/>
+            <rxchannel_subscriptions/>
+            <rxflows/>
+        </captureInfo>
+        <name>AllenHth-2182fc</name>
+        <default_name>AllenHth-2182fc</default_name>
+        <instance_id>
+            <device_id>001DC12182FC0000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>416C6C656E487468</manufacturer_id>
+        <manufacturer_name>AllenHeath</manufacturer_name>
+        <model_id>0000000000000001</model_id>
+        <model_name>Dante Option Card</model_name>
+        <model_version>4.0.4</model_version>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <friendly_name>AllenHth-2182fc</friendly_name>
+        <switch_vlan value="2"/>
+        <preferred_master value="false"/>
+        <external_word_clock value="false"/>
+        <samplerate>48000</samplerate>
+        <unicast_latency>1000</unicast_latency>
+        <interface network="0">
+            <ipv4_address mode="static">
+                <address>192.168.10.22</address>
+                <netmask>255.255.255.0</netmask>
+                <gateway>192.168.10.1</gateway>
+                <dnsserver>192.168.10.1</dnsserver>
+            </ipv4_address>
+        </interface>
+        <txchannel danteId="1" mediaType="audio">
+            <label>01</label>
+        </txchannel>
+        <txchannel danteId="2" mediaType="audio">
+            <label>02</label>
+        </txchannel>
+        <txchannel danteId="3" mediaType="audio">
+            <label>03</label>
+        </txchannel>
+        <txchannel danteId="4" mediaType="audio">
+            <label>04</label>
+        </txchannel>
+        <txchannel danteId="5" mediaType="audio">
+            <label>05</label>
+        </txchannel>
+        <txchannel danteId="6" mediaType="audio">
+            <label>06</label>
+        </txchannel>
+        <txchannel danteId="7" mediaType="audio">
+            <label>07</label>
+        </txchannel>
+        <txchannel danteId="8" mediaType="audio">
+            <label>08</label>
+        </txchannel>
+        <txchannel danteId="9" mediaType="audio">
+            <label>09</label>
+        </txchannel>
+        <txchannel danteId="10" mediaType="audio">
+            <label>10</label>
+        </txchannel>
+        <txchannel danteId="11" mediaType="audio">
+            <label>11</label>
+        </txchannel>
+        <txchannel danteId="12" mediaType="audio">
+            <label>12</label>
+        </txchannel>
+        <txchannel danteId="13" mediaType="audio">
+            <label>13</label>
+        </txchannel>
+        <txchannel danteId="14" mediaType="audio">
+            <label>14</label>
+        </txchannel>
+        <txchannel danteId="15" mediaType="audio">
+            <label>15</label>
+        </txchannel>
+        <txchannel danteId="16" mediaType="audio">
+            <label>16</label>
+        </txchannel>
+        <txchannel danteId="17" mediaType="audio">
+            <label>17</label>
+        </txchannel>
+        <txchannel danteId="18" mediaType="audio">
+            <label>18</label>
+        </txchannel>
+        <txchannel danteId="19" mediaType="audio">
+            <label>19</label>
+        </txchannel>
+        <txchannel danteId="20" mediaType="audio">
+            <label>20</label>
+        </txchannel>
+        <txchannel danteId="21" mediaType="audio">
+            <label>21</label>
+        </txchannel>
+        <txchannel danteId="22" mediaType="audio">
+            <label>22</label>
+        </txchannel>
+        <txchannel danteId="23" mediaType="audio">
+            <label>23</label>
+        </txchannel>
+        <txchannel danteId="24" mediaType="audio">
+            <label>24</label>
+        </txchannel>
+        <txchannel danteId="25" mediaType="audio">
+            <label>25</label>
+        </txchannel>
+        <txchannel danteId="26" mediaType="audio">
+            <label>26</label>
+        </txchannel>
+        <txchannel danteId="27" mediaType="audio">
+            <label>27</label>
+        </txchannel>
+        <txchannel danteId="28" mediaType="audio">
+            <label>28</label>
+        </txchannel>
+        <txchannel danteId="29" mediaType="audio">
+            <label>29</label>
+        </txchannel>
+        <txchannel danteId="30" mediaType="audio">
+            <label>30</label>
+        </txchannel>
+        <txchannel danteId="31" mediaType="audio">
+            <label>31</label>
+        </txchannel>
+        <txchannel danteId="32" mediaType="audio">
+            <label>32</label>
+        </txchannel>
+        <txchannel danteId="33" mediaType="audio">
+            <label>33</label>
+        </txchannel>
+        <txchannel danteId="34" mediaType="audio">
+            <label>34</label>
+        </txchannel>
+        <txchannel danteId="35" mediaType="audio">
+            <label>35</label>
+        </txchannel>
+        <txchannel danteId="36" mediaType="audio">
+            <label>36</label>
+        </txchannel>
+        <txchannel danteId="37" mediaType="audio">
+            <label>37</label>
+        </txchannel>
+        <txchannel danteId="38" mediaType="audio">
+            <label>38</label>
+        </txchannel>
+        <txchannel danteId="39" mediaType="audio">
+            <label>39</label>
+        </txchannel>
+        <txchannel danteId="40" mediaType="audio">
+            <label>40</label>
+        </txchannel>
+        <txchannel danteId="41" mediaType="audio">
+            <label>41</label>
+        </txchannel>
+        <txchannel danteId="42" mediaType="audio">
+            <label>42</label>
+        </txchannel>
+        <txchannel danteId="43" mediaType="audio">
+            <label>43</label>
+        </txchannel>
+        <txchannel danteId="44" mediaType="audio">
+            <label>44</label>
+        </txchannel>
+        <txchannel danteId="45" mediaType="audio">
+            <label>45</label>
+        </txchannel>
+        <txchannel danteId="46" mediaType="audio">
+            <label>46</label>
+        </txchannel>
+        <txchannel danteId="47" mediaType="audio">
+            <label>47</label>
+        </txchannel>
+        <txchannel danteId="48" mediaType="audio">
+            <label>48</label>
+        </txchannel>
+        <txchannel danteId="49" mediaType="audio">
+            <label>49</label>
+        </txchannel>
+        <txchannel danteId="50" mediaType="audio">
+            <label>50</label>
+        </txchannel>
+        <txchannel danteId="51" mediaType="audio">
+            <label>51</label>
+        </txchannel>
+        <txchannel danteId="52" mediaType="audio">
+            <label>52</label>
+        </txchannel>
+        <txchannel danteId="53" mediaType="audio">
+            <label>53</label>
+        </txchannel>
+        <txchannel danteId="54" mediaType="audio">
+            <label>54</label>
+        </txchannel>
+        <txchannel danteId="55" mediaType="audio">
+            <label>55</label>
+        </txchannel>
+        <txchannel danteId="56" mediaType="audio">
+            <label>56</label>
+        </txchannel>
+        <txchannel danteId="57" mediaType="audio">
+            <label>57</label>
+        </txchannel>
+        <txchannel danteId="58" mediaType="audio">
+            <label>58</label>
+        </txchannel>
+        <txchannel danteId="59" mediaType="audio">
+            <label>59</label>
+        </txchannel>
+        <txchannel danteId="60" mediaType="audio">
+            <label>60</label>
+        </txchannel>
+        <txchannel danteId="61" mediaType="audio">
+            <label>61</label>
+        </txchannel>
+        <txchannel danteId="62" mediaType="audio">
+            <label>62</label>
+        </txchannel>
+        <txchannel danteId="63" mediaType="audio">
+            <label>63</label>
+        </txchannel>
+        <txchannel danteId="64" mediaType="audio">
+            <label>64</label>
+        </txchannel>
+        <rxchannel danteId="1" mediaType="audio">
+            <name>KICK IN</name>
+            <subscribed_channel>01</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2" mediaType="audio">
+            <name>KICK OUT</name>
+            <subscribed_channel>02</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="3" mediaType="audio">
+            <name>SNR TOP</name>
+            <subscribed_channel>03</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="4" mediaType="audio">
+            <name>SNR BTM</name>
+            <subscribed_channel>04</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="5" mediaType="audio">
+            <name>HIHAT</name>
+            <subscribed_channel>05</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="6" mediaType="audio">
+            <name>Tom 10"</name>
+            <subscribed_channel>06</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="7" mediaType="audio">
+            <name>Tom 12"</name>
+            <subscribed_channel>07</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="8" mediaType="audio">
+            <name>Tom 16"</name>
+            <subscribed_channel>08</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="9" mediaType="audio">
+            <name>Tom 18"</name>
+            <subscribed_channel>09</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="10" mediaType="audio">
+            <name>OH L</name>
+            <subscribed_channel>10</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="11" mediaType="audio">
+            <name>OH R</name>
+            <subscribed_channel>11</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="12" mediaType="audio">
+            <name>12</name>
+            <subscribed_channel>12</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="13" mediaType="audio">
+            <name>BASS</name>
+            <subscribed_channel>13</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="14" mediaType="audio">
+            <name>EG 1 L</name>
+            <subscribed_channel>14</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="15" mediaType="audio">
+            <name>EG 1 R</name>
+            <subscribed_channel>15</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="16" mediaType="audio">
+            <name>EG 2 L</name>
+            <subscribed_channel>16</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="17" mediaType="audio">
+            <name>EG 2 R</name>
+            <subscribed_channel>17</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="18" mediaType="audio">
+            <name>ACOUSTIC</name>
+            <subscribed_channel>18</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="19" mediaType="audio">
+            <name>KEYS L</name>
+            <subscribed_channel>19</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="20" mediaType="audio">
+            <name>KEYS R</name>
+            <subscribed_channel>20</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="21" mediaType="audio">
+            <name>AUXKEY L</name>
+            <subscribed_channel>21</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="22" mediaType="audio">
+            <name>AUXKEY R</name>
+            <subscribed_channel>22</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="23" mediaType="audio">
+            <name>TRACKS L</name>
+            <subscribed_channel>23</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="24" mediaType="audio">
+            <name>TRACKS R</name>
+            <subscribed_channel>24</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="25" mediaType="audio">
+            <name>CLICK</name>
+            <subscribed_channel>25</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="26" mediaType="audio">
+            <name>PROPRES</name>
+            <subscribed_channel>26</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="27" mediaType="audio">
+            <name>PROPRES</name>
+            <subscribed_channel>27</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="28" mediaType="audio">
+            <name>Announce</name>
+            <subscribed_channel>28</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="29" mediaType="audio">
+            <name>Bass P</name>
+            <subscribed_channel>29</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="30" mediaType="audio">
+            <name>30</name>
+            <subscribed_channel>30</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="31" mediaType="audio">
+            <name>FL1</name>
+            <subscribed_channel>FL1</subscribed_channel>
+            <subscribed_device>ULXD4Q-ea9fd2</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="32" mediaType="audio">
+            <name>FL2</name>
+            <subscribed_channel>32 - FL2 D out</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="33" mediaType="audio">
+            <name>FL3</name>
+            <subscribed_channel>FL3</subscribed_channel>
+            <subscribed_device>ULXD4Q-ea9fd2</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="34" mediaType="audio">
+            <name>FL4</name>
+            <subscribed_channel>FL4</subscribed_channel>
+            <subscribed_device>ULXD4Q-ea9fd2</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="35" mediaType="audio">
+            <name>JD VOX</name>
+            <subscribed_channel>35 - MD Vox D out</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="36" mediaType="audio">
+            <name>MD MIC</name>
+            <subscribed_channel>36</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="37" mediaType="audio">
+            <name>TALKBACK</name>
+            <subscribed_channel>37 - Talkback D out</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="38" mediaType="audio">
+            <name> 38</name>
+            <subscribed_channel>38</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="39" mediaType="audio">
+            <name>CROWD L</name>
+            <subscribed_channel>39</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="40" mediaType="audio">
+            <name>40</name>
+            <subscribed_channel>40</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="41" mediaType="audio">
+            <name>41</name>
+        </rxchannel>
+        <rxchannel danteId="42" mediaType="audio">
+            <name>42</name>
+        </rxchannel>
+        <rxchannel danteId="43" mediaType="audio">
+            <name>43</name>
+        </rxchannel>
+        <rxchannel danteId="44" mediaType="audio">
+            <name>44</name>
+        </rxchannel>
+        <rxchannel danteId="45" mediaType="audio">
+            <name>45</name>
+        </rxchannel>
+        <rxchannel danteId="46" mediaType="audio">
+            <name>46</name>
+        </rxchannel>
+        <rxchannel danteId="47" mediaType="audio">
+            <name>47</name>
+        </rxchannel>
+        <rxchannel danteId="48" mediaType="audio">
+            <name>48</name>
+        </rxchannel>
+        <rxchannel danteId="49" mediaType="audio">
+            <name>49</name>
+        </rxchannel>
+        <rxchannel danteId="50" mediaType="audio">
+            <name>50</name>
+        </rxchannel>
+        <rxchannel danteId="51" mediaType="audio">
+            <name>51</name>
+        </rxchannel>
+        <rxchannel danteId="52" mediaType="audio">
+            <name>52</name>
+        </rxchannel>
+        <rxchannel danteId="53" mediaType="audio">
+            <name>53</name>
+        </rxchannel>
+        <rxchannel danteId="54" mediaType="audio">
+            <name>54</name>
+        </rxchannel>
+        <rxchannel danteId="55" mediaType="audio">
+            <name>55</name>
+        </rxchannel>
+        <rxchannel danteId="56" mediaType="audio">
+            <name>56</name>
+        </rxchannel>
+        <rxchannel danteId="57" mediaType="audio">
+            <name>57</name>
+        </rxchannel>
+        <rxchannel danteId="58" mediaType="audio">
+            <name>58</name>
+        </rxchannel>
+        <rxchannel danteId="59" mediaType="audio">
+            <name>59</name>
+        </rxchannel>
+        <rxchannel danteId="60" mediaType="audio">
+            <name>60</name>
+        </rxchannel>
+        <rxchannel danteId="61" mediaType="audio">
+            <name>61</name>
+        </rxchannel>
+        <rxchannel danteId="62" mediaType="audio">
+            <name>62</name>
+        </rxchannel>
+        <rxchannel danteId="63" mediaType="audio">
+            <name>63</name>
+        </rxchannel>
+        <rxchannel danteId="64" mediaType="audio">
+            <name>64</name>
+        </rxchannel>
+        <rtp>
+            <interop_mode>none</interop_mode>
+        </rtp>
+        <clock>
+            <subdomain_name>_DFLT</subdomain_name>
+            <v1_unicast_delay_requests>false</v1_unicast_delay_requests>
+            <v2_unicast_delay_requests>false</v2_unicast_delay_requests>
+            <v1_enabled>true</v1_enabled>
+            <v2_enabled>false</v2_enabled>
+        </clock>
+        <clock_priority>
+            <preferred>false</preferred>
+        </clock_priority>
+    </device>
+    <device>
+        <captureInfo>
+            <device_name/>
+            <interface_ipv4_addresses/>
+            <device_samplerate/>
+            <device_encoding/>
+            <device_unicast_latency/>
+            <rtp/>
+            <clock/>
+            <clock_priority/>
+            <codec/>
+            <txchannel_names/>
+            <txflows/>
+            <rxchannel_names/>
+            <rxchannel_subscriptions/>
+            <rxflows/>
+        </captureInfo>
+        <name>BCast-Audio</name>
+        <default_name>AVIOAO2-546992</default_name>
+        <instance_id>
+            <device_id>001DC1FFFE546992</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>417564696E617465</manufacturer_id>
+        <manufacturer_name>Audinate</manufacturer_name>
+        <model_id>44414F3200000000</model_id>
+        <model_name>AVIO-DAO2</model_name>
+        <model_version>1.3.3</model_version>
+        <device_type>44414F3200000000</device_type>
+        <device_type_string>DAO2</device_type_string>
+        <friendly_name>BCast-Audio</friendly_name>
+        <preferred_master value="false"/>
+        <samplerate>48000</samplerate>
+        <encoding>24</encoding>
+        <unicast_latency>1000</unicast_latency>
+        <codecParams>
+            <codecType>2</codecType>
+            <codecMode>1</codecMode>
+            <codecValue channelId="1">
+                <value>4</value>
+            </codecValue>
+            <codecValue channelId="2">
+                <value>4</value>
+            </codecValue>
+        </codecParams>
+        <interface network="0">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <rxchannel danteId="1" mediaType="audio">
+            <name>CH1 - BCastL</name>
+            <subscribed_channel>63 - Post BCast L</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2" mediaType="audio">
+            <name>CH2 - BCastR</name>
+            <subscribed_channel>64 - Pose BCast R</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rtp>
+            <interop_mode>none</interop_mode>
+            <aes67_multicast_address_prefix>4014276608</aes67_multicast_address_prefix>
+        </rtp>
+        <clock>
+            <subdomain_name>_DFLT</subdomain_name>
+            <v1_unicast_delay_requests>false</v1_unicast_delay_requests>
+            <v2_unicast_delay_requests>false</v2_unicast_delay_requests>
+            <v1_enabled>true</v1_enabled>
+            <v2_enabled>false</v2_enabled>
+        </clock>
+        <clock_priority>
+            <preferred>false</preferred>
+            <follower_only>false</follower_only>
+        </clock_priority>
+    </device>
+    <device>
+        <captureInfo>
+            <device_name/>
+            <interface_ipv4_addresses/>
+            <device_samplerate/>
+            <device_encoding/>
+            <device_unicast_latency/>
+            <rtp/>
+            <clock/>
+            <clock_priority/>
+            <codec/>
+            <txchannel_names/>
+            <txflows/>
+            <rxchannel_names/>
+            <rxchannel_subscriptions/>
+            <rxflows/>
+        </captureInfo>
+        <name>IEM1-FL5</name>
+        <default_name>AVIOAO2-546f41</default_name>
+        <instance_id>
+            <device_id>001DC1FFFE546F41</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>417564696E617465</manufacturer_id>
+        <manufacturer_name>Audinate</manufacturer_name>
+        <model_id>44414F3200000000</model_id>
+        <model_name>AVIO-DAO2</model_name>
+        <model_version>1.3.3</model_version>
+        <device_type>44414F3200000000</device_type>
+        <device_type_string>DAO2</device_type_string>
+        <friendly_name>IEM1-FL5</friendly_name>
+        <preferred_master value="false"/>
+        <samplerate>48000</samplerate>
+        <encoding>24</encoding>
+        <unicast_latency>1000</unicast_latency>
+        <codecParams>
+            <codecType>2</codecType>
+            <codecMode>1</codecMode>
+            <codecValue channelId="1">
+                <value>2</value>
+            </codecValue>
+            <codecValue channelId="2">
+                <value>2</value>
+            </codecValue>
+        </codecParams>
+        <interface network="0">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <rxchannel danteId="1" mediaType="audio">
+            <name>CH1</name>
+            <subscribed_channel>FL5 - IEM L</subscribed_channel>
+            <subscribed_device>KLANG-IEM</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2" mediaType="audio">
+            <name>CH2</name>
+            <subscribed_channel>FL5 - IEM R</subscribed_channel>
+            <subscribed_device>KLANG-IEM</subscribed_device>
+        </rxchannel>
+        <rtp>
+            <interop_mode>none</interop_mode>
+            <aes67_multicast_address_prefix>4014276608</aes67_multicast_address_prefix>
+        </rtp>
+        <clock>
+            <subdomain_name>_DFLT</subdomain_name>
+            <v1_unicast_delay_requests>false</v1_unicast_delay_requests>
+            <v2_unicast_delay_requests>false</v2_unicast_delay_requests>
+            <v1_enabled>true</v1_enabled>
+            <v2_enabled>false</v2_enabled>
+        </clock>
+        <clock_priority>
+            <preferred>false</preferred>
+            <follower_only>false</follower_only>
+        </clock_priority>
+    </device>
+    <device>
+        <captureInfo>
+            <device_name/>
+            <interface_ipv4_addresses/>
+            <device_samplerate/>
+            <device_encoding/>
+            <device_unicast_latency/>
+            <rtp/>
+            <clock/>
+            <clock_priority/>
+            <codec/>
+            <txchannel_names/>
+            <txflows/>
+            <rxchannel_names/>
+            <rxchannel_subscriptions/>
+            <rxflows/>
+        </captureInfo>
+        <name>IEM11-FL1</name>
+        <default_name>AVIOAO2-546f5d</default_name>
+        <instance_id>
+            <device_id>001DC1FFFE546F5D</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>417564696E617465</manufacturer_id>
+        <manufacturer_name>Audinate</manufacturer_name>
+        <model_id>44414F3200000000</model_id>
+        <model_name>AVIO-DAO2</model_name>
+        <model_version>1.3.3</model_version>
+        <device_type>44414F3200000000</device_type>
+        <device_type_string>DAO2</device_type_string>
+        <friendly_name>IEM11-FL1</friendly_name>
+        <preferred_master value="false"/>
+        <samplerate>48000</samplerate>
+        <encoding>24</encoding>
+        <unicast_latency>1000</unicast_latency>
+        <codecParams>
+            <codecType>2</codecType>
+            <codecMode>1</codecMode>
+            <codecValue channelId="1">
+                <value>2</value>
+            </codecValue>
+            <codecValue channelId="2">
+                <value>2</value>
+            </codecValue>
+        </codecParams>
+        <interface network="0">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <rxchannel danteId="1" mediaType="audio">
+            <name>CH1</name>
+            <subscribed_channel>FL1 - IEM L</subscribed_channel>
+            <subscribed_device>KLANG-IEM</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2" mediaType="audio">
+            <name>CH2</name>
+            <subscribed_channel>FL1 - IEM R</subscribed_channel>
+            <subscribed_device>KLANG-IEM</subscribed_device>
+        </rxchannel>
+        <rtp>
+            <interop_mode>none</interop_mode>
+            <aes67_multicast_address_prefix>4014276608</aes67_multicast_address_prefix>
+        </rtp>
+        <clock>
+            <subdomain_name>_DFLT</subdomain_name>
+            <v1_unicast_delay_requests>false</v1_unicast_delay_requests>
+            <v2_unicast_delay_requests>false</v2_unicast_delay_requests>
+            <v1_enabled>true</v1_enabled>
+            <v2_enabled>false</v2_enabled>
+        </clock>
+        <clock_priority>
+            <preferred>false</preferred>
+            <follower_only>false</follower_only>
+        </clock_priority>
+    </device>
+    <device>
+        <captureInfo>
+            <device_name/>
+            <interface_ipv4_addresses/>
+            <device_samplerate/>
+            <device_encoding/>
+            <device_unicast_latency/>
+            <rtp/>
+            <clock/>
+            <clock_priority/>
+            <codec/>
+            <txchannel_names/>
+            <txflows/>
+            <rxchannel_names/>
+            <rxchannel_subscriptions/>
+            <rxflows/>
+        </captureInfo>
+        <name>IEM13-FL6</name>
+        <default_name>AVIOAO2-549317</default_name>
+        <instance_id>
+            <device_id>001DC1FFFE549317</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>417564696E617465</manufacturer_id>
+        <manufacturer_name>Audinate</manufacturer_name>
+        <model_id>44414F3200000000</model_id>
+        <model_name>AVIO-DAO2</model_name>
+        <model_version>1.3.3</model_version>
+        <device_type>44414F3200000000</device_type>
+        <device_type_string>DAO2</device_type_string>
+        <friendly_name>IEM13-FL6</friendly_name>
+        <preferred_master value="false"/>
+        <samplerate>48000</samplerate>
+        <encoding>24</encoding>
+        <unicast_latency>1000</unicast_latency>
+        <codecParams>
+            <codecType>2</codecType>
+            <codecMode>1</codecMode>
+            <codecValue channelId="1">
+                <value>2</value>
+            </codecValue>
+            <codecValue channelId="2">
+                <value>2</value>
+            </codecValue>
+        </codecParams>
+        <interface network="0">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <rxchannel danteId="1" mediaType="audio">
+            <name>CH1</name>
+            <subscribed_channel>FL6 - IEM L</subscribed_channel>
+            <subscribed_device>KLANG-IEM</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2" mediaType="audio">
+            <name>CH2</name>
+            <subscribed_channel>FL6 - IEM R</subscribed_channel>
+            <subscribed_device>KLANG-IEM</subscribed_device>
+        </rxchannel>
+        <rtp>
+            <interop_mode>none</interop_mode>
+            <aes67_multicast_address_prefix>4014276608</aes67_multicast_address_prefix>
+        </rtp>
+        <clock>
+            <subdomain_name>_DFLT</subdomain_name>
+            <v1_unicast_delay_requests>false</v1_unicast_delay_requests>
+            <v2_unicast_delay_requests>false</v2_unicast_delay_requests>
+            <v1_enabled>true</v1_enabled>
+            <v2_enabled>false</v2_enabled>
+        </clock>
+        <clock_priority>
+            <preferred>false</preferred>
+            <follower_only>false</follower_only>
+        </clock_priority>
+    </device>
+    <device>
+        <captureInfo>
+            <device_name/>
+            <interface_ipv4_addresses/>
+            <device_samplerate/>
+            <device_encoding/>
+            <device_unicast_latency/>
+            <rtp/>
+            <clock/>
+            <clock_priority/>
+            <codec/>
+            <txchannel_names/>
+            <txflows/>
+            <rxchannel_names/>
+            <rxchannel_subscriptions/>
+            <rxflows/>
+        </captureInfo>
+        <name>IEM14-FL3</name>
+        <default_name>AVIOAO2-5513ae</default_name>
+        <instance_id>
+            <device_id>001DC1FFFE5513AE</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>417564696E617465</manufacturer_id>
+        <manufacturer_name>Audinate</manufacturer_name>
+        <model_id>44414F3200000000</model_id>
+        <model_name>AVIO-DAO2</model_name>
+        <model_version>1.3.3</model_version>
+        <device_type>44414F3200000000</device_type>
+        <device_type_string>DAO2</device_type_string>
+        <friendly_name>IEM14-FL3</friendly_name>
+        <preferred_master value="false"/>
+        <samplerate>48000</samplerate>
+        <encoding>24</encoding>
+        <unicast_latency>1000</unicast_latency>
+        <codecParams>
+            <codecType>2</codecType>
+            <codecMode>1</codecMode>
+            <codecValue channelId="1">
+                <value>2</value>
+            </codecValue>
+            <codecValue channelId="2">
+                <value>2</value>
+            </codecValue>
+        </codecParams>
+        <interface network="0">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <rxchannel danteId="1" mediaType="audio">
+            <name>CH1</name>
+            <subscribed_channel>FL3 - IEM L</subscribed_channel>
+            <subscribed_device>KLANG-IEM</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2" mediaType="audio">
+            <name>CH2</name>
+            <subscribed_channel>FL3 - IEM R</subscribed_channel>
+            <subscribed_device>KLANG-IEM</subscribed_device>
+        </rxchannel>
+        <rtp>
+            <interop_mode>none</interop_mode>
+            <aes67_multicast_address_prefix>4014276608</aes67_multicast_address_prefix>
+        </rtp>
+        <clock>
+            <subdomain_name>_DFLT</subdomain_name>
+            <v1_unicast_delay_requests>false</v1_unicast_delay_requests>
+            <v2_unicast_delay_requests>false</v2_unicast_delay_requests>
+            <v1_enabled>true</v1_enabled>
+            <v2_enabled>false</v2_enabled>
+        </clock>
+        <clock_priority>
+            <preferred>false</preferred>
+            <follower_only>false</follower_only>
+        </clock_priority>
+    </device>
+    <device>
+        <captureInfo>
+            <device_name/>
+            <interface_ipv4_addresses/>
+            <device_samplerate/>
+            <device_encoding/>
+            <device_unicast_latency/>
+            <rtp/>
+            <clock/>
+            <clock_priority/>
+            <codec/>
+            <txchannel_names/>
+            <txflows/>
+            <rxchannel_names/>
+            <rxchannel_subscriptions/>
+            <rxflows/>
+        </captureInfo>
+        <name>IEM16-FL4</name>
+        <default_name>AVIOAO2-5469f0</default_name>
+        <instance_id>
+            <device_id>001DC1FFFE5469F0</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>417564696E617465</manufacturer_id>
+        <manufacturer_name>Audinate</manufacturer_name>
+        <model_id>44414F3200000000</model_id>
+        <model_name>AVIO-DAO2</model_name>
+        <model_version>1.3.3</model_version>
+        <device_type>44414F3200000000</device_type>
+        <device_type_string>DAO2</device_type_string>
+        <friendly_name>IEM16-FL4</friendly_name>
+        <preferred_master value="false"/>
+        <samplerate>48000</samplerate>
+        <encoding>24</encoding>
+        <unicast_latency>1000</unicast_latency>
+        <codecParams>
+            <codecType>2</codecType>
+            <codecMode>1</codecMode>
+            <codecValue channelId="1">
+                <value>2</value>
+            </codecValue>
+            <codecValue channelId="2">
+                <value>2</value>
+            </codecValue>
+        </codecParams>
+        <interface network="0">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <rxchannel danteId="1" mediaType="audio">
+            <name>CH1</name>
+            <subscribed_channel>FL4 - IEM L</subscribed_channel>
+            <subscribed_device>KLANG-IEM</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2" mediaType="audio">
+            <name>CH2</name>
+            <subscribed_channel>FL4 - IEM R</subscribed_channel>
+            <subscribed_device>KLANG-IEM</subscribed_device>
+        </rxchannel>
+        <rtp>
+            <interop_mode>none</interop_mode>
+            <aes67_multicast_address_prefix>4014276608</aes67_multicast_address_prefix>
+        </rtp>
+        <clock>
+            <subdomain_name>_DFLT</subdomain_name>
+            <v1_unicast_delay_requests>false</v1_unicast_delay_requests>
+            <v2_unicast_delay_requests>false</v2_unicast_delay_requests>
+            <v1_enabled>true</v1_enabled>
+            <v2_enabled>false</v2_enabled>
+        </clock>
+        <clock_priority>
+            <preferred>false</preferred>
+            <follower_only>false</follower_only>
+        </clock_priority>
+    </device>
+    <device>
+        <captureInfo>
+            <device_name/>
+            <interface_ipv4_addresses/>
+            <device_samplerate/>
+            <device_encoding/>
+            <device_unicast_latency/>
+            <rtp/>
+            <clock/>
+            <clock_priority/>
+            <codec/>
+            <txchannel_names/>
+            <txflows/>
+            <rxchannel_names/>
+            <rxchannel_subscriptions/>
+            <rxflows/>
+        </captureInfo>
+        <name>IEM2-BASS</name>
+        <default_name>AVIOAO2-5513b5</default_name>
+        <instance_id>
+            <device_id>001DC1FFFE5513B5</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>417564696E617465</manufacturer_id>
+        <manufacturer_name>Audinate</manufacturer_name>
+        <model_id>44414F3200000000</model_id>
+        <model_name>AVIO-DAO2</model_name>
+        <model_version>1.3.3</model_version>
+        <device_type>44414F3200000000</device_type>
+        <device_type_string>DAO2</device_type_string>
+        <friendly_name>IEM2-BASS</friendly_name>
+        <preferred_master value="false"/>
+        <samplerate>48000</samplerate>
+        <encoding>24</encoding>
+        <unicast_latency>1000</unicast_latency>
+        <codecParams>
+            <codecType>2</codecType>
+            <codecMode>1</codecMode>
+            <codecValue channelId="1">
+                <value>2</value>
+            </codecValue>
+            <codecValue channelId="2">
+                <value>2</value>
+            </codecValue>
+        </codecParams>
+        <interface network="0">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <rxchannel danteId="1" mediaType="audio">
+            <name>CH1</name>
+            <subscribed_channel>BASS - IEM L</subscribed_channel>
+            <subscribed_device>KLANG-IEM</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2" mediaType="audio">
+            <name>CH2</name>
+            <subscribed_channel>BASS - IEM R</subscribed_channel>
+            <subscribed_device>KLANG-IEM</subscribed_device>
+        </rxchannel>
+        <rtp>
+            <interop_mode>none</interop_mode>
+            <aes67_multicast_address_prefix>4014276608</aes67_multicast_address_prefix>
+        </rtp>
+        <clock>
+            <subdomain_name>_DFLT</subdomain_name>
+            <v1_unicast_delay_requests>false</v1_unicast_delay_requests>
+            <v2_unicast_delay_requests>false</v2_unicast_delay_requests>
+            <v1_enabled>true</v1_enabled>
+            <v2_enabled>false</v2_enabled>
+        </clock>
+        <clock_priority>
+            <preferred>false</preferred>
+            <follower_only>false</follower_only>
+        </clock_priority>
+    </device>
+    <device>
+        <captureInfo>
+            <device_name/>
+            <interface_ipv4_addresses/>
+            <device_samplerate/>
+            <device_encoding/>
+            <device_unicast_latency/>
+            <rtp/>
+            <clock/>
+            <clock_priority/>
+            <codec/>
+            <txchannel_names/>
+            <txflows/>
+            <rxchannel_names/>
+            <rxchannel_subscriptions/>
+            <rxflows/>
+        </captureInfo>
+        <name>IEM3-EG1</name>
+        <default_name>AVIOAO2-54931f</default_name>
+        <instance_id>
+            <device_id>001DC1FFFE54931F</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>417564696E617465</manufacturer_id>
+        <manufacturer_name>Audinate</manufacturer_name>
+        <model_id>44414F3200000000</model_id>
+        <model_name>AVIO-DAO2</model_name>
+        <model_version>1.3.3</model_version>
+        <device_type>44414F3200000000</device_type>
+        <device_type_string>DAO2</device_type_string>
+        <friendly_name>IEM3-EG1</friendly_name>
+        <preferred_master value="false"/>
+        <samplerate>48000</samplerate>
+        <encoding>24</encoding>
+        <unicast_latency>1000</unicast_latency>
+        <codecParams>
+            <codecType>2</codecType>
+            <codecMode>1</codecMode>
+            <codecValue channelId="1">
+                <value>2</value>
+            </codecValue>
+            <codecValue channelId="2">
+                <value>2</value>
+            </codecValue>
+        </codecParams>
+        <interface network="0">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <rxchannel danteId="1" mediaType="audio">
+            <name>CH1</name>
+            <subscribed_channel>EG1 - IEM L</subscribed_channel>
+            <subscribed_device>KLANG-IEM</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2" mediaType="audio">
+            <name>CH2</name>
+            <subscribed_channel>EG1 - IEM R</subscribed_channel>
+            <subscribed_device>KLANG-IEM</subscribed_device>
+        </rxchannel>
+        <rtp>
+            <interop_mode>none</interop_mode>
+            <aes67_multicast_address_prefix>4014276608</aes67_multicast_address_prefix>
+        </rtp>
+        <clock>
+            <subdomain_name>_DFLT</subdomain_name>
+            <v1_unicast_delay_requests>false</v1_unicast_delay_requests>
+            <v2_unicast_delay_requests>false</v2_unicast_delay_requests>
+            <v1_enabled>true</v1_enabled>
+            <v2_enabled>false</v2_enabled>
+        </clock>
+        <clock_priority>
+            <preferred>false</preferred>
+            <follower_only>false</follower_only>
+        </clock_priority>
+    </device>
+    <device>
+        <captureInfo>
+            <device_name/>
+            <interface_ipv4_addresses/>
+            <device_samplerate/>
+            <device_encoding/>
+            <device_unicast_latency/>
+            <rtp/>
+            <clock/>
+            <clock_priority/>
+            <codec/>
+            <txchannel_names/>
+            <txflows/>
+            <rxchannel_names/>
+            <rxchannel_subscriptions/>
+            <rxflows/>
+        </captureInfo>
+        <name>IEM4-EG2</name>
+        <default_name>AVIOAO2-549392</default_name>
+        <instance_id>
+            <device_id>001DC1FFFE549392</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>417564696E617465</manufacturer_id>
+        <manufacturer_name>Audinate</manufacturer_name>
+        <model_id>44414F3200000000</model_id>
+        <model_name>AVIO-DAO2</model_name>
+        <model_version>1.3.3</model_version>
+        <device_type>44414F3200000000</device_type>
+        <device_type_string>DAO2</device_type_string>
+        <friendly_name>IEM4-EG2</friendly_name>
+        <preferred_master value="false"/>
+        <samplerate>48000</samplerate>
+        <encoding>24</encoding>
+        <unicast_latency>1000</unicast_latency>
+        <codecParams>
+            <codecType>2</codecType>
+            <codecMode>1</codecMode>
+            <codecValue channelId="1">
+                <value>2</value>
+            </codecValue>
+            <codecValue channelId="2">
+                <value>2</value>
+            </codecValue>
+        </codecParams>
+        <interface network="0">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <rxchannel danteId="1" mediaType="audio">
+            <name>CH1</name>
+            <subscribed_channel>EG2 - IEM L</subscribed_channel>
+            <subscribed_device>KLANG-IEM</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2" mediaType="audio">
+            <name>CH2</name>
+            <subscribed_channel>EG2 - IEM R</subscribed_channel>
+            <subscribed_device>KLANG-IEM</subscribed_device>
+        </rxchannel>
+        <rtp>
+            <interop_mode>none</interop_mode>
+            <aes67_multicast_address_prefix>4014276608</aes67_multicast_address_prefix>
+        </rtp>
+        <clock>
+            <subdomain_name>_DFLT</subdomain_name>
+            <v1_unicast_delay_requests>false</v1_unicast_delay_requests>
+            <v2_unicast_delay_requests>false</v2_unicast_delay_requests>
+            <v1_enabled>true</v1_enabled>
+            <v2_enabled>false</v2_enabled>
+        </clock>
+        <clock_priority>
+            <preferred>false</preferred>
+            <follower_only>false</follower_only>
+        </clock_priority>
+    </device>
+    <device>
+        <captureInfo>
+            <device_name/>
+            <interface_ipv4_addresses/>
+            <device_samplerate/>
+            <device_encoding/>
+            <device_unicast_latency/>
+            <rtp/>
+            <clock/>
+            <clock_priority/>
+            <codec/>
+            <txchannel_names/>
+            <txflows/>
+            <rxchannel_names/>
+            <rxchannel_subscriptions/>
+            <rxflows/>
+        </captureInfo>
+        <name>IEM5-FL7</name>
+        <default_name>AVIOAO2-549397</default_name>
+        <instance_id>
+            <device_id>001DC1FFFE549397</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>417564696E617465</manufacturer_id>
+        <manufacturer_name>Audinate</manufacturer_name>
+        <model_id>44414F3200000000</model_id>
+        <model_name>AVIO-DAO2</model_name>
+        <model_version>1.3.3</model_version>
+        <device_type>44414F3200000000</device_type>
+        <device_type_string>DAO2</device_type_string>
+        <friendly_name>IEM5-FL7</friendly_name>
+        <preferred_master value="false"/>
+        <samplerate>48000</samplerate>
+        <encoding>24</encoding>
+        <unicast_latency>1000</unicast_latency>
+        <codecParams>
+            <codecType>2</codecType>
+            <codecMode>1</codecMode>
+            <codecValue channelId="1">
+                <value>2</value>
+            </codecValue>
+            <codecValue channelId="2">
+                <value>2</value>
+            </codecValue>
+        </codecParams>
+        <interface network="0">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <rxchannel danteId="1" mediaType="audio">
+            <name>CH1</name>
+            <subscribed_channel>FL7 - IEM L</subscribed_channel>
+            <subscribed_device>KLANG-IEM</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2" mediaType="audio">
+            <name>CH2</name>
+            <subscribed_channel>FL7 - IEM R</subscribed_channel>
+            <subscribed_device>KLANG-IEM</subscribed_device>
+        </rxchannel>
+        <rtp>
+            <interop_mode>none</interop_mode>
+            <aes67_multicast_address_prefix>4014276608</aes67_multicast_address_prefix>
+        </rtp>
+        <clock>
+            <subdomain_name>_DFLT</subdomain_name>
+            <v1_unicast_delay_requests>false</v1_unicast_delay_requests>
+            <v2_unicast_delay_requests>false</v2_unicast_delay_requests>
+            <v1_enabled>true</v1_enabled>
+            <v2_enabled>false</v2_enabled>
+        </clock>
+        <clock_priority>
+            <preferred>false</preferred>
+            <follower_only>false</follower_only>
+        </clock_priority>
+    </device>
+    <device>
+        <captureInfo>
+            <device_name/>
+            <interface_ipv4_addresses/>
+            <device_samplerate/>
+            <device_encoding/>
+            <device_unicast_latency/>
+            <rtp/>
+            <clock/>
+            <clock_priority/>
+            <codec/>
+            <txchannel_names/>
+            <txflows/>
+            <rxchannel_names/>
+            <rxchannel_subscriptions/>
+            <rxflows/>
+        </captureInfo>
+        <name>IEM6-FL2</name>
+        <default_name>AVIOAO2-5513be</default_name>
+        <instance_id>
+            <device_id>001DC1FFFE5513BE</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>417564696E617465</manufacturer_id>
+        <manufacturer_name>Audinate</manufacturer_name>
+        <model_id>44414F3200000000</model_id>
+        <model_name>AVIO-DAO2</model_name>
+        <model_version>1.3.3</model_version>
+        <device_type>44414F3200000000</device_type>
+        <device_type_string>DAO2</device_type_string>
+        <friendly_name>IEM6-FL2</friendly_name>
+        <preferred_master value="false"/>
+        <samplerate>48000</samplerate>
+        <encoding>24</encoding>
+        <unicast_latency>1000</unicast_latency>
+        <codecParams>
+            <codecType>2</codecType>
+            <codecMode>1</codecMode>
+            <codecValue channelId="1">
+                <value>2</value>
+            </codecValue>
+            <codecValue channelId="2">
+                <value>2</value>
+            </codecValue>
+        </codecParams>
+        <interface network="0">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <rxchannel danteId="1" mediaType="audio">
+            <name>CH1</name>
+            <subscribed_channel>FL2 - IEM L</subscribed_channel>
+            <subscribed_device>KLANG-IEM</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2" mediaType="audio">
+            <name>CH2</name>
+            <subscribed_channel>FL2 - IEM R</subscribed_channel>
+            <subscribed_device>KLANG-IEM</subscribed_device>
+        </rxchannel>
+        <rtp>
+            <interop_mode>none</interop_mode>
+            <aes67_multicast_address_prefix>4014276608</aes67_multicast_address_prefix>
+        </rtp>
+        <clock>
+            <subdomain_name>_DFLT</subdomain_name>
+            <v1_unicast_delay_requests>false</v1_unicast_delay_requests>
+            <v2_unicast_delay_requests>false</v2_unicast_delay_requests>
+            <v1_enabled>true</v1_enabled>
+            <v2_enabled>false</v2_enabled>
+        </clock>
+        <clock_priority>
+            <preferred>false</preferred>
+            <follower_only>false</follower_only>
+        </clock_priority>
+    </device>
+    <device>
+        <captureInfo>
+            <device_name/>
+            <interface_ipv4_addresses/>
+            <device_samplerate/>
+            <device_encoding/>
+            <device_unicast_latency/>
+            <rtp/>
+            <clock/>
+            <clock_priority/>
+            <codec/>
+            <txchannel_names/>
+            <txflows/>
+            <rxchannel_names/>
+            <rxchannel_subscriptions/>
+            <rxflows/>
+        </captureInfo>
+        <name>IEM7-KEYS</name>
+        <default_name>AVIOAO2-54d412</default_name>
+        <instance_id>
+            <device_id>001DC1FFFE54D412</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>417564696E617465</manufacturer_id>
+        <manufacturer_name>Audinate</manufacturer_name>
+        <model_id>44414F3200000000</model_id>
+        <model_name>AVIO-DAO2</model_name>
+        <model_version>1.3.3</model_version>
+        <device_type>44414F3200000000</device_type>
+        <device_type_string>DAO2</device_type_string>
+        <friendly_name>IEM7-KEYS</friendly_name>
+        <preferred_master value="false"/>
+        <samplerate>48000</samplerate>
+        <encoding>24</encoding>
+        <unicast_latency>1000</unicast_latency>
+        <codecParams>
+            <codecType>2</codecType>
+            <codecMode>1</codecMode>
+            <codecValue channelId="1">
+                <value>2</value>
+            </codecValue>
+            <codecValue channelId="2">
+                <value>2</value>
+            </codecValue>
+        </codecParams>
+        <interface network="0">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <rxchannel danteId="1" mediaType="audio">
+            <name>CH1</name>
+            <subscribed_channel>KEYS - IEM L</subscribed_channel>
+            <subscribed_device>KLANG-IEM</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2" mediaType="audio">
+            <name>CH2</name>
+            <subscribed_channel>KEYS - IEM R</subscribed_channel>
+            <subscribed_device>KLANG-IEM</subscribed_device>
+        </rxchannel>
+        <rtp>
+            <interop_mode>none</interop_mode>
+            <aes67_multicast_address_prefix>4014276608</aes67_multicast_address_prefix>
+        </rtp>
+        <clock>
+            <subdomain_name>_DFLT</subdomain_name>
+            <v1_unicast_delay_requests>false</v1_unicast_delay_requests>
+            <v2_unicast_delay_requests>false</v2_unicast_delay_requests>
+            <v1_enabled>true</v1_enabled>
+            <v2_enabled>false</v2_enabled>
+        </clock>
+        <clock_priority>
+            <preferred>false</preferred>
+            <follower_only>false</follower_only>
+        </clock_priority>
+    </device>
+    <device>
+        <captureInfo>
+            <device_name/>
+            <interface_ipv4_addresses/>
+            <device_samplerate/>
+            <device_encoding/>
+            <device_unicast_latency/>
+            <rtp/>
+            <clock/>
+            <clock_priority/>
+            <codec/>
+            <txchannel_names/>
+            <txflows/>
+            <rxchannel_names/>
+            <rxchannel_subscriptions/>
+            <rxflows/>
+        </captureInfo>
+        <name>IEM8-ACOUS</name>
+        <default_name>AVIOAO2-5513b7</default_name>
+        <instance_id>
+            <device_id>001DC1FFFE5513B7</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>417564696E617465</manufacturer_id>
+        <manufacturer_name>Audinate</manufacturer_name>
+        <model_id>44414F3200000000</model_id>
+        <model_name>AVIO-DAO2</model_name>
+        <model_version>1.3.3</model_version>
+        <device_type>44414F3200000000</device_type>
+        <device_type_string>DAO2</device_type_string>
+        <friendly_name>IEM8-ACOUS</friendly_name>
+        <preferred_master value="false"/>
+        <samplerate>48000</samplerate>
+        <encoding>24</encoding>
+        <unicast_latency>1000</unicast_latency>
+        <codecParams>
+            <codecType>2</codecType>
+            <codecMode>1</codecMode>
+            <codecValue channelId="1">
+                <value>2</value>
+            </codecValue>
+            <codecValue channelId="2">
+                <value>2</value>
+            </codecValue>
+        </codecParams>
+        <interface network="0">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <rxchannel danteId="1" mediaType="audio">
+            <name>CH1</name>
+            <subscribed_channel>ACOUS - IEM L</subscribed_channel>
+            <subscribed_device>KLANG-IEM</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2" mediaType="audio">
+            <name>CH2</name>
+            <subscribed_channel>ACOUS - IEM R</subscribed_channel>
+            <subscribed_device>KLANG-IEM</subscribed_device>
+        </rxchannel>
+        <rtp>
+            <interop_mode>none</interop_mode>
+            <aes67_multicast_address_prefix>4014276608</aes67_multicast_address_prefix>
+        </rtp>
+        <clock>
+            <subdomain_name>_DFLT</subdomain_name>
+            <v1_unicast_delay_requests>false</v1_unicast_delay_requests>
+            <v2_unicast_delay_requests>false</v2_unicast_delay_requests>
+            <v1_enabled>true</v1_enabled>
+            <v2_enabled>false</v2_enabled>
+        </clock>
+        <clock_priority>
+            <preferred>false</preferred>
+            <follower_only>false</follower_only>
+        </clock_priority>
+    </device>
+    <device>
+        <captureInfo>
+            <device_name/>
+            <device_samplerate/>
+            <device_clock_pullup/>
+            <device_encoding/>
+            <clock/>
+            <txchannel_names/>
+            <txflows/>
+            <rxchannel_names/>
+            <rxchannel_subscriptions/>
+            <rxflows/>
+        </captureInfo>
+        <name>JD-MG-MacBook-Pro</name>
+        <instance_id>
+            <device_id>80691AFFFEDD4D17</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>417564696E617465</manufacturer_id>
+        <manufacturer_name>Audinate Pty Ltd</manufacturer_name>
+        <model_id>4476734D61634F73</model_id>
+        <model_name>Dante Virtual Soundcard</model_name>
+        <model_version>4.5.2</model_version>
+        <model_version_string>4.5.2.3</model_version_string>
+        <device_type>4476734D61630000</device_type>
+        <device_type_string>Dante Virtual Soundcard macOS</device_type_string>
+        <friendly_name>JD-MG-MacBook-Pro</friendly_name>
+        <clock_pullup value="0"/>
+        <samplerate>48000</samplerate>
+        <encoding>24</encoding>
+        <clock>
+            <subdomain_name>_DFLT</subdomain_name>
+            <v1_unicast_delay_requests>false</v1_unicast_delay_requests>
+            <v2_unicast_delay_requests>false</v2_unicast_delay_requests>
+            <v1_enabled>true</v1_enabled>
+            <v2_enabled>false</v2_enabled>
+        </clock>
+    </device>
+    <device>
+        <captureInfo>
+            <device_name/>
+            <device_redundancy/>
+            <interface_ipv4_addresses/>
+            <device_samplerate/>
+            <device_unicast_latency/>
+            <rtp/>
+            <clock/>
+            <clock_priority/>
+            <device_external_word_clock/>
+            <txchannel_names/>
+            <txflows/>
+            <rxchannel_names/>
+            <rxchannel_subscriptions/>
+            <rxflows/>
+        </captureInfo>
+        <name>KLANG-IEM</name>
+        <default_name>DiGiCo-0fc611</default_name>
+        <instance_id>
+            <device_id>0004C4FFFE0FC611</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>44696769636F0000</manufacturer_id>
+        <manufacturer_name>DiGiCo (UK) Ltd</manufacturer_name>
+        <model_id>0000000800000001</model_id>
+        <model_name>DiGiCo DMI DANTE 64@96z</model_name>
+        <model_version>4.2.4</model_version>
+        <device_type>5A796E7148430000</device_type>
+        <device_type_string>DanteIP-Zynq-HC</device_type_string>
+        <friendly_name>KLANG-IEM</friendly_name>
+        <redundancy value="false"/>
+        <preferred_master value="false"/>
+        <external_word_clock value="false"/>
+        <samplerate>48000</samplerate>
+        <unicast_latency>2000</unicast_latency>
+        <interface network="0">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <txchannel danteId="1" mediaType="audio">
+            <label>DRUM - IEM 1L</label>
+        </txchannel>
+        <txchannel danteId="2" mediaType="audio">
+            <label>DRUM - IEM 1R</label>
+        </txchannel>
+        <txchannel danteId="3" mediaType="audio">
+            <label>BASS - IEM L</label>
+        </txchannel>
+        <txchannel danteId="4" mediaType="audio">
+            <label>BASS - IEM R</label>
+        </txchannel>
+        <txchannel danteId="5" mediaType="audio">
+            <label>EG1 - IEM L</label>
+        </txchannel>
+        <txchannel danteId="6" mediaType="audio">
+            <label>EG1 - IEM R</label>
+        </txchannel>
+        <txchannel danteId="7" mediaType="audio">
+            <label>EG2 - IEM L</label>
+        </txchannel>
+        <txchannel danteId="8" mediaType="audio">
+            <label>EG2 - IEM R</label>
+        </txchannel>
+        <txchannel danteId="9" mediaType="audio">
+            <label>FL5 - IEM L</label>
+        </txchannel>
+        <txchannel danteId="10" mediaType="audio">
+            <label>FL5 - IEM R</label>
+        </txchannel>
+        <txchannel danteId="11" mediaType="audio">
+            <label>FL2 - IEM L</label>
+        </txchannel>
+        <txchannel danteId="12" mediaType="audio">
+            <label>FL2 - IEM R</label>
+        </txchannel>
+        <txchannel danteId="13" mediaType="audio">
+            <label>KEYS - IEM L</label>
+        </txchannel>
+        <txchannel danteId="14" mediaType="audio">
+            <label>KEYS - IEM R</label>
+        </txchannel>
+        <txchannel danteId="15" mediaType="audio">
+            <label>ACOUS - IEM L</label>
+        </txchannel>
+        <txchannel danteId="16" mediaType="audio">
+            <label>ACOUS - IEM R</label>
+        </txchannel>
+        <txchannel danteId="17" mediaType="audio">
+            <label>FL6 - IEM L</label>
+        </txchannel>
+        <txchannel danteId="18" mediaType="audio">
+            <label>FL6 - IEM R</label>
+        </txchannel>
+        <txchannel danteId="19" mediaType="audio">
+            <label>FL7 - IEM L</label>
+        </txchannel>
+        <txchannel danteId="20" mediaType="audio">
+            <label>FL7 - IEM R</label>
+        </txchannel>
+        <txchannel danteId="21" mediaType="audio">
+            <label>FL1 - IEM L</label>
+        </txchannel>
+        <txchannel danteId="22" mediaType="audio">
+            <label>FL1 - IEM R</label>
+        </txchannel>
+        <txchannel danteId="23" mediaType="audio">
+            <label>MIX 12 L</label>
+        </txchannel>
+        <txchannel danteId="24" mediaType="audio">
+            <label>MIX 12 R</label>
+        </txchannel>
+        <txchannel danteId="25" mediaType="audio">
+            <label>MIX 13 L</label>
+        </txchannel>
+        <txchannel danteId="26" mediaType="audio">
+            <label>MIX 13 R</label>
+        </txchannel>
+        <txchannel danteId="27" mediaType="audio">
+            <label>FL3 - IEM L</label>
+        </txchannel>
+        <txchannel danteId="28" mediaType="audio">
+            <label>FL3 - IEM R</label>
+        </txchannel>
+        <txchannel danteId="29" mediaType="audio">
+            <label>MIX 15 L</label>
+        </txchannel>
+        <txchannel danteId="30" mediaType="audio">
+            <label>MIX 15 R</label>
+        </txchannel>
+        <txchannel danteId="31" mediaType="audio">
+            <label>FL4 - IEM L</label>
+        </txchannel>
+        <txchannel danteId="32" mediaType="audio">
+            <label>FL4 - IEM R</label>
+        </txchannel>
+        <txchannel danteId="33" mediaType="audio">
+            <label>33</label>
+        </txchannel>
+        <txchannel danteId="34" mediaType="audio">
+            <label>34</label>
+        </txchannel>
+        <txchannel danteId="35" mediaType="audio">
+            <label>35</label>
+        </txchannel>
+        <txchannel danteId="36" mediaType="audio">
+            <label>36</label>
+        </txchannel>
+        <txchannel danteId="37" mediaType="audio">
+            <label>37</label>
+        </txchannel>
+        <txchannel danteId="38" mediaType="audio">
+            <label>38</label>
+        </txchannel>
+        <txchannel danteId="39" mediaType="audio">
+            <label>39</label>
+        </txchannel>
+        <txchannel danteId="40" mediaType="audio">
+            <label>40</label>
+        </txchannel>
+        <txchannel danteId="41" mediaType="audio">
+            <label>41</label>
+        </txchannel>
+        <txchannel danteId="42" mediaType="audio">
+            <label>42</label>
+        </txchannel>
+        <txchannel danteId="43" mediaType="audio">
+            <label>43</label>
+        </txchannel>
+        <txchannel danteId="44" mediaType="audio">
+            <label>44</label>
+        </txchannel>
+        <txchannel danteId="45" mediaType="audio">
+            <label>45</label>
+        </txchannel>
+        <txchannel danteId="46" mediaType="audio">
+            <label>46</label>
+        </txchannel>
+        <txchannel danteId="47" mediaType="audio">
+            <label>47</label>
+        </txchannel>
+        <txchannel danteId="48" mediaType="audio">
+            <label>48</label>
+        </txchannel>
+        <txchannel danteId="49" mediaType="audio">
+            <label>49</label>
+        </txchannel>
+        <txchannel danteId="50" mediaType="audio">
+            <label>50</label>
+        </txchannel>
+        <txchannel danteId="51" mediaType="audio">
+            <label>51</label>
+        </txchannel>
+        <txchannel danteId="52" mediaType="audio">
+            <label>52</label>
+        </txchannel>
+        <txchannel danteId="53" mediaType="audio">
+            <label>53</label>
+        </txchannel>
+        <txchannel danteId="54" mediaType="audio">
+            <label>54</label>
+        </txchannel>
+        <txchannel danteId="55" mediaType="audio">
+            <label>55</label>
+        </txchannel>
+        <txchannel danteId="56" mediaType="audio">
+            <label>56</label>
+        </txchannel>
+        <txchannel danteId="57" mediaType="audio">
+            <label>57</label>
+        </txchannel>
+        <txchannel danteId="58" mediaType="audio">
+            <label>58</label>
+        </txchannel>
+        <txchannel danteId="59" mediaType="audio">
+            <label>59</label>
+        </txchannel>
+        <txchannel danteId="60" mediaType="audio">
+            <label>60</label>
+        </txchannel>
+        <txchannel danteId="61" mediaType="audio">
+            <label>61</label>
+        </txchannel>
+        <txchannel danteId="62" mediaType="audio">
+            <label>62</label>
+        </txchannel>
+        <txchannel danteId="63" mediaType="audio">
+            <label>63</label>
+        </txchannel>
+        <txchannel danteId="64" mediaType="audio">
+            <label>64</label>
+        </txchannel>
+        <rxchannel danteId="1" mediaType="audio">
+            <name>KICK IN</name>
+            <subscribed_channel>Kick in</subscribed_channel>
+            <subscribed_device>Y002-Yamaha-Rio1608-D2-28589c</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2" mediaType="audio">
+            <name>KICK OUT</name>
+            <subscribed_channel>Kick Out</subscribed_channel>
+            <subscribed_device>Y002-Yamaha-Rio1608-D2-28589c</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="3" mediaType="audio">
+            <name>SNR TOP</name>
+            <subscribed_channel>Snare Top</subscribed_channel>
+            <subscribed_device>Y002-Yamaha-Rio1608-D2-28589c</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="4" mediaType="audio">
+            <name>SNR BTM</name>
+            <subscribed_channel>Snare Bottom</subscribed_channel>
+            <subscribed_device>Y002-Yamaha-Rio1608-D2-28589c</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="5" mediaType="audio">
+            <name>HIHAT</name>
+            <subscribed_channel>HiHat</subscribed_channel>
+            <subscribed_device>Y002-Yamaha-Rio1608-D2-28589c</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="6" mediaType="audio">
+            <name>Tom 10"</name>
+            <subscribed_channel>Rack 1</subscribed_channel>
+            <subscribed_device>Y002-Yamaha-Rio1608-D2-28589c</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="7" mediaType="audio">
+            <name>Tom 12"</name>
+            <subscribed_channel>Rack 2</subscribed_channel>
+            <subscribed_device>Y002-Yamaha-Rio1608-D2-28589c</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="8" mediaType="audio">
+            <name>Tom 16"</name>
+            <subscribed_channel>Floor 1</subscribed_channel>
+            <subscribed_device>Y002-Yamaha-Rio1608-D2-28589c</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="9" mediaType="audio">
+            <name>Tom 18"</name>
+            <subscribed_channel>Floor 2</subscribed_channel>
+            <subscribed_device>Y002-Yamaha-Rio1608-D2-28589c</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="10" mediaType="audio">
+            <name>OH L</name>
+            <subscribed_channel>OH L</subscribed_channel>
+            <subscribed_device>Y002-Yamaha-Rio1608-D2-28589c</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="11" mediaType="audio">
+            <name>OH R</name>
+            <subscribed_channel>OH R</subscribed_channel>
+            <subscribed_device>Y002-Yamaha-Rio1608-D2-28589c</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="12" mediaType="audio">
+            <name>12</name>
+            <subscribed_channel>12</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="13" mediaType="audio">
+            <name>BASS</name>
+            <subscribed_channel>SB26 - Bass</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-Rio3224-D2-25e264</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="14" mediaType="audio">
+            <name>EG1 L</name>
+            <subscribed_channel>SB17 - EG1 L</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-Rio3224-D2-25e264</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="15" mediaType="audio">
+            <name>EG1 R</name>
+            <subscribed_channel>SB18 - EG1 R</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-Rio3224-D2-25e264</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="16" mediaType="audio">
+            <name>EG2 L</name>
+            <subscribed_channel>SB5 - EG2 L</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-Rio3224-D2-25e264</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="17" mediaType="audio">
+            <name>EG2 R</name>
+            <subscribed_channel>SB6 - EG2 R</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-Rio3224-D2-25e264</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="18" mediaType="audio">
+            <name>ACOUSTIC</name>
+            <subscribed_channel>19 - Acoustic</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-Rio3224-D2-25e264</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="19" mediaType="audio">
+            <name>KEYS L</name>
+            <subscribed_channel>SB27 - Keys L</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-Rio3224-D2-25e264</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="20" mediaType="audio">
+            <name>KEYS R</name>
+            <subscribed_channel>SB28 - Keys R</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-Rio3224-D2-25e264</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="21" mediaType="audio">
+            <name>AUXKEY L</name>
+            <subscribed_channel>21</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="22" mediaType="audio">
+            <name>AUXKEY R</name>
+            <subscribed_channel>SB22 - Aux Keys</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-Rio3224-D2-25e264</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="23" mediaType="audio">
+            <name>TRACKS L</name>
+            <subscribed_channel>23</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="24" mediaType="audio">
+            <name>TRACKS R</name>
+            <subscribed_channel>24</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="25" mediaType="audio">
+            <name>CLICK</name>
+            <subscribed_channel>25</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="26" mediaType="audio">
+            <name>PROPRES</name>
+            <subscribed_channel>26</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="27" mediaType="audio">
+            <name>PROPRES</name>
+            <subscribed_channel>27</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="28" mediaType="audio">
+            <name>Announce</name>
+            <subscribed_channel>28</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="29" mediaType="audio">
+            <name>Bass P</name>
+            <subscribed_channel>29</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="30" mediaType="audio">
+            <name>30</name>
+            <subscribed_channel>30</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="31" mediaType="audio">
+            <name>FL1</name>
+            <subscribed_channel>FL1</subscribed_channel>
+            <subscribed_device>ULXD4Q-ea9fd2</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="32" mediaType="audio">
+            <name>FL2</name>
+            <subscribed_channel>32 - FL2 D out</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="33" mediaType="audio">
+            <name>FL3</name>
+            <subscribed_channel>FL3</subscribed_channel>
+            <subscribed_device>ULXD4Q-ea9fd2</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="34" mediaType="audio">
+            <name>FL4</name>
+            <subscribed_channel>FL4</subscribed_channel>
+            <subscribed_device>ULXD4Q-ea9fd2</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="35" mediaType="audio">
+            <name>JD VOX</name>
+            <subscribed_channel>35 - MD Vox D out</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="36" mediaType="audio">
+            <name>MD MIC</name>
+            <subscribed_channel>36</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="37" mediaType="audio">
+            <name>TALKBACK</name>
+            <subscribed_channel>37 - Talkback D out</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="38" mediaType="audio">
+            <name>38</name>
+            <subscribed_channel>38</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="39" mediaType="audio">
+            <name>CROWD L</name>
+            <subscribed_channel>39</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="40" mediaType="audio">
+            <name>CROWD R</name>
+            <subscribed_channel>40</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="41" mediaType="audio">
+            <name>CHOIR L</name>
+            <subscribed_channel>41</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="42" mediaType="audio">
+            <name>CHOIR C</name>
+            <subscribed_channel>42</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="43" mediaType="audio">
+            <name>CHOIR R</name>
+            <subscribed_channel>43</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="44" mediaType="audio">
+            <name>LV</name>
+            <subscribed_channel>44 - LV1 D out</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="45" mediaType="audio">
+            <name>Pastor's HDST</name>
+            <subscribed_channel>HDST-1</subscribed_channel>
+            <subscribed_device>ULXD4Q-eacb78</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="46" mediaType="audio">
+            <name>Tracks Group L</name>
+            <subscribed_channel>Tracks Group L</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="47" mediaType="audio">
+            <name>Tracks Group R</name>
+            <subscribed_channel>Tracks Group R</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="48" mediaType="audio">
+            <name>Playback Click</name>
+            <subscribed_channel>138-T Guide D(O)</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="49" mediaType="audio">
+            <name>Playback Guide</name>
+            <subscribed_channel>137-T Click D(O)</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="50" mediaType="audio">
+            <name>50</name>
+            <subscribed_channel>50</subscribed_channel>
+            <subscribed_device>.</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="51" mediaType="audio">
+            <name>FL5</name>
+            <subscribed_channel>FL5</subscribed_channel>
+            <subscribed_device>ULXD4Q-eacb78</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="52" mediaType="audio">
+            <name>FL6</name>
+            <subscribed_channel>FL6</subscribed_channel>
+            <subscribed_device>ULXD4Q-eacb78</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="53" mediaType="audio">
+            <name>FL7</name>
+            <subscribed_channel>FL7</subscribed_channel>
+            <subscribed_device>ULXD4Q-eacb78</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="54" mediaType="audio">
+            <name>54</name>
+            <subscribed_channel>54</subscribed_channel>
+            <subscribed_device>.</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="55" mediaType="audio">
+            <name>55 - Instrument Bus L</name>
+            <subscribed_channel>65 - Instrument Bus L</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="56" mediaType="audio">
+            <name>56 - Instrument Bus R</name>
+            <subscribed_channel>66 - Instrument Bus R</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="57" mediaType="audio">
+            <name>57</name>
+            <subscribed_channel>57</subscribed_channel>
+            <subscribed_device>.</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="58" mediaType="audio">
+            <name>58</name>
+            <subscribed_channel>58</subscribed_channel>
+            <subscribed_device>.</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="59" mediaType="audio">
+            <name>59</name>
+            <subscribed_channel>59</subscribed_channel>
+            <subscribed_device>.</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="60" mediaType="audio">
+            <name>60</name>
+            <subscribed_channel>60</subscribed_channel>
+            <subscribed_device>.</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="61" mediaType="audio">
+            <name>61</name>
+            <subscribed_channel>61</subscribed_channel>
+            <subscribed_device>.</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="62" mediaType="audio">
+            <name>62</name>
+            <subscribed_channel>62</subscribed_channel>
+            <subscribed_device>.</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="63" mediaType="audio">
+            <name>63</name>
+            <subscribed_channel>63</subscribed_channel>
+            <subscribed_device>.</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="64" mediaType="audio">
+            <name>64</name>
+            <subscribed_channel>64</subscribed_channel>
+            <subscribed_device>.</subscribed_device>
+        </rxchannel>
+        <rtp>
+            <interop_mode>none</interop_mode>
+            <aes67_multicast_address_prefix>4014276608</aes67_multicast_address_prefix>
+        </rtp>
+        <clock>
+            <subdomain_name>_DFLT</subdomain_name>
+            <v1_unicast_delay_requests>false</v1_unicast_delay_requests>
+            <v2_unicast_delay_requests>false</v2_unicast_delay_requests>
+            <v1_enabled>true</v1_enabled>
+            <v2_enabled>false</v2_enabled>
+        </clock>
+        <clock_priority>
+            <preferred>false</preferred>
+            <follower_only>false</follower_only>
+        </clock_priority>
+    </device>
+    <device>
+        <captureInfo>
+            <device_name/>
+            <device_samplerate/>
+            <device_clock_pullup/>
+            <device_encoding/>
+            <clock/>
+            <txchannel_names/>
+            <txflows/>
+            <rxchannel_names/>
+            <rxchannel_subscriptions/>
+            <rxflows/>
+        </captureInfo>
+        <name>MG-AVL-Ableton</name>
+        <default_name>MG-AVL-MacMini-CP46NKF9FC</default_name>
+        <instance_id>
+            <device_id>80691AFFFEDD85B2</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>417564696E617465</manufacturer_id>
+        <manufacturer_name>Audinate Pty Ltd</manufacturer_name>
+        <model_id>4476734D61634F73</model_id>
+        <model_name>Dante Virtual Soundcard</model_name>
+        <model_version>4.5.1</model_version>
+        <model_version_string>4.5.1.1</model_version_string>
+        <device_type>4476734D61630000</device_type>
+        <device_type_string>Dante Virtual Soundcard macOS</device_type_string>
+        <friendly_name>MG-AVL-Ableton</friendly_name>
+        <clock_pullup value="0"/>
+        <samplerate>48000</samplerate>
+        <encoding>32</encoding>
+        <clock>
+            <subdomain_name>_DFLT</subdomain_name>
+            <v1_unicast_delay_requests>false</v1_unicast_delay_requests>
+            <v2_unicast_delay_requests>false</v2_unicast_delay_requests>
+            <v1_enabled>true</v1_enabled>
+            <v2_enabled>false</v2_enabled>
+        </clock>
+    </device>
+    <device>
+        <captureInfo>
+            <device_name/>
+            <device_samplerate/>
+            <device_clock_pullup/>
+            <device_encoding/>
+            <clock/>
+            <txchannel_names/>
+            <txflows/>
+            <rxchannel_names/>
+            <rxchannel_subscriptions/>
+            <rxflows/>
+        </captureInfo>
+        <name>MultiTrack-Playback-mini</name>
+        <instance_id>
+            <device_id>A860B6FFFE11F158</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>417564696E617465</manufacturer_id>
+        <manufacturer_name>Audinate Pty Ltd</manufacturer_name>
+        <model_id>4476734D61634F73</model_id>
+        <model_name>Dante Virtual Soundcard</model_name>
+        <model_version>4.5.2</model_version>
+        <model_version_string>4.5.2.3</model_version_string>
+        <device_type>4476734D61630000</device_type>
+        <device_type_string>Dante Virtual Soundcard macOS</device_type_string>
+        <friendly_name>MultiTrack-Playback-mini</friendly_name>
+        <clock_pullup value="0"/>
+        <samplerate>48000</samplerate>
+        <encoding>32</encoding>
+        <clock>
+            <subdomain_name>_DFLT</subdomain_name>
+            <v1_unicast_delay_requests>false</v1_unicast_delay_requests>
+            <v2_unicast_delay_requests>false</v2_unicast_delay_requests>
+            <v1_enabled>true</v1_enabled>
+            <v2_enabled>false</v2_enabled>
+        </clock>
+    </device>
+    <device>
+        <captureInfo>
+            <device_name/>
+            <device_samplerate/>
+            <device_clock_pullup/>
+            <device_encoding/>
+            <clock/>
+            <txchannel_names/>
+            <txflows/>
+            <rxchannel_names/>
+            <rxchannel_subscriptions/>
+            <rxflows/>
+        </captureInfo>
+        <name>Resolume-Mac-Studio</name>
+        <instance_id>
+            <device_id>0C3796FFFE17BB08</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>417564696E617465</manufacturer_id>
+        <manufacturer_name>Audinate Pty Ltd</manufacturer_name>
+        <model_id>4476734D61634F73</model_id>
+        <model_name>Dante Virtual Soundcard</model_name>
+        <model_version>4.5.1</model_version>
+        <model_version_string>4.5.1.1</model_version_string>
+        <device_type>4476734D61630000</device_type>
+        <device_type_string>Dante Virtual Soundcard macOS</device_type_string>
+        <friendly_name>Resolume-Mac-Studio</friendly_name>
+        <clock_pullup value="0"/>
+        <samplerate>48000</samplerate>
+        <encoding>24</encoding>
+        <clock>
+            <subdomain_name>_DFLT</subdomain_name>
+            <v1_unicast_delay_requests>false</v1_unicast_delay_requests>
+            <v2_unicast_delay_requests>false</v2_unicast_delay_requests>
+            <v1_enabled>true</v1_enabled>
+            <v2_enabled>false</v2_enabled>
+        </clock>
+    </device>
+    <device>
+        <captureInfo>
+            <device_name/>
+            <device_switch_vlan/>
+            <interface_ipv4_addresses/>
+            <device_samplerate/>
+            <device_unicast_latency/>
+            <rtp/>
+            <clock/>
+            <clock_priority/>
+            <txchannel_names/>
+            <txflows/>
+            <rxchannel_names/>
+            <rxchannel_subscriptions/>
+            <rxflows/>
+        </captureInfo>
+        <name>ULXD4Q-ea9fd2</name>
+        <default_name>ULXD4Q-ea9fd2</default_name>
+        <instance_id>
+            <device_id>000EDDEA9FD20000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>5368757265000000</manufacturer_id>
+        <manufacturer_name>Shure Inc.</manufacturer_name>
+        <model_id>000000000000002F</model_id>
+        <model_name>ULXD4Q</model_name>
+        <model_version>0.0.1</model_version>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <friendly_name>ULXD4Q-ea9fd2</friendly_name>
+        <switch_vlan value="3"/>
+        <preferred_master value="false"/>
+        <samplerate>48000</samplerate>
+        <unicast_latency>5000</unicast_latency>
+        <interface network="0">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <txchannel danteId="1" mediaType="audio">
+            <label>FL1</label>
+        </txchannel>
+        <txchannel danteId="2" mediaType="audio">
+            <label>HDST-2</label>
+        </txchannel>
+        <txchannel danteId="3" mediaType="audio">
+            <label>FL3</label>
+        </txchannel>
+        <txchannel danteId="4" mediaType="audio">
+            <label>FL4</label>
+        </txchannel>
+        <rtp>
+            <interop_mode>none</interop_mode>
+            <aes67_multicast_address_prefix>4014276608</aes67_multicast_address_prefix>
+        </rtp>
+        <clock>
+            <subdomain_name>_DFLT</subdomain_name>
+            <v1_unicast_delay_requests>false</v1_unicast_delay_requests>
+            <v2_unicast_delay_requests>false</v2_unicast_delay_requests>
+            <v1_enabled>true</v1_enabled>
+            <v2_enabled>false</v2_enabled>
+        </clock>
+        <clock_priority>
+            <preferred>false</preferred>
+            <follower_only>false</follower_only>
+        </clock_priority>
+    </device>
+    <device>
+        <captureInfo>
+            <device_name/>
+            <device_switch_vlan/>
+            <interface_ipv4_addresses/>
+            <device_samplerate/>
+            <device_unicast_latency/>
+            <rtp/>
+            <clock/>
+            <clock_priority/>
+            <txchannel_names/>
+            <txflows/>
+            <rxchannel_names/>
+            <rxchannel_subscriptions/>
+            <rxflows/>
+        </captureInfo>
+        <name>ULXD4Q-eacb78</name>
+        <default_name>ULXD4Q-eacb78</default_name>
+        <instance_id>
+            <device_id>000EDDEACB780000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>5368757265000000</manufacturer_id>
+        <manufacturer_name>Shure Inc.</manufacturer_name>
+        <model_id>000000000000002F</model_id>
+        <model_name>ULXD4Q</model_name>
+        <model_version>0.0.1</model_version>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <friendly_name>ULXD4Q-eacb78</friendly_name>
+        <switch_vlan value="3"/>
+        <preferred_master value="false"/>
+        <samplerate>48000</samplerate>
+        <unicast_latency>5000</unicast_latency>
+        <interface network="0">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <txchannel danteId="1" mediaType="audio">
+            <label>FL5</label>
+        </txchannel>
+        <txchannel danteId="2" mediaType="audio">
+            <label>FL6</label>
+        </txchannel>
+        <txchannel danteId="3" mediaType="audio">
+            <label>FL7</label>
+        </txchannel>
+        <txchannel danteId="4" mediaType="audio">
+            <label>HDST-1</label>
+        </txchannel>
+        <rtp>
+            <interop_mode>none</interop_mode>
+            <aes67_multicast_address_prefix>4014276608</aes67_multicast_address_prefix>
+        </rtp>
+        <clock>
+            <subdomain_name>_DFLT</subdomain_name>
+            <v1_unicast_delay_requests>false</v1_unicast_delay_requests>
+            <v2_unicast_delay_requests>false</v2_unicast_delay_requests>
+            <v1_enabled>true</v1_enabled>
+            <v2_enabled>false</v2_enabled>
+        </clock>
+        <clock_priority>
+            <preferred>false</preferred>
+            <follower_only>false</follower_only>
+        </clock_priority>
+    </device>
+    <device>
+        <captureInfo>
+            <device_name/>
+            <device_redundancy/>
+            <interface_ipv4_addresses/>
+            <device_samplerate/>
+            <device_encoding/>
+            <device_unicast_latency/>
+            <rtp/>
+            <clock/>
+            <clock_priority/>
+            <device_external_word_clock/>
+            <txchannel_names/>
+            <txflows/>
+            <rxchannel_names/>
+            <rxchannel_subscriptions/>
+            <rxflows/>
+        </captureInfo>
+        <name>Y001-Yamaha-DM7-c9a984</name>
+        <default_name>KHAJUHC-c9a984</default_name>
+        <instance_id>
+            <device_id>AC44F2FFFEC9A984</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>59616D6168610000</manufacturer_id>
+        <manufacturer_name>Yamaha Corporation</manufacturer_name>
+        <model_id>3030303932340000</model_id>
+        <model_name>DM7</model_name>
+        <model_version>0.0.1</model_version>
+        <model_version_string>V1.73</model_version_string>
+        <device_type>5A796E7148430000</device_type>
+        <device_type_string>DanteIP-Zynq7000-HC</device_type_string>
+        <friendly_name>Y001-Yamaha-DM7-c9a984</friendly_name>
+        <redundancy value="false"/>
+        <preferred_master value="true"/>
+        <external_word_clock value="true"/>
+        <samplerate>48000</samplerate>
+        <encoding>32</encoding>
+        <unicast_latency>5000</unicast_latency>
+        <interface network="0">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <txchannel danteId="1" mediaType="audio">
+            <label>01</label>
+        </txchannel>
+        <txchannel danteId="2" mediaType="audio">
+            <label>02</label>
+        </txchannel>
+        <txchannel danteId="3" mediaType="audio">
+            <label>03</label>
+        </txchannel>
+        <txchannel danteId="4" mediaType="audio">
+            <label>04</label>
+        </txchannel>
+        <txchannel danteId="5" mediaType="audio">
+            <label>05</label>
+        </txchannel>
+        <txchannel danteId="6" mediaType="audio">
+            <label>06</label>
+        </txchannel>
+        <txchannel danteId="7" mediaType="audio">
+            <label>07</label>
+        </txchannel>
+        <txchannel danteId="8" mediaType="audio">
+            <label>08</label>
+        </txchannel>
+        <txchannel danteId="9" mediaType="audio">
+            <label>09</label>
+        </txchannel>
+        <txchannel danteId="10" mediaType="audio">
+            <label>10</label>
+        </txchannel>
+        <txchannel danteId="11" mediaType="audio">
+            <label>11</label>
+        </txchannel>
+        <txchannel danteId="12" mediaType="audio">
+            <label>12</label>
+        </txchannel>
+        <txchannel danteId="13" mediaType="audio">
+            <label>13</label>
+        </txchannel>
+        <txchannel danteId="14" mediaType="audio">
+            <label>14</label>
+        </txchannel>
+        <txchannel danteId="15" mediaType="audio">
+            <label>15</label>
+        </txchannel>
+        <txchannel danteId="16" mediaType="audio">
+            <label>16</label>
+        </txchannel>
+        <txchannel danteId="17" mediaType="audio">
+            <label>17</label>
+        </txchannel>
+        <txchannel danteId="18" mediaType="audio">
+            <label>18</label>
+        </txchannel>
+        <txchannel danteId="19" mediaType="audio">
+            <label>19</label>
+        </txchannel>
+        <txchannel danteId="20" mediaType="audio">
+            <label>20</label>
+        </txchannel>
+        <txchannel danteId="21" mediaType="audio">
+            <label>21</label>
+        </txchannel>
+        <txchannel danteId="22" mediaType="audio">
+            <label>22</label>
+        </txchannel>
+        <txchannel danteId="23" mediaType="audio">
+            <label>23</label>
+        </txchannel>
+        <txchannel danteId="24" mediaType="audio">
+            <label>24</label>
+        </txchannel>
+        <txchannel danteId="25" mediaType="audio">
+            <label>25</label>
+        </txchannel>
+        <txchannel danteId="26" mediaType="audio">
+            <label>26</label>
+        </txchannel>
+        <txchannel danteId="27" mediaType="audio">
+            <label>27</label>
+        </txchannel>
+        <txchannel danteId="28" mediaType="audio">
+            <label>28</label>
+        </txchannel>
+        <txchannel danteId="29" mediaType="audio">
+            <label>29</label>
+        </txchannel>
+        <txchannel danteId="30" mediaType="audio">
+            <label>30</label>
+        </txchannel>
+        <txchannel danteId="31" mediaType="audio">
+            <label>31 - FL1 D out</label>
+        </txchannel>
+        <txchannel danteId="32" mediaType="audio">
+            <label>32 - FL2 D out</label>
+        </txchannel>
+        <txchannel danteId="33" mediaType="audio">
+            <label>33 - FL3 D out</label>
+        </txchannel>
+        <txchannel danteId="34" mediaType="audio">
+            <label>34 - FL4 D out</label>
+        </txchannel>
+        <txchannel danteId="35" mediaType="audio">
+            <label>35 - MD Vox D out</label>
+        </txchannel>
+        <txchannel danteId="36" mediaType="audio">
+            <label>36</label>
+        </txchannel>
+        <txchannel danteId="37" mediaType="audio">
+            <label>37 - Talkback D out</label>
+        </txchannel>
+        <txchannel danteId="38" mediaType="audio">
+            <label>38</label>
+        </txchannel>
+        <txchannel danteId="39" mediaType="audio">
+            <label>39</label>
+        </txchannel>
+        <txchannel danteId="40" mediaType="audio">
+            <label>40</label>
+        </txchannel>
+        <txchannel danteId="41" mediaType="audio">
+            <label>41</label>
+        </txchannel>
+        <txchannel danteId="42" mediaType="audio">
+            <label>42</label>
+        </txchannel>
+        <txchannel danteId="43" mediaType="audio">
+            <label>43</label>
+        </txchannel>
+        <txchannel danteId="44" mediaType="audio">
+            <label>44 - LV1 D out</label>
+        </txchannel>
+        <txchannel danteId="45" mediaType="audio">
+            <label>45 - HDST-1 D out</label>
+        </txchannel>
+        <txchannel danteId="46" mediaType="audio">
+            <label>Tracks Group L</label>
+        </txchannel>
+        <txchannel danteId="47" mediaType="audio">
+            <label>Tracks Group R</label>
+        </txchannel>
+        <txchannel danteId="48" mediaType="audio">
+            <label>48</label>
+        </txchannel>
+        <txchannel danteId="49" mediaType="audio">
+            <label>49</label>
+        </txchannel>
+        <txchannel danteId="50" mediaType="audio">
+            <label>Room Measurement Mic</label>
+        </txchannel>
+        <txchannel danteId="51" mediaType="audio">
+            <label>51 - FL5 D out</label>
+        </txchannel>
+        <txchannel danteId="52" mediaType="audio">
+            <label>52 - FL6 D out</label>
+        </txchannel>
+        <txchannel danteId="53" mediaType="audio">
+            <label>53 - FL7 D out</label>
+        </txchannel>
+        <txchannel danteId="54" mediaType="audio">
+            <label>54</label>
+        </txchannel>
+        <txchannel danteId="55" mediaType="audio">
+            <label>55</label>
+        </txchannel>
+        <txchannel danteId="56" mediaType="audio">
+            <label>56</label>
+        </txchannel>
+        <txchannel danteId="57" mediaType="audio">
+            <label>57</label>
+        </txchannel>
+        <txchannel danteId="58" mediaType="audio">
+            <label>58</label>
+        </txchannel>
+        <txchannel danteId="59" mediaType="audio">
+            <label>59</label>
+        </txchannel>
+        <txchannel danteId="60" mediaType="audio">
+            <label>60</label>
+        </txchannel>
+        <txchannel danteId="61" mediaType="audio">
+            <label>61 - Pre BCast Audio L</label>
+        </txchannel>
+        <txchannel danteId="62" mediaType="audio">
+            <label>62 - Pre BCast Audio R</label>
+        </txchannel>
+        <txchannel danteId="63" mediaType="audio">
+            <label>63 - Post BCast L</label>
+        </txchannel>
+        <txchannel danteId="64" mediaType="audio">
+            <label>64 - Pose BCast R</label>
+        </txchannel>
+        <txchannel danteId="65" mediaType="audio">
+            <label>65 - Instrument Bus L</label>
+        </txchannel>
+        <txchannel danteId="66" mediaType="audio">
+            <label>66 - Instrument Bus R</label>
+        </txchannel>
+        <txchannel danteId="67" mediaType="audio">
+            <label>67</label>
+        </txchannel>
+        <txchannel danteId="68" mediaType="audio">
+            <label>68</label>
+        </txchannel>
+        <txchannel danteId="69" mediaType="audio">
+            <label>69</label>
+        </txchannel>
+        <txchannel danteId="70" mediaType="audio">
+            <label>70</label>
+        </txchannel>
+        <txchannel danteId="71" mediaType="audio">
+            <label>71</label>
+        </txchannel>
+        <txchannel danteId="72" mediaType="audio">
+            <label>72</label>
+        </txchannel>
+        <txchannel danteId="73" mediaType="audio">
+            <label>73</label>
+        </txchannel>
+        <txchannel danteId="74" mediaType="audio">
+            <label>74</label>
+        </txchannel>
+        <txchannel danteId="75" mediaType="audio">
+            <label>75</label>
+        </txchannel>
+        <txchannel danteId="76" mediaType="audio">
+            <label>76</label>
+        </txchannel>
+        <txchannel danteId="77" mediaType="audio">
+            <label>77 - VOX Harmonics</label>
+        </txchannel>
+        <txchannel danteId="78" mediaType="audio">
+            <label>78 - VOX Reverb</label>
+        </txchannel>
+        <txchannel danteId="79" mediaType="audio">
+            <label>79</label>
+        </txchannel>
+        <txchannel danteId="80" mediaType="audio">
+            <label>80</label>
+        </txchannel>
+        <txchannel danteId="81" mediaType="audio">
+            <label>81</label>
+        </txchannel>
+        <txchannel danteId="82" mediaType="audio">
+            <label>82</label>
+        </txchannel>
+        <txchannel danteId="83" mediaType="audio">
+            <label>83</label>
+        </txchannel>
+        <txchannel danteId="84" mediaType="audio">
+            <label>84</label>
+        </txchannel>
+        <txchannel danteId="85" mediaType="audio">
+            <label>85</label>
+        </txchannel>
+        <txchannel danteId="86" mediaType="audio">
+            <label>86</label>
+        </txchannel>
+        <txchannel danteId="87" mediaType="audio">
+            <label>87</label>
+        </txchannel>
+        <txchannel danteId="88" mediaType="audio">
+            <label>88</label>
+        </txchannel>
+        <txchannel danteId="89" mediaType="audio">
+            <label>89</label>
+        </txchannel>
+        <txchannel danteId="90" mediaType="audio">
+            <label>90</label>
+        </txchannel>
+        <txchannel danteId="91" mediaType="audio">
+            <label>91</label>
+        </txchannel>
+        <txchannel danteId="92" mediaType="audio">
+            <label>92</label>
+        </txchannel>
+        <txchannel danteId="93" mediaType="audio">
+            <label>93</label>
+        </txchannel>
+        <txchannel danteId="94" mediaType="audio">
+            <label>94</label>
+        </txchannel>
+        <txchannel danteId="95" mediaType="audio">
+            <label>95</label>
+        </txchannel>
+        <txchannel danteId="96" mediaType="audio">
+            <label>96</label>
+        </txchannel>
+        <txchannel danteId="97" mediaType="audio">
+            <label>97</label>
+        </txchannel>
+        <txchannel danteId="98" mediaType="audio">
+            <label>98</label>
+        </txchannel>
+        <txchannel danteId="99" mediaType="audio">
+            <label>99</label>
+        </txchannel>
+        <txchannel danteId="100" mediaType="audio">
+            <label>100</label>
+        </txchannel>
+        <txchannel danteId="101" mediaType="audio">
+            <label>101</label>
+        </txchannel>
+        <txchannel danteId="102" mediaType="audio">
+            <label>102</label>
+        </txchannel>
+        <txchannel danteId="103" mediaType="audio">
+            <label>103</label>
+        </txchannel>
+        <txchannel danteId="104" mediaType="audio">
+            <label>104</label>
+        </txchannel>
+        <txchannel danteId="105" mediaType="audio">
+            <label>105</label>
+        </txchannel>
+        <txchannel danteId="106" mediaType="audio">
+            <label>106</label>
+        </txchannel>
+        <txchannel danteId="107" mediaType="audio">
+            <label>107</label>
+        </txchannel>
+        <txchannel danteId="108" mediaType="audio">
+            <label>108</label>
+        </txchannel>
+        <txchannel danteId="109" mediaType="audio">
+            <label>109</label>
+        </txchannel>
+        <txchannel danteId="110" mediaType="audio">
+            <label>110</label>
+        </txchannel>
+        <txchannel danteId="111" mediaType="audio">
+            <label>111</label>
+        </txchannel>
+        <txchannel danteId="112" mediaType="audio">
+            <label>112</label>
+        </txchannel>
+        <txchannel danteId="113" mediaType="audio">
+            <label>113</label>
+        </txchannel>
+        <txchannel danteId="114" mediaType="audio">
+            <label>114</label>
+        </txchannel>
+        <txchannel danteId="115" mediaType="audio">
+            <label>115</label>
+        </txchannel>
+        <txchannel danteId="116" mediaType="audio">
+            <label>116</label>
+        </txchannel>
+        <txchannel danteId="117" mediaType="audio">
+            <label>117</label>
+        </txchannel>
+        <txchannel danteId="118" mediaType="audio">
+            <label>118</label>
+        </txchannel>
+        <txchannel danteId="119" mediaType="audio">
+            <label>119</label>
+        </txchannel>
+        <txchannel danteId="120" mediaType="audio">
+            <label>120</label>
+        </txchannel>
+        <txchannel danteId="121" mediaType="audio">
+            <label>121</label>
+        </txchannel>
+        <txchannel danteId="122" mediaType="audio">
+            <label>122</label>
+        </txchannel>
+        <txchannel danteId="123" mediaType="audio">
+            <label>123</label>
+        </txchannel>
+        <txchannel danteId="124" mediaType="audio">
+            <label>124</label>
+        </txchannel>
+        <txchannel danteId="125" mediaType="audio">
+            <label>125</label>
+        </txchannel>
+        <txchannel danteId="126" mediaType="audio">
+            <label>126</label>
+        </txchannel>
+        <txchannel danteId="127" mediaType="audio">
+            <label>127</label>
+        </txchannel>
+        <txchannel danteId="128" mediaType="audio">
+            <label>128</label>
+        </txchannel>
+        <txchannel danteId="129" mediaType="audio">
+            <label>129</label>
+        </txchannel>
+        <txchannel danteId="130" mediaType="audio">
+            <label>130</label>
+        </txchannel>
+        <txchannel danteId="131" mediaType="audio">
+            <label>131</label>
+        </txchannel>
+        <txchannel danteId="132" mediaType="audio">
+            <label>132</label>
+        </txchannel>
+        <txchannel danteId="133" mediaType="audio">
+            <label>133</label>
+        </txchannel>
+        <txchannel danteId="134" mediaType="audio">
+            <label>134</label>
+        </txchannel>
+        <txchannel danteId="135" mediaType="audio">
+            <label>135 - ST A L</label>
+        </txchannel>
+        <txchannel danteId="136" mediaType="audio">
+            <label>136 - ST A R</label>
+        </txchannel>
+        <txchannel danteId="137" mediaType="audio">
+            <label>137-T Click D(O)</label>
+        </txchannel>
+        <txchannel danteId="138" mediaType="audio">
+            <label>138-T Guide D(O)</label>
+        </txchannel>
+        <txchannel danteId="139" mediaType="audio">
+            <label>139</label>
+        </txchannel>
+        <txchannel danteId="140" mediaType="audio">
+            <label>140</label>
+        </txchannel>
+        <txchannel danteId="141" mediaType="audio">
+            <label>141</label>
+        </txchannel>
+        <txchannel danteId="142" mediaType="audio">
+            <label>142</label>
+        </txchannel>
+        <txchannel danteId="143" mediaType="audio">
+            <label>143 - Mon A Stage</label>
+        </txchannel>
+        <txchannel danteId="144" mediaType="audio">
+            <label>144 - Mon B Stage</label>
+        </txchannel>
+        <rxchannel danteId="1" mediaType="audio">
+            <name>01 - Kick Processed</name>
+            <subscribed_channel>01 - Kick Drum Processed</subscribed_channel>
+            <subscribed_device>MG-AVL-Ableton</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2" mediaType="audio">
+            <name>02 - Snare Processed</name>
+            <subscribed_channel>02 - Snare Drum Processed</subscribed_channel>
+            <subscribed_device>MG-AVL-Ableton</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="3" mediaType="audio">
+            <name>03 - Tom L Processed</name>
+            <subscribed_channel>03 - Toms L Processed</subscribed_channel>
+            <subscribed_device>MG-AVL-Ableton</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="4" mediaType="audio">
+            <name>04 - Tom R Processed</name>
+            <subscribed_channel>04 - Toms R Processed</subscribed_channel>
+            <subscribed_device>MG-AVL-Ableton</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="5" mediaType="audio">
+            <name>05 - Overhead L Processed</name>
+            <subscribed_channel>05 - Overhead L Processed</subscribed_channel>
+            <subscribed_device>MG-AVL-Ableton</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="6" mediaType="audio">
+            <name>06 - Overhead R Processed</name>
+            <subscribed_channel>06 - Overhead R Processed</subscribed_channel>
+            <subscribed_device>MG-AVL-Ableton</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="7" mediaType="audio">
+            <name>07 - Bass Processed</name>
+            <subscribed_channel>07 - Bass Processed</subscribed_channel>
+            <subscribed_device>MG-AVL-Ableton</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="8" mediaType="audio">
+            <name>08 - Acoustic Processed</name>
+            <subscribed_channel>08 - Acoustic Processed</subscribed_channel>
+            <subscribed_device>MG-AVL-Ableton</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="9" mediaType="audio">
+            <name>09 - HiHat Processed</name>
+            <subscribed_channel>42 - HiHat Processed</subscribed_channel>
+            <subscribed_device>MG-AVL-Ableton</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="10" mediaType="audio">
+            <name>10</name>
+            <subscribed_channel>SB10 - Choir R</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-Rio3224-D2-25e264</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="11" mediaType="audio">
+            <name>11</name>
+            <subscribed_channel>20</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-Rio3224-D2-25e264</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="12" mediaType="audio">
+            <name>12</name>
+            <subscribed_channel>SB12 - Choir L</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-Rio3224-D2-25e264</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="13" mediaType="audio">
+            <name>13</name>
+            <subscribed_channel>SB13 - Choir C</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-Rio3224-D2-25e264</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="14" mediaType="audio">
+            <name>14</name>
+            <subscribed_channel>SB14 - Crowd L</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-Rio3224-D2-25e264</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="15" mediaType="audio">
+            <name>15 - EG1 L</name>
+            <subscribed_channel>SB17 - EG1 L</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-Rio3224-D2-25e264</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="16" mediaType="audio">
+            <name>16 - EG1 R</name>
+            <subscribed_channel>SB18 - EG1 R</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-Rio3224-D2-25e264</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="17" mediaType="audio">
+            <name>17 - EG2 L</name>
+            <subscribed_channel>SB5 - EG2 L</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-Rio3224-D2-25e264</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="18" mediaType="audio">
+            <name>18 - EG2 R</name>
+            <subscribed_channel>SB6 - EG2 R</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-Rio3224-D2-25e264</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="19" mediaType="audio">
+            <name>19 - Acoustic</name>
+            <subscribed_channel>19 - Acoustic</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-Rio3224-D2-25e264</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="20" mediaType="audio">
+            <name>20</name>
+        </rxchannel>
+        <rxchannel danteId="21" mediaType="audio">
+            <name>21</name>
+            <subscribed_channel>21</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-Rio3224-D2-25e264</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="22" mediaType="audio">
+            <name>22</name>
+            <subscribed_channel>SB22 - Aux Keys</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-Rio3224-D2-25e264</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="23" mediaType="audio">
+            <name>23</name>
+            <subscribed_channel>SB23 - Tracks L</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-Rio3224-D2-25e264</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="24" mediaType="audio">
+            <name>24</name>
+            <subscribed_channel>SB24 - Tracks R</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-Rio3224-D2-25e264</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="25" mediaType="audio">
+            <name>25</name>
+            <subscribed_channel>SB25 - Click</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-Rio3224-D2-25e264</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="26" mediaType="audio">
+            <name>26</name>
+            <subscribed_channel>SB26 - Bass</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-Rio3224-D2-25e264</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="27" mediaType="audio">
+            <name>27</name>
+            <subscribed_channel>SB27 - Keys L</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-Rio3224-D2-25e264</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="28" mediaType="audio">
+            <name>28</name>
+            <subscribed_channel>SB28 - Keys R</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-Rio3224-D2-25e264</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="29" mediaType="audio">
+            <name>29</name>
+            <subscribed_channel>SB29 - MD Mic</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-Rio3224-D2-25e264</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="30" mediaType="audio">
+            <name>30</name>
+            <subscribed_channel>30</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-Rio3224-D2-25e264</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="31" mediaType="audio">
+            <name>31 - Keys L Processed</name>
+            <subscribed_channel>21 - Keys L Processed</subscribed_channel>
+            <subscribed_device>MG-AVL-Ableton</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="32" mediaType="audio">
+            <name>32 - Keys R Processed</name>
+            <subscribed_channel>22 - Keys R Processed</subscribed_channel>
+            <subscribed_device>MG-AVL-Ableton</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="33" mediaType="audio">
+            <name>33</name>
+            <subscribed_channel>Kick in</subscribed_channel>
+            <subscribed_device>Y002-Yamaha-Rio1608-D2-28589c</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="34" mediaType="audio">
+            <name>34</name>
+            <subscribed_channel>Kick Out</subscribed_channel>
+            <subscribed_device>Y002-Yamaha-Rio1608-D2-28589c</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="35" mediaType="audio">
+            <name>35</name>
+            <subscribed_channel>Snare Top</subscribed_channel>
+            <subscribed_device>Y002-Yamaha-Rio1608-D2-28589c</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="36" mediaType="audio">
+            <name>36</name>
+            <subscribed_channel>Snare Bottom</subscribed_channel>
+            <subscribed_device>Y002-Yamaha-Rio1608-D2-28589c</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="37" mediaType="audio">
+            <name>37</name>
+            <subscribed_channel>HiHat</subscribed_channel>
+            <subscribed_device>Y002-Yamaha-Rio1608-D2-28589c</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="38" mediaType="audio">
+            <name>38</name>
+            <subscribed_channel>Rack 1</subscribed_channel>
+            <subscribed_device>Y002-Yamaha-Rio1608-D2-28589c</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="39" mediaType="audio">
+            <name>39</name>
+            <subscribed_channel>Rack 2</subscribed_channel>
+            <subscribed_device>Y002-Yamaha-Rio1608-D2-28589c</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="40" mediaType="audio">
+            <name>40</name>
+            <subscribed_channel>Floor 1</subscribed_channel>
+            <subscribed_device>Y002-Yamaha-Rio1608-D2-28589c</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="41" mediaType="audio">
+            <name>41</name>
+            <subscribed_channel>Floor 2</subscribed_channel>
+            <subscribed_device>Y002-Yamaha-Rio1608-D2-28589c</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="42" mediaType="audio">
+            <name>42</name>
+            <subscribed_channel>OH L</subscribed_channel>
+            <subscribed_device>Y002-Yamaha-Rio1608-D2-28589c</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="43" mediaType="audio">
+            <name>43</name>
+            <subscribed_channel>OH R</subscribed_channel>
+            <subscribed_device>Y002-Yamaha-Rio1608-D2-28589c</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="44" mediaType="audio">
+            <name>44</name>
+            <subscribed_channel>SB25 - Click</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-Rio3224-D2-25e264</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="45" mediaType="audio">
+            <name>45 - Choir L Processed</name>
+            <subscribed_channel>29 - Choir L</subscribed_channel>
+            <subscribed_device>MG-AVL-Ableton</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="46" mediaType="audio">
+            <name>46 - Choir R Processed</name>
+            <subscribed_channel>30 - Choir R</subscribed_channel>
+            <subscribed_device>MG-AVL-Ableton</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="47" mediaType="audio">
+            <name>47</name>
+        </rxchannel>
+        <rxchannel danteId="48" mediaType="audio">
+            <name>48</name>
+            <subscribed_channel>16</subscribed_channel>
+            <subscribed_device>Y002-Yamaha-Rio1608-D2-28589c</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="49" mediaType="audio">
+            <name>49</name>
+            <subscribed_channel>01</subscribed_channel>
+            <subscribed_device>Resolume-Mac-Studio</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="50" mediaType="audio">
+            <name>50</name>
+            <subscribed_channel>02</subscribed_channel>
+            <subscribed_device>Resolume-Mac-Studio</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="51" mediaType="audio">
+            <name>51</name>
+            <subscribed_channel>01</subscribed_channel>
+            <subscribed_device>ProPresenter-MacMini</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="52" mediaType="audio">
+            <name>52</name>
+            <subscribed_channel>02</subscribed_channel>
+            <subscribed_device>ProPresenter-MacMini</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="53" mediaType="audio">
+            <name>FL1</name>
+            <subscribed_channel>FL1</subscribed_channel>
+            <subscribed_device>ULXD4Q-ea9fd2</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="54" mediaType="audio">
+            <name>HDST-2</name>
+            <subscribed_channel>HDST-2</subscribed_channel>
+            <subscribed_device>ULXD4Q-ea9fd2</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="55" mediaType="audio">
+            <name>FL3</name>
+            <subscribed_channel>FL3</subscribed_channel>
+            <subscribed_device>ULXD4Q-ea9fd2</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="56" mediaType="audio">
+            <name>FL4</name>
+            <subscribed_channel>FL4</subscribed_channel>
+            <subscribed_device>ULXD4Q-ea9fd2</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="57" mediaType="audio">
+            <name>FL5</name>
+            <subscribed_channel>FL5</subscribed_channel>
+            <subscribed_device>ULXD4Q-eacb78</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="58" mediaType="audio">
+            <name>FL6</name>
+            <subscribed_channel>FL6</subscribed_channel>
+            <subscribed_device>ULXD4Q-eacb78</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="59" mediaType="audio">
+            <name>FL7</name>
+            <subscribed_channel>FL7</subscribed_channel>
+            <subscribed_device>ULXD4Q-eacb78</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="60" mediaType="audio">
+            <name>HDST-1</name>
+            <subscribed_channel>HDST-1</subscribed_channel>
+            <subscribed_device>ULXD4Q-eacb78</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="61" mediaType="audio">
+            <name>61</name>
+        </rxchannel>
+        <rxchannel danteId="62" mediaType="audio">
+            <name>62</name>
+        </rxchannel>
+        <rxchannel danteId="63" mediaType="audio">
+            <name>63</name>
+        </rxchannel>
+        <rxchannel danteId="64" mediaType="audio">
+            <name>64 - FL1 Processed</name>
+            <subscribed_channel>09 - FL1 Processed</subscribed_channel>
+            <subscribed_device>MG-AVL-Ableton</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="65" mediaType="audio">
+            <name>65 - FL2 Processed</name>
+            <subscribed_channel>10 - FL2 Processed</subscribed_channel>
+            <subscribed_device>MG-AVL-Ableton</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="66" mediaType="audio">
+            <name>66 - FL3 Processed</name>
+            <subscribed_channel>11 - FL3 Processed</subscribed_channel>
+            <subscribed_device>MG-AVL-Ableton</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="67" mediaType="audio">
+            <name>67 - FL4 Processed</name>
+            <subscribed_channel>12 - FL4 Processed</subscribed_channel>
+            <subscribed_device>MG-AVL-Ableton</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="68" mediaType="audio">
+            <name>68 - FL5 Processed</name>
+            <subscribed_channel>13 - FL5 Processed</subscribed_channel>
+            <subscribed_device>MG-AVL-Ableton</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="69" mediaType="audio">
+            <name>69 - FL6 Processed</name>
+            <subscribed_channel>14 - FL6 Processed</subscribed_channel>
+            <subscribed_device>MG-AVL-Ableton</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="70" mediaType="audio">
+            <name>70 - FL7 Processed</name>
+            <subscribed_channel>15 - FL7 Processed</subscribed_channel>
+            <subscribed_device>MG-AVL-Ableton</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="71" mediaType="audio">
+            <name>71</name>
+        </rxchannel>
+        <rxchannel danteId="72" mediaType="audio">
+            <name>72</name>
+        </rxchannel>
+        <rxchannel danteId="73" mediaType="audio">
+            <name>73</name>
+        </rxchannel>
+        <rxchannel danteId="74" mediaType="audio">
+            <name>74 - PD Mic Processed</name>
+            <subscribed_channel>23 - PD Vox Processed</subscribed_channel>
+            <subscribed_device>MG-AVL-Ableton</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="75" mediaType="audio">
+            <name>75</name>
+        </rxchannel>
+        <rxchannel danteId="76" mediaType="audio">
+            <name>76</name>
+        </rxchannel>
+        <rxchannel danteId="77" mediaType="audio">
+            <name>77 - Vox Harmonics RT</name>
+            <subscribed_channel>19 - Vox Harmonics RT</subscribed_channel>
+            <subscribed_device>MG-AVL-Ableton</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="78" mediaType="audio">
+            <name>78 - Vox Reverb RT</name>
+            <subscribed_channel>20 - Vox Reverb RT</subscribed_channel>
+            <subscribed_device>MG-AVL-Ableton</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="79" mediaType="audio">
+            <name>79 - Crowd L Processed</name>
+            <subscribed_channel>31 - Crowd L</subscribed_channel>
+            <subscribed_device>MG-AVL-Ableton</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="80" mediaType="audio">
+            <name>80 - Crowd R Processed</name>
+            <subscribed_channel>32 - Crowd R</subscribed_channel>
+            <subscribed_device>MG-AVL-Ableton</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="81" mediaType="audio">
+            <name>81 - Broadcast L Processed</name>
+            <subscribed_channel>47 - Broad L Processed</subscribed_channel>
+            <subscribed_device>MG-AVL-Ableton</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="82" mediaType="audio">
+            <name>82 - Broadcast R Processed</name>
+            <subscribed_channel>48 - Broadcast R Processed</subscribed_channel>
+            <subscribed_device>MG-AVL-Ableton</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="83" mediaType="audio">
+            <name>83</name>
+        </rxchannel>
+        <rxchannel danteId="84" mediaType="audio">
+            <name>84-T Drum L</name>
+            <subscribed_channel>01-Drums L</subscribed_channel>
+            <subscribed_device>JD-MG-MacBook-Pro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="85" mediaType="audio">
+            <name>85-T Drum R</name>
+            <subscribed_channel>02-Drums r</subscribed_channel>
+            <subscribed_device>JD-MG-MacBook-Pro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="86" mediaType="audio">
+            <name>86-T Perc L</name>
+            <subscribed_channel>03-Perc L</subscribed_channel>
+            <subscribed_device>JD-MG-MacBook-Pro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="87" mediaType="audio">
+            <name>87-T Perc R</name>
+            <subscribed_channel>04-Perc R</subscribed_channel>
+            <subscribed_device>JD-MG-MacBook-Pro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="88" mediaType="audio">
+            <name>88-T Loop L</name>
+            <subscribed_channel>05-Loops L</subscribed_channel>
+            <subscribed_device>JD-MG-MacBook-Pro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="89" mediaType="audio">
+            <name>89-T Loop R</name>
+            <subscribed_channel>06-Loops R</subscribed_channel>
+            <subscribed_device>JD-MG-MacBook-Pro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="90" mediaType="audio">
+            <name>90-T Bass L</name>
+            <subscribed_channel>07-Bass L</subscribed_channel>
+            <subscribed_device>JD-MG-MacBook-Pro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="91" mediaType="audio">
+            <name>91-T Bass R</name>
+            <subscribed_channel>08-Bass R</subscribed_channel>
+            <subscribed_device>JD-MG-MacBook-Pro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="92" mediaType="audio">
+            <name>92-T Pian L</name>
+            <subscribed_channel>09-Piano L</subscribed_channel>
+            <subscribed_device>JD-MG-MacBook-Pro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="93" mediaType="audio">
+            <name>93-T Pian R</name>
+            <subscribed_channel>10-Piano R</subscribed_channel>
+            <subscribed_device>JD-MG-MacBook-Pro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="94" mediaType="audio">
+            <name>94-T Keys L</name>
+            <subscribed_channel>11-Keys L</subscribed_channel>
+            <subscribed_device>JD-MG-MacBook-Pro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="95" mediaType="audio">
+            <name>95-T Keys R</name>
+            <subscribed_channel>12-Keys R</subscribed_channel>
+            <subscribed_device>JD-MG-MacBook-Pro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="96" mediaType="audio">
+            <name>96-T Gtr L</name>
+            <subscribed_channel>13-Gtr L</subscribed_channel>
+            <subscribed_device>JD-MG-MacBook-Pro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="97" mediaType="audio">
+            <name>97-T Gtr R</name>
+            <subscribed_channel>14-Gtr R</subscribed_channel>
+            <subscribed_device>JD-MG-MacBook-Pro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="98" mediaType="audio">
+            <name>98-T Acous L</name>
+            <subscribed_channel>15-Acous L</subscribed_channel>
+            <subscribed_device>JD-MG-MacBook-Pro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="99" mediaType="audio">
+            <name>99-T Acous R</name>
+            <subscribed_channel>16-Acous R</subscribed_channel>
+            <subscribed_device>JD-MG-MacBook-Pro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="100" mediaType="audio">
+            <name>100-T Horn L</name>
+            <subscribed_channel>17-Horns L</subscribed_channel>
+            <subscribed_device>JD-MG-MacBook-Pro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="101" mediaType="audio">
+            <name>101-T Horn R</name>
+            <subscribed_channel>18-Horns R</subscribed_channel>
+            <subscribed_device>JD-MG-MacBook-Pro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="102" mediaType="audio">
+            <name>102-T Strg L</name>
+            <subscribed_channel>19-Strg L</subscribed_channel>
+            <subscribed_device>JD-MG-MacBook-Pro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="103" mediaType="audio">
+            <name>103-T Strg R</name>
+            <subscribed_channel>20-Strg R</subscribed_channel>
+            <subscribed_device>JD-MG-MacBook-Pro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="104" mediaType="audio">
+            <name>104-T Pad L</name>
+            <subscribed_channel>21-Pad L</subscribed_channel>
+            <subscribed_device>JD-MG-MacBook-Pro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="105" mediaType="audio">
+            <name>105-T Pad R</name>
+            <subscribed_channel>22-Pad R</subscribed_channel>
+            <subscribed_device>JD-MG-MacBook-Pro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="106" mediaType="audio">
+            <name>106-T Vox L</name>
+            <subscribed_channel>23-Vox L</subscribed_channel>
+            <subscribed_device>JD-MG-MacBook-Pro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="107" mediaType="audio">
+            <name>107-T Vox R</name>
+            <subscribed_channel>24-Vox R</subscribed_channel>
+            <subscribed_device>JD-MG-MacBook-Pro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="108" mediaType="audio">
+            <name>108-T FX L</name>
+            <subscribed_channel>25-FX L</subscribed_channel>
+            <subscribed_device>JD-MG-MacBook-Pro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="109" mediaType="audio">
+            <name>109-T FX R</name>
+            <subscribed_channel>26-FX R</subscribed_channel>
+            <subscribed_device>JD-MG-MacBook-Pro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="110" mediaType="audio">
+            <name>110-T Aux L</name>
+            <subscribed_channel>27-Aux L</subscribed_channel>
+            <subscribed_device>JD-MG-MacBook-Pro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="111" mediaType="audio">
+            <name>111-T Aux R</name>
+            <subscribed_channel>28-Aux R</subscribed_channel>
+            <subscribed_device>JD-MG-MacBook-Pro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="112" mediaType="audio">
+            <name>112-T Guide</name>
+            <subscribed_channel>29-Guide</subscribed_channel>
+            <subscribed_device>JD-MG-MacBook-Pro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="113" mediaType="audio">
+            <name>113-T Click</name>
+            <subscribed_channel>30-Click</subscribed_channel>
+            <subscribed_device>JD-MG-MacBook-Pro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="114" mediaType="audio">
+            <name>114-Room Measure T</name>
+            <subscribed_channel>Horns R</subscribed_channel>
+            <subscribed_device>MultiTrack-Playback-mini</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="115" mediaType="audio">
+            <name>115-T Drums L</name>
+            <subscribed_channel>Drums L</subscribed_channel>
+            <subscribed_device>MultiTrack-Playback-mini</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="116" mediaType="audio">
+            <name>116-T Drums R</name>
+            <subscribed_channel>Drums L</subscribed_channel>
+            <subscribed_device>MultiTrack-Playback-mini</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="117" mediaType="audio">
+            <name>117-T Perc L</name>
+            <subscribed_channel>Drums L</subscribed_channel>
+            <subscribed_device>MultiTrack-Playback-mini</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="118" mediaType="audio">
+            <name>118-T Perc R</name>
+            <subscribed_channel>Drums L</subscribed_channel>
+            <subscribed_device>MultiTrack-Playback-mini</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="119" mediaType="audio">
+            <name>119-T Loops L</name>
+            <subscribed_channel>Drums L</subscribed_channel>
+            <subscribed_device>MultiTrack-Playback-mini</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="120" mediaType="audio">
+            <name>120-T Loops R</name>
+            <subscribed_channel>Drums L</subscribed_channel>
+            <subscribed_device>MultiTrack-Playback-mini</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="121" mediaType="audio">
+            <name>121-T Bass L</name>
+            <subscribed_channel>Drums L</subscribed_channel>
+            <subscribed_device>MultiTrack-Playback-mini</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="122" mediaType="audio">
+            <name>122-T Bass R</name>
+            <subscribed_channel>Drums L</subscribed_channel>
+            <subscribed_device>MultiTrack-Playback-mini</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="123" mediaType="audio">
+            <name>123-T Piano L</name>
+            <subscribed_channel>Drums L</subscribed_channel>
+            <subscribed_device>MultiTrack-Playback-mini</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="124" mediaType="audio">
+            <name>124-T Piano R</name>
+            <subscribed_channel>Drums L</subscribed_channel>
+            <subscribed_device>MultiTrack-Playback-mini</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="125" mediaType="audio">
+            <name>125-T Keys L</name>
+            <subscribed_channel>Drums L</subscribed_channel>
+            <subscribed_device>MultiTrack-Playback-mini</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="126" mediaType="audio">
+            <name>126-T Keys R</name>
+            <subscribed_channel>Drums L</subscribed_channel>
+            <subscribed_device>MultiTrack-Playback-mini</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="127" mediaType="audio">
+            <name>127-T Gtr L</name>
+            <subscribed_channel>Drums L</subscribed_channel>
+            <subscribed_device>MultiTrack-Playback-mini</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="128" mediaType="audio">
+            <name>128-T Gtr R</name>
+            <subscribed_channel>Drums L</subscribed_channel>
+            <subscribed_device>MultiTrack-Playback-mini</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="129" mediaType="audio">
+            <name>129-T Acoustic L</name>
+            <subscribed_channel>Drums R</subscribed_channel>
+            <subscribed_device>MultiTrack-Playback-mini</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="130" mediaType="audio">
+            <name>130-T Acoustic R</name>
+            <subscribed_channel>Percussion L</subscribed_channel>
+            <subscribed_device>MultiTrack-Playback-mini</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="131" mediaType="audio">
+            <name>131-T Horns L</name>
+            <subscribed_channel>Percussion R</subscribed_channel>
+            <subscribed_device>MultiTrack-Playback-mini</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="132" mediaType="audio">
+            <name>132-T Horns R</name>
+            <subscribed_channel>Loops L</subscribed_channel>
+            <subscribed_device>MultiTrack-Playback-mini</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="133" mediaType="audio">
+            <name>133-T Strings L</name>
+            <subscribed_channel>Loops R</subscribed_channel>
+            <subscribed_device>MultiTrack-Playback-mini</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="134" mediaType="audio">
+            <name>134-T Strings R</name>
+            <subscribed_channel>Bass L</subscribed_channel>
+            <subscribed_device>MultiTrack-Playback-mini</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="135" mediaType="audio">
+            <name>135-T Pad L</name>
+            <subscribed_channel>Bass R</subscribed_channel>
+            <subscribed_device>MultiTrack-Playback-mini</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="136" mediaType="audio">
+            <name>136-T Pad R</name>
+            <subscribed_channel>Piano L</subscribed_channel>
+            <subscribed_device>MultiTrack-Playback-mini</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="137" mediaType="audio">
+            <name>137-T Vocals L</name>
+            <subscribed_channel>Piano R</subscribed_channel>
+            <subscribed_device>MultiTrack-Playback-mini</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="138" mediaType="audio">
+            <name>138-T Vocals R</name>
+            <subscribed_channel>Keys L</subscribed_channel>
+            <subscribed_device>MultiTrack-Playback-mini</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="139" mediaType="audio">
+            <name>139-T FX L</name>
+            <subscribed_channel>Keys R</subscribed_channel>
+            <subscribed_device>MultiTrack-Playback-mini</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="140" mediaType="audio">
+            <name>140-T FX R</name>
+            <subscribed_channel>Electric GT L</subscribed_channel>
+            <subscribed_device>MultiTrack-Playback-mini</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="141" mediaType="audio">
+            <name>141-T Aux L</name>
+            <subscribed_channel>Electric GT R</subscribed_channel>
+            <subscribed_device>MultiTrack-Playback-mini</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="142" mediaType="audio">
+            <name>142-T Aux R</name>
+            <subscribed_channel>Acoustic L</subscribed_channel>
+            <subscribed_device>MultiTrack-Playback-mini</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="143" mediaType="audio">
+            <name>143-T Guide</name>
+            <subscribed_channel>Horns L</subscribed_channel>
+            <subscribed_device>MultiTrack-Playback-mini</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="144" mediaType="audio">
+            <name>144-T Click</name>
+            <subscribed_channel>Acoustic R</subscribed_channel>
+            <subscribed_device>MultiTrack-Playback-mini</subscribed_device>
+        </rxchannel>
+        <rtp>
+            <interop_mode>none</interop_mode>
+            <aes67_multicast_address_prefix>4014276608</aes67_multicast_address_prefix>
+        </rtp>
+        <clock>
+            <subdomain_name>_DFLT</subdomain_name>
+            <v1_unicast_delay_requests>false</v1_unicast_delay_requests>
+            <v2_unicast_delay_requests>false</v2_unicast_delay_requests>
+            <v1_enabled>true</v1_enabled>
+            <v2_enabled>false</v2_enabled>
+        </clock>
+        <clock_priority>
+            <preferred>true</preferred>
+            <follower_only>false</follower_only>
+        </clock_priority>
+    </device>
+    <device>
+        <captureInfo>
+            <device_name/>
+            <device_redundancy/>
+            <interface_ipv4_addresses/>
+            <device_samplerate/>
+            <device_clock_pullup/>
+            <device_encoding/>
+            <device_unicast_latency/>
+            <rtp/>
+            <clock/>
+            <clock_priority/>
+            <txchannel_names/>
+            <txflows/>
+            <rxchannel_names/>
+            <rxchannel_subscriptions/>
+            <rxflows/>
+        </captureInfo>
+        <name>Y001-Yamaha-Rio3224-D2-25e264</name>
+        <default_name>BROOKLYN3-25e264</default_name>
+        <instance_id>
+            <device_id>001DC1FFFE25E264</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>59616D6168610000</manufacturer_id>
+        <manufacturer_name>Yamaha Corporation</manufacturer_name>
+        <model_id>3852313900000000</model_id>
+        <model_name>Rio3224-D2</model_name>
+        <model_version>1.85.0</model_version>
+        <model_version_string>V1.85</model_version_string>
+        <device_type>426B6C796E330000</device_type>
+        <device_type_string>Brooklyn-III</device_type_string>
+        <friendly_name>Y001-Yamaha-Rio3224-D2-25e264</friendly_name>
+        <redundancy value="true"/>
+        <preferred_master value="false"/>
+        <clock_pullup value="0"/>
+        <samplerate>48000</samplerate>
+        <encoding>32</encoding>
+        <unicast_latency>5000</unicast_latency>
+        <interface network="0">
+            <ipv4_address mode="static">
+                <address>192.168.10.149</address>
+                <netmask>255.255.255.0</netmask>
+                <gateway>192.168.10.1</gateway>
+                <dnsserver>192.168.10.1</dnsserver>
+            </ipv4_address>
+        </interface>
+        <interface network="1">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <txchannel danteId="1" mediaType="audio">
+            <label>01</label>
+        </txchannel>
+        <txchannel danteId="2" mediaType="audio">
+            <label>02</label>
+        </txchannel>
+        <txchannel danteId="3" mediaType="audio">
+            <label>03</label>
+        </txchannel>
+        <txchannel danteId="4" mediaType="audio">
+            <label>04</label>
+        </txchannel>
+        <txchannel danteId="5" mediaType="audio">
+            <label>SB5 - EG2 L</label>
+        </txchannel>
+        <txchannel danteId="6" mediaType="audio">
+            <label>SB6 - EG2 R</label>
+        </txchannel>
+        <txchannel danteId="7" mediaType="audio">
+            <label>07</label>
+        </txchannel>
+        <txchannel danteId="8" mediaType="audio">
+            <label>08</label>
+        </txchannel>
+        <txchannel danteId="9" mediaType="audio">
+            <label>09</label>
+        </txchannel>
+        <txchannel danteId="10" mediaType="audio">
+            <label>SB10 - Choir R</label>
+        </txchannel>
+        <txchannel danteId="11" mediaType="audio">
+            <label>11</label>
+        </txchannel>
+        <txchannel danteId="12" mediaType="audio">
+            <label>SB12 - Choir L</label>
+        </txchannel>
+        <txchannel danteId="13" mediaType="audio">
+            <label>SB13 - Choir C</label>
+        </txchannel>
+        <txchannel danteId="14" mediaType="audio">
+            <label>SB14 - Crowd L</label>
+        </txchannel>
+        <txchannel danteId="15" mediaType="audio">
+            <label>15</label>
+        </txchannel>
+        <txchannel danteId="16" mediaType="audio">
+            <label>16</label>
+        </txchannel>
+        <txchannel danteId="17" mediaType="audio">
+            <label>SB17 - EG1 L</label>
+        </txchannel>
+        <txchannel danteId="18" mediaType="audio">
+            <label>SB18 - EG1 R</label>
+        </txchannel>
+        <txchannel danteId="19" mediaType="audio">
+            <label>19 - Acoustic</label>
+        </txchannel>
+        <txchannel danteId="20" mediaType="audio">
+            <label>20</label>
+        </txchannel>
+        <txchannel danteId="21" mediaType="audio">
+            <label>21</label>
+        </txchannel>
+        <txchannel danteId="22" mediaType="audio">
+            <label>SB22 - Aux Keys</label>
+        </txchannel>
+        <txchannel danteId="23" mediaType="audio">
+            <label>SB23 - Tracks L</label>
+        </txchannel>
+        <txchannel danteId="24" mediaType="audio">
+            <label>SB24 - Tracks R</label>
+        </txchannel>
+        <txchannel danteId="25" mediaType="audio">
+            <label>SB25 - Click</label>
+        </txchannel>
+        <txchannel danteId="26" mediaType="audio">
+            <label>SB26 - Bass</label>
+        </txchannel>
+        <txchannel danteId="27" mediaType="audio">
+            <label>SB27 - Keys L</label>
+        </txchannel>
+        <txchannel danteId="28" mediaType="audio">
+            <label>SB28 - Keys R</label>
+        </txchannel>
+        <txchannel danteId="29" mediaType="audio">
+            <label>SB29 - MD Mic</label>
+        </txchannel>
+        <txchannel danteId="30" mediaType="audio">
+            <label>30</label>
+        </txchannel>
+        <txchannel danteId="31" mediaType="audio">
+            <label>31</label>
+        </txchannel>
+        <txchannel danteId="32" mediaType="audio">
+            <label>32</label>
+        </txchannel>
+        <rxchannel danteId="1" mediaType="audio">
+            <name>01 - ST A L</name>
+            <subscribed_channel>135 - ST A L</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2" mediaType="audio">
+            <name>02 - ST A R</name>
+            <subscribed_channel>136 - ST A R</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="3" mediaType="audio">
+            <name>03 - Mon A Stage</name>
+            <subscribed_channel>143 - Mon A Stage</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="4" mediaType="audio">
+            <name>04 - Mon B Stage</name>
+            <subscribed_channel>144 - Mon B Stage</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="5" mediaType="audio">
+            <name>05</name>
+        </rxchannel>
+        <rxchannel danteId="6" mediaType="audio">
+            <name>06</name>
+        </rxchannel>
+        <rxchannel danteId="7" mediaType="audio">
+            <name>07</name>
+        </rxchannel>
+        <rxchannel danteId="8" mediaType="audio">
+            <name>08</name>
+        </rxchannel>
+        <rxchannel danteId="9" mediaType="audio">
+            <name>09</name>
+        </rxchannel>
+        <rxchannel danteId="10" mediaType="audio">
+            <name>10</name>
+        </rxchannel>
+        <rxchannel danteId="11" mediaType="audio">
+            <name>11</name>
+        </rxchannel>
+        <rxchannel danteId="12" mediaType="audio">
+            <name>12</name>
+        </rxchannel>
+        <rxchannel danteId="13" mediaType="audio">
+            <name>13</name>
+        </rxchannel>
+        <rxchannel danteId="14" mediaType="audio">
+            <name>14</name>
+        </rxchannel>
+        <rxchannel danteId="15" mediaType="audio">
+            <name>15</name>
+        </rxchannel>
+        <rxchannel danteId="16" mediaType="audio">
+            <name>16</name>
+            <subscribed_channel>132</subscribed_channel>
+            <subscribed_device>Y001-Yamaha-DM7-c9a984</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="17" mediaType="audio">
+            <name>17</name>
+        </rxchannel>
+        <rxchannel danteId="18" mediaType="audio">
+            <name>18</name>
+        </rxchannel>
+        <rxchannel danteId="19" mediaType="audio">
+            <name>19</name>
+        </rxchannel>
+        <rxchannel danteId="20" mediaType="audio">
+            <name>20</name>
+        </rxchannel>
+        <rxchannel danteId="21" mediaType="audio">
+            <name>21</name>
+        </rxchannel>
+        <rxchannel danteId="22" mediaType="audio">
+            <name>22</name>
+        </rxchannel>
+        <rxchannel danteId="23" mediaType="audio">
+            <name>23</name>
+        </rxchannel>
+        <rxchannel danteId="24" mediaType="audio">
+            <name>24</name>
+        </rxchannel>
+        <rtp>
+            <interop_mode>none</interop_mode>
+            <aes67_multicast_address_prefix>4014276608</aes67_multicast_address_prefix>
+        </rtp>
+        <clock>
+            <subdomain_name>_DFLT</subdomain_name>
+            <v1_unicast_delay_requests>false</v1_unicast_delay_requests>
+            <v2_unicast_delay_requests>false</v2_unicast_delay_requests>
+            <v1_enabled>true</v1_enabled>
+            <v2_enabled>false</v2_enabled>
+        </clock>
+        <clock_priority>
+            <preferred>false</preferred>
+            <follower_only>false</follower_only>
+        </clock_priority>
+    </device>
+</preset>

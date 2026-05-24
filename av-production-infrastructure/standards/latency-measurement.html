@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Latency Measurement Standards</title>
+</head>
+<body>
+<h1>Latency Measurement Standards</h1>
+
+<h2>Purpose</h2>
+<p>All latency values in this repository must be based on real-world measurements, not manufacturer estimates.</p>
+
+<h2>Measurement Methods</h2>
+
+<h3>Audio Latency</h3>
+<ol>
+	<li>Generate a click/impulse at the source</li>
+	<li>Record both source and output simultaneously</li>
+	<li>Measure sample offset in DAW</li>
+	<li>Convert to milliseconds</li>
+</ol>
+
+<h3>Video Latency</h3>
+<ol>
+	<li>Display a high-resolution timer on source</li>
+	<li>Capture output with camera pointed at display</li>
+	<li>Compare frame timestamps</li>
+	<li>Account for camera shutter delay</li>
+</ol>
+
+<h2>Documentation Format</h2>
+<ul>
+	<li><strong>Device</strong>: What was measured</li>
+	<li><strong>Method</strong>: How it was measured</li>
+	<li><strong>Result</strong>: Value in milliseconds</li>
+	<li><strong>Date</strong>: When the measurement was taken</li>
+	<li><strong>Conditions</strong>: Any relevant context</li>
+</ul>
+
+<h2>Re-measurement Triggers</h2>
+<ul>
+	<li>Plugin chain changes</li>
+	<li>Sample rate changes</li>
+	<li>Hardware is swapped</li>
+	<li>Firmware is updated</li>
+	<li>Routing is modified</li>
+</ul>
+</body>
+</html>
