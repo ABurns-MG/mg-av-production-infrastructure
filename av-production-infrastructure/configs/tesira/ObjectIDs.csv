@@ -1,0 +1,679 @@
+Object Code,Type,Label,Partition Name,Partition ID,Unit,Instance Tag
+PartitionBlock1,PartitionBlock,Master,System View,,,
+PartitionBlock2,PartitionBlock,Patstors Office,System View,,,
+PartitionBlock5,PartitionBlock,Hallways,System View,,,
+PartitionBlock9,PartitionBlock,Room 5&6,System View,,,
+PartitionBlock10,PartitionBlock,Room 1-4,System View,,,
+UIText258,UIText,,Master,1,,
+PCTxAudio1,PCTxAudio,PCTx Mains,Master,1,1,PCTxMains
+Input1,Input,Input 4 Channel,Master,1,1,Input1
+AudioMeter32,AudioMeter,RMS Meter,Master,1,1,AudioMeter32
+NoiseGenerator1,NoiseGenerator,Noise Generator,Master,1,1,NoiseGenerator1
+UIText214,UIText,Inputs,Master,1,,
+PCRxLogic1,PCRxLogic,PCRx Logic,Master,1,1,PCRxLogic1
+LogicMeter2,LogicMeter,Meter ,Master,1,1,LogicMeter2
+LogicMeter4,LogicMeter,Meter ,Master,1,1,LogicMeter4
+PCRxLogic2,PCRxLogic,PCRx Logic,Master,1,1,PCRxLogic2
+LogicMeter6,LogicMeter,Logic Meter 10 Channel,Master,1,1,LogicMeter6
+PCRxLogic3,PCRxLogic,PCRx Logic,Master,1,1,PCRxLogic3
+PresetButton22,PresetButton,All Hall Presets,Master,1,1,PresetButton22
+LogicMeter15,LogicMeter,Logic Meter 10 Channel,Master,1,1,LogicMeter15
+PresetButton23,PresetButton,Hall 101  Source Presets,Master,1,1,PresetButton23
+PresetButton24,PresetButton,Hall 123  Source Presets,Master,1,1,PresetButton24
+PresetButton25,PresetButton,Hall 131  Source Presets,Master,1,1,PresetButton25
+PresetButton26,PresetButton,Foyer Source Presets,Master,1,1,PresetButton26
+PresetButton27,PresetButton,Resource Room Presets,Master,1,1,PresetButton27
+LogicMeter16,LogicMeter,Logic Meter 9 Channel,Master,1,1,LogicMeter16
+LogicMeter17,LogicMeter,Logic Meter 9 Channel,Master,1,1,LogicMeter17
+LogicMeter18,LogicMeter,Logic Meter 9 Channel,Master,1,1,LogicMeter18
+LogicMeter19,LogicMeter,Logic Meter 9 Channel,Master,1,1,LogicMeter19
+LogicMeter20,LogicMeter,Logic Meter 9 Channel,Master,1,1,LogicMeter20
+UIText239,UIText,,Master,1,,
+PCRxLogic4,PCRxLogic,PCRx Logic,Master,1,1,PCRxLogic4
+PCRxLogic5,PCRxLogic,PCRx Logic,Master,1,1,PCRxLogic5
+PCRxLogic6,PCRxLogic,PCRx Logic,Master,1,1,PCRxLogic6
+PCRxLogic7,PCRxLogic,PCRx Logic,Master,1,1,PCRxLogic7
+PCRxLogic8,PCRxLogic,PCRx Logic,Master,1,1,PCRxLogic8
+PCRxLogic9,PCRxLogic,PCRx Logic,Master,1,1,PCRxLogic9
+UIText252,UIText,Hallway Presets,Master,1,,
+PresetButton29,PresetButton,Pastor's Office Presets,Master,1,1,PresetButton29
+UIText240,UIText, ,Master,1,,
+UIText241,UIText,Global Hallway Source Presets,Master,1,,
+UIText242,UIText, ,Master,1,,
+UIText243,UIText,Hallway 101 Source Presets,Master,1,,
+UIText244,UIText, ,Master,1,,
+UIText245,UIText,Hallway 123 Source Presets,Master,1,,
+UIText246,UIText, ,Master,1,,
+UIText247,UIText,Hallway 131 Source Presets,Master,1,,
+UIText248,UIText, ,Master,1,,
+UIText249,UIText,Foyer Source Presets,Master,1,,
+UIText250,UIText, ,Master,1,,
+UIText251,UIText,Resource Room Source Presets,Master,1,,
+UIText254,UIText, ,Master,1,,
+UIText255,UIText,Pastor's Office Source Presets,Master,1,,
+PresetButton30,PresetButton,Room 1-4 Presets,Master,1,1,PresetButton30
+UIText256,UIText, ,Master,1,,
+UIText215,UIText,Room 1-4 Config,Master,1,,
+PresetButton31,PresetButton,Room 5&6 Presets,Master,1,1,PresetButton31
+UIText257,UIText, ,Master,1,,
+UIText216,UIText,Room 5&6 Config,Master,1,,
+SourceSelector7,SourceSelector,Source Selector 4 Channel,Master,1,1,SourceSelector7
+AudioMeter33,AudioMeter,RMS Meter,Master,1,1,AudioMeter33
+Output6,Output,Output 1 Channel,Master,1,1,Output6
+AGC33,AGC,AGC,Master,1,1,AGC33
+Leveler1,Leveler,Leveler,Master,1,1,Leveler1
+UIText186,UIText,,Patstors Office,2,,
+UIText78,UIText,,Patstors Office,2,,
+UIText9,UIText,,Patstors Office,2,,
+UIText6,UIText,,Patstors Office,2,,
+UIText5,UIText,,Patstors Office,2,,
+Mixer1,Mixer,Matrix Mixer 12x4,Patstors Office,2,1,Mixer1
+PassFilter1,PassFilter,High Pass Filter,Patstors Office,2,1,PassFilter1
+ParametricEQ1,ParametricEQ,Parametric EQ - 10 Band,Patstors Office,2,1,ParametricEQ1
+ShelfFilter1,ShelfFilter,Low Shelf Filter,Patstors Office,2,1,ShelfFilter1
+ShelfFilter2,ShelfFilter,High Shelf Filter,Patstors Office,2,1,ShelfFilter2
+Delay1,Delay,10ms Delay,Patstors Office,2,1,Delay1
+PassFilter2,PassFilter,High Pass Filter,Patstors Office,2,1,PassFilter2
+ParametricEQ2,ParametricEQ,Parametric EQ - 10 Band,Patstors Office,2,1,ParametricEQ2
+ShelfFilter3,ShelfFilter,Low Shelf Filter,Patstors Office,2,1,ShelfFilter3
+ShelfFilter4,ShelfFilter,High Shelf Filter,Patstors Office,2,1,ShelfFilter4
+Delay2,Delay,10ms Delay,Patstors Office,2,1,Delay2
+PassFilter3,PassFilter,High Pass Filter,Patstors Office,2,1,PassFilter3
+ParametricEQ3,ParametricEQ,Parametric EQ - 7 Band,Patstors Office,2,1,ParametricEQ3
+ShelfFilter5,ShelfFilter,Low Shelf Filter,Patstors Office,2,1,ShelfFilter5
+ShelfFilter6,ShelfFilter,High Shelf Filter,Patstors Office,2,1,ShelfFilter6
+Delay3,Delay,10ms Delay,Patstors Office,2,1,Delay3
+ParametricEQ4,ParametricEQ,Parametric EQ - 7 Band,Patstors Office,2,1,ParametricEQ4
+ShelfFilter7,ShelfFilter,Low Shelf Filter,Patstors Office,2,1,ShelfFilter7
+Delay4,Delay,10ms Delay,Patstors Office,2,1,Delay4
+PassFilter4,PassFilter,Low Pass Filter,Patstors Office,2,1,PassFilter4
+Level1,Level,LR Level,Patstors Office,2,1,Level1
+Level2,Level,Sub Level,Patstors Office,2,1,Level2
+Level3,Level,Office Level,Patstors Office,2,1,Level3
+Level4,Level,Office Level,Patstors Office,2,1,Level4
+AudioMeter1,AudioMeter,RMS Meter,Patstors Office,2,1,AudioMeter1
+UIText1,UIText,Left,Patstors Office,2,,
+UIText2,UIText,Right,Patstors Office,2,,
+UIText3,UIText,Sub,Patstors Office,2,,
+UIText4,UIText,Study,Patstors Office,2,,
+UIText7,UIText,Office,Patstors Office,2,,
+UIText8,UIText,Study,Patstors Office,2,,
+UIText10,UIText,Inputs,Patstors Office,2,,
+UIText11,UIText,Input Meters,Patstors Office,2,,
+UIText12,UIText,Output Meters,Patstors Office,2,,
+UIText79,UIText,Master,Patstors Office,2,,
+UIText187,UIText,Automation,Patstors Office,2,,
+TEC-11,TEC-1,Pastor's Office,Patstors Office,2,1,TEC-11
+PresetButton1,PresetButton,Preset Buttons,Patstors Office,2,1,PresetButton1
+AudioMeter3,AudioMeter,RMS Meter,Patstors Office,2,1,AudioMeter3
+PCRxAudio1,PCRxAudio,PCRx Audio,Patstors Office,2,1,PCRxAudio1
+Input3,Input,Input 2 Channel,Patstors Office,2,1,Input3
+Level42,Level,Level,Patstors Office,2,1,Level42
+Output1,Output,Output 4 Channel,Patstors Office,2,3,Output1
+PresetButton8,PresetButton,Preset,Patstors Office,2,1,PresetButton8
+LogicState3,LogicState,Logic State 10 Channel,Patstors Office,2,1,LogicState3
+PCTxLogic3,PCTxLogic,PCTx Logic Office,Patstors Office,2,1,PCTxLogic3
+LogicMeter5,LogicMeter,Logic Meter 10 Channel,Patstors Office,2,1,LogicMeter5
+PresetButton28,PresetButton,Preset Buttons,Patstors Office,2,1,PresetButton28
+UIText253,UIText,,Patstors Office,2,,
+UIText229,UIText,,Hallways,5,,
+UIText206,UIText,,Hallways,5,,
+UIText210,UIText,,Hallways,5,,
+UIText208,UIText,,Hallways,5,,
+UIText209,UIText,Master,Hallways,5,,
+AudioMeter30,AudioMeter,RMS Meter,Hallways,5,1,AudioMeter30
+PCRxAudio4,PCRxAudio,PCRx Audio,Hallways,5,1,PCRxAudio4
+UIText188,UIText,,Hallways,5,,
+PassFilter108,PassFilter,High Pass Filter,Hallways,5,1,PassFilter108
+ParametricEQ52,ParametricEQ,Parametric EQ - 12 Band,Hallways,5,1,ParametricEQ52
+ShelfFilter21,ShelfFilter,Low Shelf Filter,Hallways,5,1,ShelfFilter21
+ShelfFilter22,ShelfFilter,High Shelf Filter,Hallways,5,1,ShelfFilter22
+Delay12,Delay,50ms Delay,Hallways,5,1,Delay12
+UIText189,UIText,Hall 101 Speaker Processing,Hallways,5,,
+Level34,Level,Level,Hallways,5,1,Level34
+UIText191,UIText,,Hallways,5,,
+PassFilter109,PassFilter,High Pass Filter,Hallways,5,1,PassFilter109
+ParametricEQ53,ParametricEQ,Parametric EQ - 12 Band,Hallways,5,1,ParametricEQ53
+ShelfFilter23,ShelfFilter,Low Shelf Filter,Hallways,5,1,ShelfFilter23
+ShelfFilter24,ShelfFilter,High Shelf Filter,Hallways,5,1,ShelfFilter24
+Delay13,Delay,50ms Delay,Hallways,5,1,Delay13
+UIText192,UIText,Hall 123 Speaker Processing,Hallways,5,,
+Level35,Level,Level,Hallways,5,1,Level35
+UIText194,UIText,,Hallways,5,,
+PassFilter110,PassFilter,High Pass Filter,Hallways,5,1,PassFilter110
+ParametricEQ54,ParametricEQ,Parametric EQ - 12 Band,Hallways,5,1,ParametricEQ54
+ShelfFilter25,ShelfFilter,Low Shelf Filter,Hallways,5,1,ShelfFilter25
+ShelfFilter26,ShelfFilter,High Shelf Filter,Hallways,5,1,ShelfFilter26
+Delay14,Delay,50ms Delay,Hallways,5,1,Delay14
+UIText195,UIText,Hall 131 Speaker Processing,Hallways,5,,
+Level36,Level,Level,Hallways,5,1,Level36
+UIText197,UIText,,Hallways,5,,
+PassFilter111,PassFilter,High Pass Filter,Hallways,5,1,PassFilter111
+ParametricEQ55,ParametricEQ,Parametric EQ - 12 Band,Hallways,5,1,ParametricEQ55
+ShelfFilter27,ShelfFilter,Low Shelf Filter,Hallways,5,1,ShelfFilter27
+ShelfFilter28,ShelfFilter,High Shelf Filter,Hallways,5,1,ShelfFilter28
+Delay15,Delay,50ms Delay,Hallways,5,1,Delay15
+UIText198,UIText,Outside Foyer Speaker Processing,Hallways,5,,
+Level37,Level,Level,Hallways,5,1,Level37
+UIText200,UIText,,Hallways,5,,
+PassFilter112,PassFilter,High Pass Filter,Hallways,5,1,PassFilter112
+ParametricEQ56,ParametricEQ,Parametric EQ - 12 Band,Hallways,5,1,ParametricEQ56
+ShelfFilter29,ShelfFilter,Low Shelf Filter,Hallways,5,1,ShelfFilter29
+ShelfFilter30,ShelfFilter,High Shelf Filter,Hallways,5,1,ShelfFilter30
+Delay16,Delay,50ms Delay,Hallways,5,1,Delay16
+UIText201,UIText,Resource Room Speaker Processing,Hallways,5,,
+Level38,Level,Level,Hallways,5,1,Level38
+PassFilter113,PassFilter,High Pass Filter,Hallways,5,1,PassFilter113
+ParametricEQ57,ParametricEQ,Parametric EQ - 12 Band,Hallways,5,1,ParametricEQ57
+ShelfFilter31,ShelfFilter,Low Shelf Filter,Hallways,5,1,ShelfFilter31
+ShelfFilter32,ShelfFilter,High Shelf Filter,Hallways,5,1,ShelfFilter32
+Delay17,Delay,50ms Delay,Hallways,5,1,Delay17
+UIText204,UIText,Inside Foyer Speaker Processing,Hallways,5,,
+Level39,Level,Level,Hallways,5,1,Level39
+Mixer23,Mixer,Matrix Mixer 10x5,Hallways,5,1,Mixer23
+UIText190,UIText,Hall 101,Hallways,5,,
+UIText193,UIText,Hall 123,Hallways,5,,
+UIText196,UIText,Hall 131,Hallways,5,,
+UIText199,UIText,Atrium,Hallways,5,,
+UIText202,UIText,Resorc,Hallways,5,,
+Level40,Level,Hallway Level,Hallways,5,1,Level40
+AudioMeter31,AudioMeter,RMS Meter,Hallways,5,1,AudioMeter31
+TEC-18,TEC-1,Hall 101,Hallways,5,1,TEC-18
+TEC-19,TEC-1,Hall 123,Hallways,5,1,TEC-19
+UIText207,UIText,Automation,Hallways,5,,
+TEC-110,TEC-1,Hall 131,Hallways,5,1,TEC-110
+TEC-111,TEC-1,Foyer,Hallways,5,1,TEC-111
+UIText211,UIText,Input Meters,Hallways,5,,
+UIText212,UIText,Inputs,Hallways,5,,
+UIText213,UIText,Outputs,Hallways,5,,
+TEC-112,TEC-1,Resource,Hallways,5,1,TEC-112
+Level41,Level,Level,Hallways,5,1,Level41
+UIText205,UIText,Atrium,Hallways,5,,
+Output5,Output,Output 6 Channel,Hallways,5,2,Output5
+PresetButton9,PresetButton,Preset Buttons,Hallways,5,1,PresetButton9
+PresetButton10,PresetButton,Preset Buttons,Hallways,5,1,PresetButton10
+PresetButton11,PresetButton,Preset Buttons,Hallways,5,1,PresetButton11
+PresetButton12,PresetButton,Preset Buttons,Hallways,5,1,PresetButton12
+PresetButton13,PresetButton,Preset Buttons,Hallways,5,1,PresetButton13
+PresetButton16,PresetButton,All Hall Presets,Hallways,5,1,PresetButton16
+LogicState4,LogicState,Logic State 10 Channel,Hallways,5,1,LogicState4
+PCTxLogic4,PCTxLogic,PCTx Logic  All Hall,Hallways,5,1,PCTxLogic4
+LogicMeter9,LogicMeter,Logic Meter 10 Channel,Hallways,5,1,LogicMeter9
+PresetButton17,PresetButton,Hall 101  Source Presets,Hallways,5,1,PresetButton17
+PresetButton18,PresetButton,Hall 123  Source Presets,Hallways,5,1,PresetButton18
+PresetButton19,PresetButton,Hall 131  Source Presets,Hallways,5,1,PresetButton19
+PresetButton20,PresetButton,Foyer Source Presets,Hallways,5,1,PresetButton20
+PresetButton21,PresetButton,Resource Room Presets,Hallways,5,1,PresetButton21
+UIText226,UIText,Global Hallway Source Presets,Hallways,5,,
+LogicState5,LogicState,Logic State 9 Channel,Hallways,5,1,LogicState5
+PCTxLogic5,PCTxLogic,PCTx Logic Hall 101,Hallways,5,1,PCTxLogic5
+LogicMeter10,LogicMeter,Logic Meter 9 Channel,Hallways,5,1,LogicMeter10
+LogicState6,LogicState,Logic State 9 Channel,Hallways,5,1,LogicState6
+PCTxLogic6,PCTxLogic,PCTx Logic Hall 123,Hallways,5,1,PCTxLogic6
+LogicMeter11,LogicMeter,Logic Meter 9 Channel,Hallways,5,1,LogicMeter11
+LogicState7,LogicState,Logic State 9 Channel,Hallways,5,1,LogicState7
+PCTxLogic7,PCTxLogic,PCTx Logic Hall 131,Hallways,5,1,PCTxLogic7
+LogicMeter12,LogicMeter,Logic Meter 9 Channel,Hallways,5,1,LogicMeter12
+LogicState8,LogicState,Logic State 9 Channel,Hallways,5,1,LogicState8
+PCTxLogic8,PCTxLogic,PCTx Logic Foyer,Hallways,5,1,PCTxLogic8
+LogicMeter13,LogicMeter,Logic Meter 9 Channel,Hallways,5,1,LogicMeter13
+LogicState9,LogicState,Logic State 9 Channel,Hallways,5,1,LogicState9
+PCTxLogic9,PCTxLogic,PCTx Logic Resource Room,Hallways,5,1,PCTxLogic9
+LogicMeter14,LogicMeter,Logic Meter 9 Channel,Hallways,5,1,LogicMeter14
+UIText225,UIText, ,Hallways,5,,
+UIText227,UIText, ,Hallways,5,,
+UIText228,UIText,Hall 101 Source Presets,Hallways,5,,
+UIText230,UIText, ,Hallways,5,,
+UIText231,UIText,Hall 123 Source Presets,Hallways,5,,
+UIText232,UIText, ,Hallways,5,,
+UIText233,UIText,Hall 131 Source Presets,Hallways,5,,
+UIText234,UIText, ,Hallways,5,,
+UIText235,UIText,Foyer Source Presets,Hallways,5,,
+UIText236,UIText, ,Hallways,5,,
+UIText237,UIText,Resource Room Source Presets,Hallways,5,,
+UIText238,UIText,Global Hallway Source Presets,Hallways,5,,
+UIText72,UIText,,Room 5&6,9,,
+UIText74,UIText,,Room 5&6,9,,
+UIText13,UIText,,Room 5&6,9,,
+UIText70,UIText,,Room 5&6,9,,
+UIText71,UIText,Subwoofer Processing,Room 5&6,9,,
+UIText68,UIText,,Room 5&6,9,,
+UIText69,UIText,Room-6 Speaker Processing,Room 5&6,9,,
+UIText66,UIText,,Room 5&6,9,,
+AudioMeter5,AudioMeter,RMS Meter,Room 5&6,9,1,AudioMeter5
+PCRxAudio2,PCRxAudio,PCRx Audio,Room 5&6,9,1,PCRxAudio2
+PassFilter5,PassFilter,High Pass Filter,Room 5&6,9,1,PassFilter5
+ParametricEQ5,ParametricEQ,Parametric EQ - 12 Band,Room 5&6,9,1,ParametricEQ5
+ShelfFilter8,ShelfFilter,Low Shelf Filter,Room 5&6,9,1,ShelfFilter8
+ShelfFilter9,ShelfFilter,High Shelf Filter,Room 5&6,9,1,ShelfFilter9
+Delay5,Delay,10ms Delay,Room 5&6,9,1,Delay5
+PassFilter26,PassFilter,High Pass Filter,Room 5&6,9,1,PassFilter26
+ParametricEQ14,ParametricEQ,Parametric EQ - 12 Band,Room 5&6,9,1,ParametricEQ14
+ShelfFilter10,ShelfFilter,Low Shelf Filter,Room 5&6,9,1,ShelfFilter10
+ShelfFilter11,ShelfFilter,High Shelf Filter,Room 5&6,9,1,ShelfFilter11
+Delay6,Delay,10ms Delay,Room 5&6,9,1,Delay6
+ParametricEQ15,ParametricEQ,Parametric EQ - 7 Band,Room 5&6,9,1,ParametricEQ15
+ShelfFilter12,ShelfFilter,Low Shelf Filter,Room 5&6,9,1,ShelfFilter12
+Delay7,Delay,10ms Delay,Room 5&6,9,1,Delay7
+PassFilter27,PassFilter,Low Pass Filter,Room 5&6,9,1,PassFilter27
+Mixer5,Mixer,Room-5 Mixer ,Room 5&6,9,1,Mixer5
+SplitPassThroughOut1,SplitPassThroughOut,APT Link-Out,Room 5&6,9,,
+CB3,CB, Channel  Processing,Room 5&6,9,,
+UIText92,UIText,,Room 5&6,9,,
+UIText44,UIText,,Room 5&6,9,,
+UIText39,UIText,,Room 5&6,9,,
+SplitPassThroughOutCustom5,SplitPassThroughOutCustom,A P T,Room 5&6,9,,
+SplitPassThroughInCustom6,SplitPassThroughInCustom,A P T,Room 5&6,9,,
+PassFilter32,PassFilter,High Pass Filter,Room 5&6,9,1,PassFilter32
+ParametricEQ24,ParametricEQ,Parametric EQ - 5 Band,Room 5&6,9,1,ParametricEQ24
+PassFilter33,PassFilter,Low Pass Filter,Room 5&6,9,1,PassFilter33
+ParametricEQ25,ParametricEQ,Parametric EQ - 5 Band,Room 5&6,9,1,ParametricEQ25
+PassFilter34,PassFilter,Low Pass Filter,Room 5&6,9,1,PassFilter34
+PassFilter35,PassFilter,High Pass Filter,Room 5&6,9,1,PassFilter35
+UIText40,UIText,Wireless-1,Room 5&6,9,,
+UIText41,UIText,Wireless-2,Room 5&6,9,,
+Level13,Level,Level,Room 5&6,9,1,Level13
+AudioMeter13,AudioMeter,RMS Meter,Room 5&6,9,1,AudioMeter13
+UIText42,UIText,Wireless-3,Room 5&6,9,,
+PassFilter36,PassFilter,High Pass Filter,Room 5&6,9,1,PassFilter36
+PassFilter37,PassFilter,Low Pass Filter,Room 5&6,9,1,PassFilter37
+ParametricEQ26,ParametricEQ,Parametric EQ - 5 Band,Room 5&6,9,1,ParametricEQ26
+PassFilter38,PassFilter,High Pass Filter,Room 5&6,9,1,PassFilter38
+ParametricEQ27,ParametricEQ,Parametric EQ - 5 Band,Room 5&6,9,1,ParametricEQ27
+PassFilter39,PassFilter,Low Pass Filter,Room 5&6,9,1,PassFilter39
+UIText43,UIText,Wireless-4,Room 5&6,9,,
+PassFilter45,PassFilter,High Pass Filter,Room 5&6,9,1,PassFilter45
+PassFilter46,PassFilter,High Pass Filter,Room 5&6,9,1,PassFilter46
+ParametricEQ29,ParametricEQ,Parametric EQ - 5 Band,Room 5&6,9,1,ParametricEQ29
+PassFilter41,PassFilter,Low Pass Filter,Room 5&6,9,1,PassFilter41
+PassFilter43,PassFilter,High Pass Filter,Room 5&6,9,1,PassFilter43
+UIText46,UIText,Room-5 Mic-2,Room 5&6,9,,
+ParametricEQ28,ParametricEQ,Parametric EQ - 5 Band,Room 5&6,9,1,ParametricEQ28
+AudioMeter14,AudioMeter,RMS Meter,Room 5&6,9,1,AudioMeter14
+Level14,Level,Level,Room 5&6,9,1,Level14
+UIText47,UIText,Room-5 Line-1,Room 5&6,9,,
+UIText50,UIText,Room-5 Mic/Line,Room 5&6,9,,
+PassFilter40,PassFilter,High Pass Filter,Room 5&6,9,1,PassFilter40
+PassFilter44,PassFilter,High Pass Filter,Room 5&6,9,1,PassFilter44
+PassFilter42,PassFilter,Low Pass Filter,Room 5&6,9,1,PassFilter42
+UIText48,UIText,Room-5 Line-2,Room 5&6,9,,
+UIText45,UIText,Room-5 Mic-1,Room 5&6,9,,
+UIText49,UIText,Room-5 Video,Room 5&6,9,,
+UIText51,UIText,Wireless,Room 5&6,9,,
+UIText93,UIText,Room-5 Mic-2,Room 5&6,9,,
+UIText97,UIText,Room-5 Mic-1,Room 5&6,9,,
+Level21,Level,Level,Room 5&6,9,1,Level21
+PassFilter47,PassFilter,High Pass Filter,Room 5&6,9,1,PassFilter47
+ParametricEQ31,ParametricEQ,Parametric EQ - 5 Band,Room 5&6,9,1,ParametricEQ31
+PassFilter48,PassFilter,High Pass Filter,Room 5&6,9,1,PassFilter48
+AudioMeter19,AudioMeter,RMS Meter,Room 5&6,9,1,AudioMeter19
+UIText94,UIText,Room-5 Line-1,Room 5&6,9,,
+PassFilter49,PassFilter,Low Pass Filter,Room 5&6,9,1,PassFilter49
+PassFilter51,PassFilter,High Pass Filter,Room 5&6,9,1,PassFilter51
+PassFilter53,PassFilter,Low Pass Filter,Room 5&6,9,1,PassFilter53
+UIText96,UIText,Room-6 Line-4,Room 5&6,9,,
+ParametricEQ30,ParametricEQ,Parametric EQ - 5 Band,Room 5&6,9,1,ParametricEQ30
+UIText95,UIText,Room-6 Mic/Line,Room 5&6,9,,
+PassFilter50,PassFilter,High Pass Filter,Room 5&6,9,1,PassFilter50
+UIText98,UIText,Room-6 Video,Room 5&6,9,,
+PassFilter52,PassFilter,High Pass Filter,Room 5&6,9,1,PassFilter52
+UIText100,UIText,Room-6 Line-3,Room 5&6,9,,
+UIText99,UIText,Room-6 Mic-4,Room 5&6,9,,
+UIText101,UIText,Room-6 Mic-3,Room 5&6,9,,
+AGC30,AGC,AGC,Room 5&6,9,1,AGC30
+AGC25,AGC,AGC,Room 5&6,9,1,AGC25
+AGC31,AGC,AGC,Room 5&6,9,1,AGC31
+AGC26,AGC,AGC,Room 5&6,9,1,AGC26
+AGC27,AGC,AGC,Room 5&6,9,1,AGC27
+AGC29,AGC,AGC,Room 5&6,9,1,AGC29
+AGC28,AGC,AGC,Room 5&6,9,1,AGC28
+AGC32,AGC,AGC,Room 5&6,9,1,AGC32
+Compressor1,Compressor,Compressor ,Room 5&6,9,1,Compressor1
+Compressor2,Compressor,Compressor ,Room 5&6,9,1,Compressor2
+Compressor3,Compressor,Compressor ,Room 5&6,9,1,Compressor3
+Compressor4,Compressor,Compressor ,Room 5&6,9,1,Compressor4
+Compressor5,Compressor,Compressor ,Room 5&6,9,1,Compressor5
+Compressor6,Compressor,Compressor ,Room 5&6,9,1,Compressor6
+Compressor7,Compressor,Compressor ,Room 5&6,9,1,Compressor7
+Compressor8,Compressor,Compressor ,Room 5&6,9,1,Compressor8
+SourceSelector1,SourceSelector,Source Selector 5 Channel,Room 5&6,9,1,SourceSelector1
+AudioMeter4,AudioMeter,RMS Meter,Room 5&6,9,1,AudioMeter4
+Input5,Input,Input 14 Channel,Room 5&6,9,1,Input5
+SourceSelector2,SourceSelector,Source Selector 5 Channel,Room 5&6,9,1,SourceSelector2
+SplitPassThroughIn1,SplitPassThroughIn,APT Link-In,Room 5&6,9,,
+Mixer12,Mixer,Room-6 Mixer ,Room 5&6,9,1,Mixer12
+Mixer13,Mixer,Matrix Mixer 2x3,Room 5&6,9,1,Mixer13
+UIText65,UIText,Input Processing,Room 5&6,9,,
+UIText67,UIText,Room-5 Speaker Processing,Room 5&6,9,,
+Level17,Level,Level,Room 5&6,9,1,Level17
+Level18,Level,Level,Room 5&6,9,1,Level18
+Level19,Level,Level,Room 5&6,9,1,Level19
+Level20,Level,Level,Room 5&6,9,1,Level20
+AudioMeter17,AudioMeter,RMS Meter,Room 5&6,9,1,AudioMeter17
+UIText73,UIText,Master,Room 5&6,9,,
+UIText76,UIText,Input Meters,Room 5&6,9,,
+UIText77,UIText,Output Meters,Room 5&6,9,,
+CB1,CB,Automixer,Room 5&6,9,,
+SplitPassThroughOutCustom1,SplitPassThroughOutCustom,A P T,Room 5&6,9,,
+SplitPassThroughInCustom2,SplitPassThroughInCustom,A P T,Room 5&6,9,,
+Mixer4,Mixer,Gain Sharing Auto Mixer Room-5,Room 5&6,9,1,Mixer4
+AudioMeter7,AudioMeter,RMS Meter,Room 5&6,9,1,AudioMeter7
+AGC7,AGC,AGC,Room 5&6,9,1,AGC7
+AGC6,AGC,AGC,Room 5&6,9,1,AGC6
+AGC8,AGC,AGC,Room 5&6,9,1,AGC8
+AGC5,AGC,AGC,Room 5&6,9,1,AGC5
+AGC10,AGC,AGC,Room 5&6,9,1,AGC10
+AGC9,AGC,AGC,Room 5&6,9,1,AGC9
+Mixer11,Mixer,Gain Sharing Auto Mixer Room-6,Room 5&6,9,1,Mixer11
+AutoMixerCombiner1,AutoMixerCombiner,Gain Sharing Auto Mixer Combiner 2 Channel,Room 5&6,9,1,AutoMixerCombiner1
+AGC11,AGC,AGC,Room 5&6,9,1,AGC11
+AGC12,AGC,AGC,Room 5&6,9,1,AGC12
+UIText31,UIText,Wireless-1,Room 5&6,9,,
+UIText32,UIText,Wireless-2,Room 5&6,9,,
+UIText33,UIText,Wireless-3,Room 5&6,9,,
+UIText34,UIText,Wireless-4,Room 5&6,9,,
+UIText35,UIText,Rm5 Mic-1,Room 5&6,9,,
+UIText36,UIText,Rm5 Mic-2,Room 5&6,9,,
+UIText38,UIText,Rm6 Mic-2,Room 5&6,9,,
+UIText37,UIText,Rm6 Mic-1,Room 5&6,9,,
+Mixer25,Mixer,Matrix Mixer 8x12,Room 5&6,9,1,Mixer25
+UIText30,UIText,Sub,Room 5&6,9,,
+PCTxAudio2,PCTxAudio,PCTx Audio,Room 5&6,9,1,PCTx56Audio
+Output3,Output,Output 3 Channel,Room 5&6,9,1,Output3
+SplitPassThroughIn7,SplitPassThroughIn,APT Link-In,Room 5&6,9,,
+SplitPassThroughIn8,SplitPassThroughIn,APT Link-In,Room 5&6,9,,
+SplitPassThroughOut13,SplitPassThroughOut,APT Link-Out,Room 5&6,9,,
+SplitPassThroughOut12,SplitPassThroughOut,APT Link-Out,Room 5&6,9,,
+UIText14,UIText,Room-5,Room 5&6,9,,
+UIText29,UIText,Room-6,Room 5&6,9,,
+PresetButton15,PresetButton,Preset Buttons,Room 5&6,9,1,PresetButton15
+TEC-12,TEC-1,Room-5,Room 5&6,9,1,TEC-12
+TEC-13,TEC-1,Room-6,Room 5&6,9,1,TEC-13
+UIText75,UIText,Automation,Room 5&6,9,,
+PresetButton2,PresetButton,Presets,Room 5&6,9,1,PresetButton2
+PresetButton3,PresetButton,Presets,Room 5&6,9,1,PresetButton3
+LogicState2,LogicState,Logic State 2 Channel,Room 5&6,9,1,LogicState2
+PCTxLogic2,PCTxLogic,PCTx Logic,Room 5&6,9,1,PCTxLogic2
+LogicMeter3,LogicMeter,Logic Meter 2 Channel,Room 5&6,9,1,LogicMeter3
+UIText224,UIText,,Room 5&6,9,,
+Compressor21,Compressor,Advanced Compressor 3 Channel,Room 5&6,9,1,Compressor21
+PeakLimiter1,PeakLimiter,Peak Limiter 2 Channel,Room 5&6,9,1,PeakLimiter1
+PeakLimiter2,PeakLimiter,Peak Limiter 1 Channel,Room 5&6,9,1,PeakLimiter2
+UIText177,UIText,,Room 1-4,10,,
+UIText178,UIText,Input Processing,Room 1-4,10,,
+Mixer14,Mixer,Room-1 Mixer ,Room 1-4,10,1,Mixer14
+CB6,CB, Channel  Processing,Room 1-4,10,,
+UIText122,UIText,,Room 1-4,10,,
+UIText123,UIText,,Room 1-4,10,,
+UIText124,UIText,,Room 1-4,10,,
+UIText125,UIText,,Room 1-4,10,,
+UIText126,UIText,,Room 1-4,10,,
+SplitPassThroughOutCustom11,SplitPassThroughOutCustom,A P T,Room 1-4,10,,
+SplitPassThroughInCustom12,SplitPassThroughInCustom,A P T,Room 1-4,10,,
+PassFilter68,PassFilter,High Pass Filter,Room 1-4,10,1,PassFilter68
+ParametricEQ36,ParametricEQ,Parametric EQ - 5 Band,Room 1-4,10,1,ParametricEQ36
+PassFilter69,PassFilter,Low Pass Filter,Room 1-4,10,1,PassFilter69
+ParametricEQ37,ParametricEQ,Parametric EQ - 5 Band,Room 1-4,10,1,ParametricEQ37
+PassFilter70,PassFilter,Low Pass Filter,Room 1-4,10,1,PassFilter70
+PassFilter71,PassFilter,High Pass Filter,Room 1-4,10,1,PassFilter71
+UIText127,UIText,Wireless-1,Room 1-4,10,,
+UIText128,UIText,Wireless-2,Room 1-4,10,,
+Level24,Level,Level,Room 1-4,10,1,Level24
+AudioMeter22,AudioMeter,RMS Meter,Room 1-4,10,1,AudioMeter22
+UIText129,UIText,Wireless-3,Room 1-4,10,,
+PassFilter72,PassFilter,High Pass Filter,Room 1-4,10,1,PassFilter72
+PassFilter73,PassFilter,Low Pass Filter,Room 1-4,10,1,PassFilter73
+ParametricEQ38,ParametricEQ,Parametric EQ - 5 Band,Room 1-4,10,1,ParametricEQ38
+PassFilter74,PassFilter,High Pass Filter,Room 1-4,10,1,PassFilter74
+ParametricEQ39,ParametricEQ,Parametric EQ - 5 Band,Room 1-4,10,1,ParametricEQ39
+PassFilter75,PassFilter,Low Pass Filter,Room 1-4,10,1,PassFilter75
+UIText130,UIText,Wireless-4,Room 1-4,10,,
+PassFilter76,PassFilter,High Pass Filter,Room 1-4,10,1,PassFilter76
+PassFilter77,PassFilter,High Pass Filter,Room 1-4,10,1,PassFilter77
+ParametricEQ40,ParametricEQ,Parametric EQ - 5 Band,Room 1-4,10,1,ParametricEQ40
+PassFilter78,PassFilter,Low Pass Filter,Room 1-4,10,1,PassFilter78
+PassFilter79,PassFilter,High Pass Filter,Room 1-4,10,1,PassFilter79
+UIText131,UIText,Room-1 Mic-2,Room 1-4,10,,
+ParametricEQ41,ParametricEQ,Parametric EQ - 5 Band,Room 1-4,10,1,ParametricEQ41
+AudioMeter23,AudioMeter,RMS Meter,Room 1-4,10,1,AudioMeter23
+Level25,Level,Level,Room 1-4,10,1,Level25
+UIText132,UIText,Room-1 Line-1,Room 1-4,10,,
+UIText133,UIText,Room-1 Mic/Line,Room 1-4,10,,
+PassFilter80,PassFilter,High Pass Filter,Room 1-4,10,1,PassFilter80
+PassFilter81,PassFilter,High Pass Filter,Room 1-4,10,1,PassFilter81
+PassFilter82,PassFilter,Low Pass Filter,Room 1-4,10,1,PassFilter82
+UIText134,UIText,Room-1 Line-2,Room 1-4,10,,
+UIText135,UIText,Room-1 Mic-1,Room 1-4,10,,
+UIText136,UIText,Room-1 Video,Room 1-4,10,,
+UIText137,UIText,Wireless,Room 1-4,10,,
+UIText138,UIText,Room-5 Mic-2,Room 1-4,10,,
+UIText139,UIText,Room-5 Mic-1,Room 1-4,10,,
+Level26,Level,Level,Room 1-4,10,1,Level26
+PassFilter83,PassFilter,High Pass Filter,Room 1-4,10,1,PassFilter83
+ParametricEQ42,ParametricEQ,Parametric EQ - 5 Band,Room 1-4,10,1,ParametricEQ42
+PassFilter84,PassFilter,High Pass Filter,Room 1-4,10,1,PassFilter84
+AudioMeter24,AudioMeter,RMS Meter,Room 1-4,10,1,AudioMeter24
+UIText140,UIText,Room-5 Line-1,Room 1-4,10,,
+PassFilter85,PassFilter,Low Pass Filter,Room 1-4,10,1,PassFilter85
+PassFilter86,PassFilter,High Pass Filter,Room 1-4,10,1,PassFilter86
+PassFilter87,PassFilter,Low Pass Filter,Room 1-4,10,1,PassFilter87
+UIText141,UIText,Room-2 Line-2,Room 1-4,10,,
+ParametricEQ43,ParametricEQ,Parametric EQ - 5 Band,Room 1-4,10,1,ParametricEQ43
+UIText142,UIText,Room-2 Mic/Line,Room 1-4,10,,
+PassFilter88,PassFilter,High Pass Filter,Room 1-4,10,1,PassFilter88
+UIText143,UIText,Room-2 Video,Room 1-4,10,,
+PassFilter89,PassFilter,High Pass Filter,Room 1-4,10,1,PassFilter89
+UIText144,UIText,Room-2 Line-1,Room 1-4,10,,
+UIText145,UIText,Room-2 Mic-2,Room 1-4,10,,
+UIText146,UIText,Room-2 Mic-1,Room 1-4,10,,
+UIText147,UIText,Room-2 Mic-1,Room 1-4,10,,
+UIText148,UIText,Room-3 Mic-1,Room 1-4,10,,
+PassFilter90,PassFilter,High Pass Filter,Room 1-4,10,1,PassFilter90
+UIText149,UIText,Room-5 Line-1,Room 1-4,10,,
+PassFilter91,PassFilter,High Pass Filter,Room 1-4,10,1,PassFilter91
+UIText150,UIText,Room-3 Line-1,Room 1-4,10,,
+UIText151,UIText,Room-2 Mic-2,Room 1-4,10,,
+PassFilter92,PassFilter,Low Pass Filter,Room 1-4,10,1,PassFilter92
+ParametricEQ44,ParametricEQ,Parametric EQ - 5 Band,Room 1-4,10,1,ParametricEQ44
+AudioMeter25,AudioMeter,RMS Meter,Room 1-4,10,1,AudioMeter25
+PassFilter93,PassFilter,Low Pass Filter,Room 1-4,10,1,PassFilter93
+PassFilter94,PassFilter,High Pass Filter,Room 1-4,10,1,PassFilter94
+PassFilter95,PassFilter,High Pass Filter,Room 1-4,10,1,PassFilter95
+UIText152,UIText,Room-3 Line-2,Room 1-4,10,,
+PassFilter96,PassFilter,High Pass Filter,Room 1-4,10,1,PassFilter96
+ParametricEQ45,ParametricEQ,Parametric EQ - 5 Band,Room 1-4,10,1,ParametricEQ45
+UIText153,UIText,Room-3 Mic-2,Room 1-4,10,,
+UIText154,UIText,Room-3 Video,Room 1-4,10,,
+Level27,Level,Level,Room 1-4,10,1,Level27
+UIText155,UIText,Room-3 Mic/Line,Room 1-4,10,,
+UIText156,UIText,Room-4 Line-2,Room 1-4,10,,
+UIText157,UIText,Room-2 Line-1,Room 1-4,10,,
+PassFilter97,PassFilter,High Pass Filter,Room 1-4,10,1,PassFilter97
+UIText158,UIText,Room-5 Mic-2,Room 1-4,10,,
+UIText159,UIText,Room-5 Mic-1,Room 1-4,10,,
+ParametricEQ46,ParametricEQ,Parametric EQ - 5 Band,Room 1-4,10,1,ParametricEQ46
+PassFilter98,PassFilter,Low Pass Filter,Room 1-4,10,1,PassFilter98
+PassFilter99,PassFilter,High Pass Filter,Room 1-4,10,1,PassFilter99
+ParametricEQ47,ParametricEQ,Parametric EQ - 5 Band,Room 1-4,10,1,ParametricEQ47
+PassFilter100,PassFilter,High Pass Filter,Room 1-4,10,1,PassFilter100
+UIText160,UIText,Room-4 Mic-1,Room 1-4,10,,
+PassFilter101,PassFilter,High Pass Filter,Room 1-4,10,1,PassFilter101
+UIText161,UIText,Room-4 Mic/Line,Room 1-4,10,,
+UIText162,UIText,Room-4 Line-1,Room 1-4,10,,
+PassFilter102,PassFilter,High Pass Filter,Room 1-4,10,1,PassFilter102
+Level28,Level,Level,Room 1-4,10,1,Level28
+PassFilter103,PassFilter,Low Pass Filter,Room 1-4,10,1,PassFilter103
+AudioMeter26,AudioMeter,RMS Meter,Room 1-4,10,1,AudioMeter26
+UIText163,UIText,Room-4 Video,Room 1-4,10,,
+UIText164,UIText,Room-4 Mic-2,Room 1-4,10,,
+Compressor11,Compressor,Compressor ,Room 1-4,10,1,Compressor11
+Compressor10,Compressor,Compressor ,Room 1-4,10,1,Compressor10
+Compressor9,Compressor,Compressor ,Room 1-4,10,1,Compressor9
+Compressor12,Compressor,Compressor ,Room 1-4,10,1,Compressor12
+Compressor14,Compressor,Compressor ,Room 1-4,10,1,Compressor14
+Compressor13,Compressor,Compressor ,Room 1-4,10,1,Compressor13
+Compressor16,Compressor,Compressor ,Room 1-4,10,1,Compressor16
+Compressor15,Compressor,Compressor ,Room 1-4,10,1,Compressor15
+Compressor18,Compressor,Compressor ,Room 1-4,10,1,Compressor18
+Compressor17,Compressor,Compressor ,Room 1-4,10,1,Compressor17
+Compressor19,Compressor,Compressor ,Room 1-4,10,1,Compressor19
+Compressor20,Compressor,Compressor ,Room 1-4,10,1,Compressor20
+CB5,CB,Automixer,Room 1-4,10,,
+SplitPassThroughOutCustom9,SplitPassThroughOutCustom,A P T,Room 1-4,10,,
+SplitPassThroughInCustom10,SplitPassThroughInCustom,A P T,Room 1-4,10,,
+Mixer15,Mixer,Gain Sharing Auto Mixer Room-1,Room 1-4,10,1,Mixer15
+AudioMeter18,AudioMeter,RMS Meter,Room 1-4,10,1,AudioMeter18
+AGC16,AGC,AGC,Room 1-4,10,1,AGC16
+AGC18,AGC,AGC,Room 1-4,10,1,AGC18
+Mixer16,Mixer,Gain Sharing Auto Mixer Room-2,Room 1-4,10,1,Mixer16
+AutoMixerCombiner2,AutoMixerCombiner,Gain Sharing Auto Mixer Combiner 4 Channel,Room 1-4,10,1,AutoMixerCombiner2
+AGC20,AGC,AGC,Room 1-4,10,1,AGC20
+UIText80,UIText,Wireless-1,Room 1-4,10,,
+UIText81,UIText,Wireless-2,Room 1-4,10,,
+UIText82,UIText,Wireless-3,Room 1-4,10,,
+UIText83,UIText,Wireless-4,Room 1-4,10,,
+UIText84,UIText,Rm1 Mic-1,Room 1-4,10,,
+UIText85,UIText,Rm1 Mic-2,Room 1-4,10,,
+UIText86,UIText,Rm2 Mic-2,Room 1-4,10,,
+UIText87,UIText,Rm2 Mic-1,Room 1-4,10,,
+Mixer17,Mixer,Gain Sharing Auto Mixer Room-3,Room 1-4,10,1,Mixer17
+UIText90,UIText,Rm4 Mic-2,Room 1-4,10,,
+UIText91,UIText,Rm4 Mic-1,Room 1-4,10,,
+UIText88,UIText,Rm3 Mic-1,Room 1-4,10,,
+AGC24,AGC,AGC,Room 1-4,10,1,AGC24
+UIText89,UIText,Rm3 Mic-2,Room 1-4,10,,
+AGC22,AGC,AGC,Room 1-4,10,1,AGC22
+AGC17,AGC,AGC,Room 1-4,10,1,AGC17
+AGC19,AGC,AGC,Room 1-4,10,1,AGC19
+AGC21,AGC,AGC,Room 1-4,10,1,AGC21
+AGC23,AGC,AGC,Room 1-4,10,1,AGC23
+AGC14,AGC,AGC,Room 1-4,10,1,AGC14
+AGC13,AGC,AGC,Room 1-4,10,1,AGC13
+AGC15,AGC,AGC,Room 1-4,10,1,AGC15
+Mixer18,Mixer,Gain Sharing Auto Mixer Room-3,Room 1-4,10,1,Mixer18
+Mixer24,Mixer,Matrix Mixer 12x24,Room 1-4,10,1,Mixer24
+PCRxAudio3,PCRxAudio,PCRx Audio,Room 1-4,10,1,PCRxAudio3
+AudioMeter27,AudioMeter,RMS Meter,Room 1-4,10,1,AudioMeter27
+SourceSelector3,SourceSelector,Source Selector 5 Channel,Room 1-4,10,1,SourceSelector3
+SplitPassThroughIn3,SplitPassThroughIn,APT Link-In,Room 1-4,10,,
+SplitPassThroughOut5,SplitPassThroughOut,APT Link-Out,Room 1-4,10,,
+Mixer19,Mixer,Room-2 Mixer ,Room 1-4,10,1,Mixer19
+SourceSelector4,SourceSelector,Source Selector 5 Channel,Room 1-4,10,1,SourceSelector4
+SplitPassThroughIn4,SplitPassThroughIn,APT Link-In,Room 1-4,10,,
+SplitPassThroughOut6,SplitPassThroughOut,APT Link-Out,Room 1-4,10,,
+SplitPassThroughOut7,SplitPassThroughOut,APT Link-Out,Room 1-4,10,,
+Mixer20,Mixer,Room-3 Mixer ,Room 1-4,10,1,Mixer20
+SourceSelector5,SourceSelector,Source Selector 5 Channel,Room 1-4,10,1,SourceSelector5
+SplitPassThroughOut8,SplitPassThroughOut,APT Link-Out,Room 1-4,10,,
+SplitPassThroughIn5,SplitPassThroughIn,APT Link-In,Room 1-4,10,,
+SplitPassThroughOut9,SplitPassThroughOut,APT Link-Out,Room 1-4,10,,
+Mixer21,Mixer,Room-4 Mixer ,Room 1-4,10,1,Mixer21
+SourceSelector6,SourceSelector,Source Selector 5 Channel,Room 1-4,10,1,SourceSelector6
+SplitPassThroughOut10,SplitPassThroughOut,APT Link-Out,Room 1-4,10,,
+SplitPassThroughIn6,SplitPassThroughIn,APT Link-In,Room 1-4,10,,
+SplitPassThroughOut11,SplitPassThroughOut,APT Link-Out,Room 1-4,10,,
+Mixer22,Mixer,Matrix Mixer 4x5 w/Delay,Room 1-4,10,1,Mixer22
+UIText165,UIText,,Room 1-4,10,,
+PassFilter104,PassFilter,High Pass Filter,Room 1-4,10,1,PassFilter104
+ParametricEQ48,ParametricEQ,Parametric EQ - 12 Band,Room 1-4,10,1,ParametricEQ48
+ShelfFilter13,ShelfFilter,Low Shelf Filter,Room 1-4,10,1,ShelfFilter13
+ShelfFilter14,ShelfFilter,High Shelf Filter,Room 1-4,10,1,ShelfFilter14
+Delay8,Delay,10ms Delay,Room 1-4,10,1,Delay8
+UIText166,UIText,Room-1 Speaker Processing,Room 1-4,10,,
+Level29,Level,Level,Room 1-4,10,1,Level29
+UIText168,UIText,,Room 1-4,10,,
+PassFilter105,PassFilter,High Pass Filter,Room 1-4,10,1,PassFilter105
+ParametricEQ49,ParametricEQ,Parametric EQ - 12 Band,Room 1-4,10,1,ParametricEQ49
+ShelfFilter15,ShelfFilter,Low Shelf Filter,Room 1-4,10,1,ShelfFilter15
+ShelfFilter16,ShelfFilter,High Shelf Filter,Room 1-4,10,1,ShelfFilter16
+Delay9,Delay,10ms Delay,Room 1-4,10,1,Delay9
+UIText169,UIText,Room-2 Speaker Processing,Room 1-4,10,,
+Level30,Level,Level,Room 1-4,10,1,Level30
+UIText171,UIText,,Room 1-4,10,,
+PassFilter106,PassFilter,High Pass Filter,Room 1-4,10,1,PassFilter106
+ParametricEQ50,ParametricEQ,Parametric EQ - 12 Band,Room 1-4,10,1,ParametricEQ50
+ShelfFilter17,ShelfFilter,Low Shelf Filter,Room 1-4,10,1,ShelfFilter17
+ShelfFilter18,ShelfFilter,High Shelf Filter,Room 1-4,10,1,ShelfFilter18
+Delay10,Delay,10ms Delay,Room 1-4,10,1,Delay10
+UIText172,UIText,Room-3 Speaker Processing,Room 1-4,10,,
+Level31,Level,Level,Room 1-4,10,1,Level31
+UIText174,UIText,,Room 1-4,10,,
+PassFilter107,PassFilter,High Pass Filter,Room 1-4,10,1,PassFilter107
+ParametricEQ51,ParametricEQ,Parametric EQ - 12 Band,Room 1-4,10,1,ParametricEQ51
+ShelfFilter19,ShelfFilter,Low Shelf Filter,Room 1-4,10,1,ShelfFilter19
+ShelfFilter20,ShelfFilter,High Shelf Filter,Room 1-4,10,1,ShelfFilter20
+Delay11,Delay,10ms Delay,Room 1-4,10,1,Delay11
+UIText175,UIText,Room-4 Speaker Processing,Room 1-4,10,,
+Level32,Level,Level,Room 1-4,10,1,Level32
+UIText179,UIText,,Room 1-4,10,,
+TEC-14,TEC-1,Room 1,Room 1-4,10,1,TEC-14
+UIText180,UIText,Automation,Room 1-4,10,,
+UIText181,UIText,,Room 1-4,10,,
+Level33,Level,Level,Room 1-4,10,1,Level33
+AudioMeter28,AudioMeter,RMS Meter,Room 1-4,10,1,AudioMeter28
+UIText182,UIText,Master,Room 1-4,10,,
+AudioMeter29,AudioMeter,RMS Meter,Room 1-4,10,1,AudioMeter29
+Input4,Input,Input 24 Channel,Room 1-4,10,1,Input4
+UIText183,UIText,Input Meters,Room 1-4,10,,
+UIText184,UIText,Output Meters,Room 1-4,10,,
+UIText185,UIText,Input Meters,Room 1-4,10,,
+PCTxAudio3,PCTxAudio,PCTx Audio,Room 1-4,10,1,PCTxRoom1234Audio
+SplitPassThroughIn9,SplitPassThroughIn,APT Link-In,Room 1-4,10,,
+SplitPassThroughOut14,SplitPassThroughOut,APT Link-Out,Room 1-4,10,,
+SplitPassThroughIn10,SplitPassThroughIn,APT Link-In,Room 1-4,10,,
+SplitPassThroughOut15,SplitPassThroughOut,APT Link-Out,Room 1-4,10,,
+SplitPassThroughIn11,SplitPassThroughIn,APT Link-In,Room 1-4,10,,
+SplitPassThroughOut16,SplitPassThroughOut,APT Link-Out,Room 1-4,10,,
+SplitPassThroughIn12,SplitPassThroughIn,APT Link-In,Room 1-4,10,,
+SplitPassThroughOut17,SplitPassThroughOut,APT Link-Out,Room 1-4,10,,
+UIText167,UIText,Room-1,Room 1-4,10,,
+UIText170,UIText,Room-2,Room 1-4,10,,
+UIText173,UIText,Room-3,Room 1-4,10,,
+UIText176,UIText,Room-4,Room 1-4,10,,
+TEC-113,TEC-1,Room 2,Room 1-4,10,1,TEC-113
+TEC-114,TEC-1,Room 3,Room 1-4,10,1,TEC-114
+PresetButton4,PresetButton,Preset Buttons,Room 1-4,10,1,PresetButton4
+PresetButton5,PresetButton,Preset Buttons,Room 1-4,10,1,PresetButton5
+PresetButton6,PresetButton,Preset Buttons,Room 1-4,10,1,PresetButton6
+TEC-115,TEC-1,Room 4,Room 1-4,10,1,TEC-115
+PresetButton7,PresetButton,Preset Buttons,Room 1-4,10,1,PresetButton7
+LogicState1,LogicState,Logic State 4 Channel,Room 1-4,10,1,LogicState1
+PCTxLogic1,PCTxLogic,PCTx Logic,Room 1-4,10,1,PCTxLogic1
+LogicMeter1,LogicMeter,Meter ,Room 1-4,10,1,LogicMeter1
+UIText217,UIText,,Room 1-4,10,,
+ParametricEQ58,ParametricEQ,Parametric EQ - 12 Band,Room 1-4,10,1,ParametricEQ58
+ShelfFilter33,ShelfFilter,Low Shelf Filter,Room 1-4,10,1,ShelfFilter33
+ShelfFilter34,ShelfFilter,High Shelf Filter,Room 1-4,10,1,ShelfFilter34
+Delay18,Delay,10ms Delay,Room 1-4,10,1,Delay18
+UIText218,UIText,Subwoofer Processing,Room 1-4,10,,
+Level43,Level,Level,Room 1-4,10,1,Level43
+UIText219,UIText,Subs,Room 1-4,10,,
+PassFilter114,PassFilter,Low Pass Filter,Room 1-4,10,1,PassFilter114
+Output4,Output,Output 5 Channel,Room 1-4,10,2,Output4
+PresetButton14,PresetButton,Preset Button - 4,Room 1-4,10,1,PresetButton14
+UIText223,UIText,,Room 1-4,10,,
+PartitionConnector1,PartitionConnector,PCRx Logic,System View,,,
+PartitionConnector2,PartitionConnector,PCRx Logic,System View,,,
+PartitionConnector3,PartitionConnector,PCRx Logic,System View,,,
+PartitionConnector4,PartitionConnector,PCRx Logic,System View,,,
+PartitionConnector5,PartitionConnector,PCRx Logic,System View,,,
+PartitionConnector6,PartitionConnector,PCRx Logic,System View,,,
+PartitionConnector7,PartitionConnector,PCRx Logic,System View,,,
+PartitionConnector8,PartitionConnector,PCRx Logic,System View,,,
+PartitionConnector9,PartitionConnector,PCRx Logic,System View,,,
+PartitionConnector10,PartitionConnector,PCTx Mains,System View,,,
+PartitionConnector11,PartitionConnector,PCRx Audio,System View,,,
+PartitionConnector12,PartitionConnector,PCTx Logic Office,System View,,,
+PartitionConnector13,PartitionConnector,PCRx Audio,System View,,,
+PartitionConnector14,PartitionConnector,PCTx Logic  All Hall,System View,,,
+PartitionConnector15,PartitionConnector,PCTx Logic Hall 101,System View,,,
+PartitionConnector16,PartitionConnector,PCTx Logic Hall 123,System View,,,
+PartitionConnector17,PartitionConnector,PCTx Logic Hall 131,System View,,,
+PartitionConnector18,PartitionConnector,PCTx Logic Foyer,System View,,,
+PartitionConnector19,PartitionConnector,PCTx Logic Resource Room,System View,,,
+PartitionConnector20,PartitionConnector,PCRx Audio,System View,,,
+PartitionConnector21,PartitionConnector,PCTx Audio,System View,,,
+PartitionConnector22,PartitionConnector,PCTx Logic,System View,,,
+PartitionConnector23,PartitionConnector,PCRx Audio,System View,,,
+PartitionConnector24,PartitionConnector,PCTx Audio,System View,,,
+PartitionConnector25,PartitionConnector,PCTx Logic,System View,,,

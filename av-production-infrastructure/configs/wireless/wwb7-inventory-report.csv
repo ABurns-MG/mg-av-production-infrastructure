@@ -1,0 +1,12 @@
+﻿"Model","Device Id","FW Ver","Portable FW Ver","Mode","IP Address","Subnet Mask","Gateway Address","MAC Address","Dante IP Address","Serial Number"
+"QLXD4","[S2]","2.3.24","2.3.24","Automatic","10.0.250.137","255.255.255.0","10.0.250.1","00:0E:DD:4E:21:A9","n/a","4202381259 95A35460 03"
+"QLXD4","[S1]","2.6.2","2.6.2","Automatic","10.0.250.174","255.255.255.0","10.0.250.1","00:0E:DD:A5:1E:3B","n/a","4231600751 95AW46211 07"
+"ULXD4Q","[Q1]","2.10.0.0","2.10.0.0","Automatic","10.0.250.60","255.255.255.0","10.0.250.1","00:0E:DD:AB:E6:65","192.168.10.117","4251480650"
+"ULXD4Q","[Q2]","2.10.0.0","2.10.0.0","Automatic","10.0.250.59","255.255.255.0","10.0.250.1","00:0E:DD:AB:E5:D5","192.168.10.11","4251480578"
+
+"Date":,"5/24/26"
+"Time":,"5:32 PM"
+"WWB Version":,"7.5.0.181"
+"Computer's IP Address":,"10.0.250.226"
+"Computer's Subnet Mask":,"255.255.255.0"
+"Computer's Gateway Address":,"0.0.0.0"

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EquipmentTable ExportVersion="5.5.0.26042">
+  <Unit ID="1">
+    <DeviceModel>SERVER-IO</DeviceModel>
+    <DeviceType>Server</DeviceType>
+    <HostName>TesiraServer02986182</HostName>
+    <SerialNumber>02986182</SerialNumber>
+    <InformationSource>Last Updated at 5/24/2026 4:50:35 PM -05:00</InformationSource>
+    <FirmwareVersion>3.11.1.3</FirmwareVersion>
+    <OperatingEnvironmentVersion>3.0.9.0</OperatingEnvironmentVersion>
+    <IPAddresses>
+      <IPV4Address InterfaceID="control">10.10.20.101</IPV4Address>
+    </IPAddresses>
+    <NetworkInferfaces>
+      <InterfaceMACAddress InterfaceID="control">00:90:5E:1A:55:7E</InterfaceMACAddress>
+      <InterfaceMACAddress InterfaceID="media_avb_13">00:90:5E:1A:55:80</InterfaceMACAddress>
+      <InterfaceMACAddress InterfaceID="AVB-1 Primary[Slot 13]">00:90:5E:1A:5F:42</InterfaceMACAddress>
+      <InterfaceMACAddress InterfaceID="AVB-1 Secondary[Slot 13]">00:90:5E:1A:5F:43</InterfaceMACAddress>
+    </NetworkInferfaces>
+  </Unit>
+  <Unit ID="2">
+    <DeviceModel>EX-MOD</DeviceModel>
+    <DeviceType>Rack-mount Expander</DeviceType>
+    <HostName>EX-MOD-02987774</HostName>
+    <ProxyHostName>TesiraServer02986182</ProxyHostName>
+    <SerialNumber>02987774</SerialNumber>
+    <InformationSource>Last Updated at 5/24/2026 4:50:35 PM -05:00</InformationSource>
+    <FirmwareVersion>3.11.1.3</FirmwareVersion>
+    <IPAddresses>
+      <IPV4Address InterfaceID="control">10.10.20.102</IPV4Address>
+    </IPAddresses>
+    <NetworkInferfaces>
+      <InterfaceMACAddress InterfaceID="control">00:90:5E:1A:57:EC</InterfaceMACAddress>
+      <InterfaceMACAddress InterfaceID="AVB-1  Primary[Slot 4]">00:90:5E:1A:57:ED</InterfaceMACAddress>
+      <InterfaceMACAddress InterfaceID="AVB-1  Secondary[Slot 4]">00:90:5E:1A:57:EE</InterfaceMACAddress>
+    </NetworkInferfaces>
+  </Unit>
+  <Unit ID="3">
+    <DeviceModel>EX-OUT</DeviceModel>
+    <DeviceType>Remote Expander</DeviceType>
+    <HostName>EX-OUT-02978490</HostName>
+    <ProxyHostName>TesiraServer02986182</ProxyHostName>
+    <SerialNumber>02978490</SerialNumber>
+    <InformationSource>Last Updated at 5/24/2026 4:50:35 PM -05:00</InformationSource>
+    <FirmwareVersion>3.11.1.3</FirmwareVersion>
+    <IPAddresses>
+      <IPV4Address InterfaceID="control">10.10.20.103</IPV4Address>
+    </IPAddresses>
+    <NetworkInferfaces>
+      <InterfaceMACAddress InterfaceID="control">00:90:5E:1A:40:D0</InterfaceMACAddress>
+      <InterfaceMACAddress InterfaceID="AVB-1  Primary[Slot 2]">00:90:5E:1A:40:D1</InterfaceMACAddress>
+      <InterfaceMACAddress InterfaceID="AVB-1  Secondary[Slot 2]">00:90:5E:1A:40:D2</InterfaceMACAddress>
+    </NetworkInferfaces>
+  </Unit>
+</EquipmentTable>

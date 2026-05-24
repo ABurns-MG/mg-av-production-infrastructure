@@ -1,0 +1,245 @@
+
+
+
+
+
+
+
+Mercygate MB
+
+
+Mercygate Church
+
+
+
+
+Point of contact,,,Venue information,,
+Point of contact:,Raymond Burns,,Venue:,Mercygate,
+Address:,,,Address:,9627 Eagle Drive
+Mont Belvieu, Texas 77532,
+Phone:,,,Phone:,,
+E-mail:,,,E-mail:,worship@mercygatechuch.com,
+Notes:,,,,,
+
+
+
+
+
+Inventory report
+
+
+RF zone: Default   
+
+Primary frequencies (26)
+Model,Band,Channel name,Device ID,Group & Channel,Frequency,Tags,
+No Inclusion Group (26),,,,,,,
+PSM900,G6,IEM 11 (FL1),PSM900,G:-- Ch:--,492.550 MHz,,
+PSM900,G6,IEM 13 (FL6),PSM900,G:-- Ch:--,474.550 MHz,,
+PSM900,G6,IEM 14 (FL3),PSM900,G:-- Ch:--,491.225 MHz,,
+PSM900,G6,IEM 16 (FL4),PSM900,G:-- Ch:--,496.200 MHz,,
+PSM900,G6,IEM 2 (BASS),PSM900,G:-- Ch:--,471.425 MHz,,
+PSM900,G6,IEM 3 (EG1),PSM900,G:-- Ch:--,496.800 MHz,,
+PSM900,G6,IEM 4 (EG2),PSM900,G:-- Ch:--,472.475 MHz,,
+PSM900,G6,IEM 6 (FL2),PSM900,G:-- Ch:--,487.225 MHz,,
+PSM900,G6,IEM 7 (KEYS),PSM900,G:-- Ch:--,499.125 MHz,,
+PSM900,G6,IEM 8 (ACOUS),PSM900,G:-- Ch:--,471.025 MHz,,
+PSM900,G6,IEM1 (FL5),PSM900,G:-- Ch:--,476.225 MHz,,
+PSM900,G6,IEM5 (FL7),PSM900,G:-- Ch:--,486.675 MHz,,
+PSM900,G6,Shure,PSM900,G:-- Ch:--,475.775 MHz,,
+PSM900,G6,Shure,PSM900,G:-- Ch:--,478.700 MHz,,
+PSM900,G6,Shure,PSM900,G:-- Ch:--,484.800 MHz,,
+PSM900,G6,Shure,PSM900,G:-- Ch:--,490.275 MHz,,
+QLXD4,G50,FL2,[S1],G:-- Ch:--,533.150 MHz,,
+QLXD4,G50,LV1,[S2],G:-- Ch:--,529.000 MHz,,
+ULXD4Q/Standard,G57,FL5,[Q1],G:-- Ch:--,566.950 MHz,,
+ULXD4Q/Standard,G57,FL6,[Q1],G:-- Ch:--,560.950 MHz,,
+ULXD4Q/Standard,G57,FL7,[Q1],G:-- Ch:--,566.575 MHz,,
+ULXD4Q/Standard,G57,HDST-1,[Q1],G:-- Ch:--,475.775 MHz,,
+ULXD4Q/Standard,G57,FL1,[Q2],G:-- Ch:--,508.475 MHz,,
+ULXD4Q/Standard,G57,FL3,[Q2],G:-- Ch:--,525.300 MHz,,
+ULXD4Q/Standard,G57,FL4,[Q2],G:-- Ch:--,527.900 MHz,,
+ULXD4Q/Standard,G57,HDST-2,[Q2],G:-- Ch:--,607.650 MHz,,
+
+
+
+
+Backup frequencies (0),,
+
+,
+
+
+
+
+
+Frequency coordination parameters
+
+
+Inclusions
+
+
+No user group currently applied
+
+
+No inclusion list currently applied
+
+
+Exclusions
+
+
+Active TV channels (0)
+
+
+Other exclusions (144)
+
+Type,Source,Frequency,Notes,
+Range,Scan,471.260 MHz - 471.292 MHz,,
+Range,Scan,471.532 MHz - 471.568 MHz,,
+Range,Scan,476.363 MHz - 476.385 MHz,,
+Range,Scan,477.350 MHz - 477.350 MHz,,
+Range,Scan,477.781 MHz - 478.045 MHz,,
+Single,Scan,477.975 MHz,,
+Range,Scan,488.625 MHz - 488.687 MHz,,
+Range,Scan,489.308 MHz - 489.632 MHz,,
+Single,Scan,489.525 MHz,,
+Range,Scan,490.555 MHz - 490.798 MHz,,
+Single,Scan,490.725 MHz,,
+Range,Scan,490.803 MHz - 490.843 MHz,,
+Range,Scan,491.487 MHz - 491.556 MHz,,
+Range,Scan,496.300 MHz - 496.346 MHz,,
+Range,Scan,496.944 MHz - 496.955 MHz,,
+Range,Scan,498.979 MHz - 499.022 MHz,,
+Range,Scan,499.925 MHz - 499.925 MHz,,
+Range,Scan,500.000 MHz - 500.387 MHz,,
+Range,Scan,500.425 MHz - 500.425 MHz,,
+Range,Scan,500.475 MHz - 501.118 MHz,,
+Range,Scan,501.133 MHz - 501.175 MHz,,
+Range,Scan,501.300 MHz - 505.250 MHz,,
+Range,Scan,505.300 MHz - 505.300 MHz,,
+Range,Scan,505.437 MHz - 505.525 MHz,,
+Range,Scan,505.775 MHz - 505.900 MHz,,
+Range,Scan,512.190 MHz - 517.375 MHz,,
+Range,Scan,517.408 MHz - 517.550 MHz,,
+Range,Scan,517.625 MHz - 517.625 MHz,,
+Range,Scan,518.205 MHz - 521.575 MHz,,
+Range,Scan,521.912 MHz - 521.933 MHz,,
+Range,Scan,522.000 MHz - 522.000 MHz,,
+Range,Scan,522.350 MHz - 522.350 MHz,,
+Range,Scan,522.625 MHz - 522.625 MHz,,
+Range,Scan,522.700 MHz - 522.700 MHz,,
+Range,Scan,522.775 MHz - 522.775 MHz,,
+Range,Scan,522.975 MHz - 523.058 MHz,,
+Range,Scan,523.125 MHz - 523.150 MHz,,
+Range,Scan,523.425 MHz - 523.458 MHz,,
+Range,Scan,523.600 MHz - 523.600 MHz,,
+Range,Scan,524.325 MHz - 524.360 MHz,,
+Range,Scan,524.393 MHz - 524.403 MHz,,
+Range,Scan,528.125 MHz - 528.150 MHz,,
+Range,Scan,528.200 MHz - 528.225 MHz,,
+Range,Scan,528.275 MHz - 528.350 MHz,,
+Range,Scan,528.625 MHz - 528.625 MHz,,
+Range,Scan,528.675 MHz - 528.675 MHz,,
+Range,Scan,528.900 MHz - 528.925 MHz,,
+Range,Scan,529.075 MHz - 529.125 MHz,,
+Range,Scan,529.175 MHz - 529.175 MHz,,
+Range,Scan,529.250 MHz - 529.250 MHz,,
+Range,Scan,530.222 MHz - 530.391 MHz,,
+Range,Scan,530.475 MHz - 530.575 MHz,,
+Range,Scan,530.875 MHz - 530.875 MHz,,
+Range,Scan,532.225 MHz - 532.512 MHz,,
+Range,Scan,532.537 MHz - 532.637 MHz,,
+Range,Scan,532.675 MHz - 532.900 MHz,,
+Range,Scan,532.937 MHz - 533.000 MHz,,
+Range,Scan,533.050 MHz - 533.075 MHz,,
+Range,Scan,533.175 MHz - 533.466 MHz,,
+Range,Scan,533.487 MHz - 533.525 MHz,,
+Range,Scan,533.575 MHz - 533.575 MHz,,
+Range,Scan,533.975 MHz - 533.975 MHz,,
+Range,Scan,534.025 MHz - 534.141 MHz,,
+Range,Scan,534.162 MHz - 534.187 MHz,,
+Range,Scan,534.225 MHz - 534.225 MHz,,
+Range,Scan,534.266 MHz - 534.287 MHz,,
+Range,Scan,534.725 MHz - 534.725 MHz,,
+Range,Scan,534.800 MHz - 534.825 MHz,,
+Range,Scan,534.975 MHz - 534.975 MHz,,
+Range,Scan,535.150 MHz - 535.150 MHz,,
+Range,Scan,535.216 MHz - 535.237 MHz,,
+Range,Scan,535.300 MHz - 535.300 MHz,,
+Range,Scan,536.150 MHz - 538.300 MHz,,
+Range,Scan,538.343 MHz - 538.362 MHz,,
+Range,Scan,538.725 MHz - 538.725 MHz,,
+Range,Scan,538.787 MHz - 539.337 MHz,,
+Range,Scan,539.375 MHz - 539.987 MHz,,
+Range,Scan,540.012 MHz - 540.033 MHz,,
+Range,Scan,540.158 MHz - 541.000 MHz,,
+Range,Scan,541.050 MHz - 541.075 MHz,,
+Range,Scan,542.177 MHz - 545.850 MHz,,
+Range,Scan,545.900 MHz - 547.825 MHz,,
+Range,Scan,567.462 MHz - 567.575 MHz,,
+Range,Scan,568.100 MHz - 568.225 MHz,,
+Range,Scan,568.425 MHz - 568.425 MHz,,
+Range,Scan,568.525 MHz - 568.525 MHz,,
+Range,Scan,568.775 MHz - 568.775 MHz,,
+Range,Scan,568.975 MHz - 569.000 MHz,,
+Range,Scan,569.625 MHz - 569.625 MHz,,
+Range,Scan,569.662 MHz - 569.687 MHz,,
+Range,Scan,569.750 MHz - 569.750 MHz,,
+Range,Scan,570.200 MHz - 570.200 MHz,,
+Range,Scan,570.275 MHz - 570.300 MHz,,
+Range,Scan,570.600 MHz - 570.600 MHz,,
+Range,Scan,570.650 MHz - 570.650 MHz,,
+Range,Scan,572.175 MHz - 577.637 MHz,,
+Range,Scan,577.675 MHz - 577.675 MHz,,
+Range,Scan,577.775 MHz - 577.775 MHz,,
+Range,Scan,578.207 MHz - 583.150 MHz,,
+Range,Scan,584.215 MHz - 584.390 MHz,,
+Range,Scan,587.100 MHz - 587.337 MHz,,
+Range,Scan,587.362 MHz - 587.400 MHz,,
+Range,Scan,587.475 MHz - 587.475 MHz,,
+Range,Scan,587.700 MHz - 588.075 MHz,,
+Range,Scan,588.125 MHz - 588.687 MHz,,
+Range,Scan,588.775 MHz - 589.012 MHz,,
+Range,Scan,589.075 MHz - 589.100 MHz,,
+Range,Scan,589.175 MHz - 589.200 MHz,,
+Range,Scan,589.450 MHz - 589.450 MHz,,
+Range,Scan,589.500 MHz - 589.500 MHz,,
+Range,Scan,590.025 MHz - 590.025 MHz,,
+Range,Scan,590.071 MHz - 591.950 MHz,,
+Range,Scan,591.987 MHz - 592.075 MHz,,
+Range,Scan,592.125 MHz - 592.225 MHz,,
+Range,Scan,592.275 MHz - 594.475 MHz,,
+Range,Scan,594.525 MHz - 594.575 MHz,,
+Range,Scan,594.625 MHz - 594.625 MHz,,
+Range,Scan,594.662 MHz - 595.100 MHz,,
+Range,Scan,595.137 MHz - 595.175 MHz,,
+Range,Scan,595.225 MHz - 595.225 MHz,,
+Range,Scan,596.212 MHz - 596.237 MHz,,
+Range,Scan,596.261 MHz - 596.371 MHz,,
+Range,Scan,596.380 MHz - 596.420 MHz,,
+Range,Scan,596.437 MHz - 597.000 MHz,,
+Range,Scan,597.050 MHz - 597.075 MHz,,
+Range,Scan,597.125 MHz - 597.150 MHz,,
+Range,Scan,597.975 MHz - 597.975 MHz,,
+Range,Scan,598.275 MHz - 598.375 MHz,,
+Range,Scan,598.412 MHz - 598.525 MHz,,
+Range,Scan,598.562 MHz - 601.666 MHz,,
+Range,Scan,601.687 MHz - 601.725 MHz,,
+Range,Scan,602.275 MHz - 602.300 MHz,,
+Range,Scan,602.350 MHz - 602.350 MHz,,
+Range,Scan,603.225 MHz - 603.225 MHz,,
+Range,Scan,603.575 MHz - 603.575 MHz,,
+Range,Scan,603.625 MHz - 603.625 MHz,,
+Range,Scan,603.675 MHz - 605.662 MHz,,
+Range,Scan,605.700 MHz - 605.725 MHz,,
+Range,Scan,605.975 MHz - 606.000 MHz,,
+Range,Scan,606.050 MHz - 606.050 MHz,,
+Range,Scan,606.100 MHz - 606.100 MHz,,
+Range,Scan,606.200 MHz - 606.200 MHz,,
+Range,Scan,606.475 MHz - 606.475 MHz,,
+Range,Scan,606.512 MHz - 607.650 MHz,,
+
+
+Created on 24 May 2026 at 5:32PM
+
+
+Generated using Wireless Workbench 7.5.0.181
+

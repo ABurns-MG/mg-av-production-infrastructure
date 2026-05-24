@@ -1,0 +1,534 @@
+{
+  "File": "MercyGate Children's Building Final 12172017_DL260524_16_50_49.tmf",
+  "Blocks": [],
+  "Presets": [
+    {
+      "Name": "1-4 Separate",
+      "Id": 1001
+    },
+    {
+      "Name": "1,2 Together 3,4 Together",
+      "Id": 1002
+    },
+    {
+      "Name": "1,4 Sepatate-2&3 Together",
+      "Id": 1003
+    },
+    {
+      "Name": "1-4 Together",
+      "Id": 1004
+    },
+    {
+      "Name": "5-6 Separate",
+      "Id": 1005
+    },
+    {
+      "Name": "5-6 Together",
+      "Id": 1006
+    },
+    {
+      "Name": "Levels Room 1",
+      "Id": 1007
+    },
+    {
+      "Name": "Source Select Room 1",
+      "Id": 1012
+    },
+    {
+      "Name": "Room 1 Source Auditoruin",
+      "Id": 1013
+    },
+    {
+      "Name": "Levels Room 3",
+      "Id": 1014
+    },
+    {
+      "Name": "Room 1 Source Computer",
+      "Id": 1015
+    },
+    {
+      "Name": "Room 1 Source Media Player",
+      "Id": 1016
+    },
+    {
+      "Name": "Levels Room 2",
+      "Id": 1017
+    },
+    {
+      "Name": "Source Select Room 2",
+      "Id": 1018
+    },
+    {
+      "Name": "Room 2 Source Auditorium",
+      "Id": 1019
+    },
+    {
+      "Name": "Room 2 Source Computer",
+      "Id": 1020
+    },
+    {
+      "Name": "Room 2 Source Media Player",
+      "Id": 1021
+    },
+    {
+      "Name": "Source Select Room 3",
+      "Id": 1022
+    },
+    {
+      "Name": "Room 3 Source Auditorium",
+      "Id": 1023
+    },
+    {
+      "Name": "Room 3 Source Computer",
+      "Id": 1024
+    },
+    {
+      "Name": "Room 3 Source Media Player",
+      "Id": 1025
+    },
+    {
+      "Name": "Levels Room 4",
+      "Id": 1026
+    },
+    {
+      "Name": "Source Select Room 4",
+      "Id": 1027
+    },
+    {
+      "Name": "Room 4 Source Auditorium",
+      "Id": 1028
+    },
+    {
+      "Name": "Room 4 Source Computer",
+      "Id": 1029
+    },
+    {
+      "Name": "Room 4 Source Media Player",
+      "Id": 1030
+    },
+    {
+      "Name": "Source Select Room 1&2",
+      "Id": 1031
+    },
+    {
+      "Name": "Levels Room 1&2",
+      "Id": 1032
+    },
+    {
+      "Name": "Levels Room 3&4",
+      "Id": 1033
+    },
+    {
+      "Name": "Source Select Room 3&4",
+      "Id": 1034
+    },
+    {
+      "Name": "Levels Room 2&3",
+      "Id": 1035
+    },
+    {
+      "Name": "Source Select Room 2&3",
+      "Id": 1037
+    },
+    {
+      "Name": "Levels Room 1-4",
+      "Id": 1038
+    },
+    {
+      "Name": "Source Select Room 1-4",
+      "Id": 1039
+    },
+    {
+      "Name": "Levels Room 5",
+      "Id": 1040
+    },
+    {
+      "Name": "Source Select Room 5",
+      "Id": 1041
+    },
+    {
+      "Name": "Room 5 Source Auditorium",
+      "Id": 1042
+    },
+    {
+      "Name": "Room 5 Source Computer",
+      "Id": 1043
+    },
+    {
+      "Name": "Room 5 Source Media Player",
+      "Id": 1044
+    },
+    {
+      "Name": "Room 6 Source Auditorium",
+      "Id": 1045
+    },
+    {
+      "Name": "Room 6 Source Computer",
+      "Id": 1046
+    },
+    {
+      "Name": "Room 6 Source Media Player",
+      "Id": 1047
+    },
+    {
+      "Name": "Levels Room 6",
+      "Id": 1048
+    },
+    {
+      "Name": "Source Select Room 6",
+      "Id": 1049
+    },
+    {
+      "Name": "Levels Room 5&6",
+      "Id": 1050
+    },
+    {
+      "Name": "Source Select Room 5&6",
+      "Id": 1051
+    },
+    {
+      "Name": "Source Select Office",
+      "Id": 1052
+    },
+    {
+      "Name": "Room Office Source Local",
+      "Id": 1053
+    },
+    {
+      "Name": "Room Office Source Auditorium",
+      "Id": 1054
+    },
+    {
+      "Name": "Room Office Source Computer",
+      "Id": 1055
+    },
+    {
+      "Name": "Room Office Source Media Player",
+      "Id": 1056
+    },
+    {
+      "Name": "Room Office Source Room 1",
+      "Id": 1057
+    },
+    {
+      "Name": "Room Office Source Room 2",
+      "Id": 1058
+    },
+    {
+      "Name": "Room Office Source Room 3",
+      "Id": 1059
+    },
+    {
+      "Name": "Room Office Source Room 4",
+      "Id": 1060
+    },
+    {
+      "Name": "Room Office Source Room 5",
+      "Id": 1061
+    },
+    {
+      "Name": "Room Office Source Room 6",
+      "Id": 1062
+    },
+    {
+      "Name": "Home Screen Office",
+      "Id": 1063
+    },
+    {
+      "Name": "Hall (All) Source Auditorium (Reset)",
+      "Id": 1064
+    },
+    {
+      "Name": "Hall (All) Source Computer",
+      "Id": 1065
+    },
+    {
+      "Name": "Hall (All) Source Media Player",
+      "Id": 1066
+    },
+    {
+      "Name": "Hall (All) Source Auditorium",
+      "Id": 1067
+    },
+    {
+      "Name": "Hall (All) Source Room-1",
+      "Id": 1068
+    },
+    {
+      "Name": "Hall (All) Source Room-2",
+      "Id": 1069
+    },
+    {
+      "Name": "Hall (All) Source Room-3",
+      "Id": 1070
+    },
+    {
+      "Name": "Hall (All) Source Room-4",
+      "Id": 1071
+    },
+    {
+      "Name": "Hall (All) Source Room-5",
+      "Id": 1072
+    },
+    {
+      "Name": "Hall (All) Source Room-6",
+      "Id": 1073
+    },
+    {
+      "Name": "Hall 101 Source Auditorium",
+      "Id": 1074
+    },
+    {
+      "Name": "Hall 101 Source Computer",
+      "Id": 1075
+    },
+    {
+      "Name": "Hall 101 Source Media Player",
+      "Id": 1076
+    },
+    {
+      "Name": "Hall 101 Source Room-1",
+      "Id": 1077
+    },
+    {
+      "Name": "Hall 101 Source Room-2",
+      "Id": 1078
+    },
+    {
+      "Name": "Hall 101 Source Room-3",
+      "Id": 1079
+    },
+    {
+      "Name": "Hall 101 Source Room-4",
+      "Id": 1080
+    },
+    {
+      "Name": "Hall 101 Source Room-5",
+      "Id": 1081
+    },
+    {
+      "Name": "Hall 101 Source Room-6",
+      "Id": 1082
+    },
+    {
+      "Name": "Hall 123 Source Auditoriom",
+      "Id": 1083
+    },
+    {
+      "Name": "Hall 123 Source Computer",
+      "Id": 1084
+    },
+    {
+      "Name": "Hall 123 Source Madia Player",
+      "Id": 1085
+    },
+    {
+      "Name": "Hall 123 Source Room-1",
+      "Id": 1086
+    },
+    {
+      "Name": "Hall 123 Source Room-2",
+      "Id": 1087
+    },
+    {
+      "Name": "Hall 123 Source Room--3",
+      "Id": 1088
+    },
+    {
+      "Name": "Hall 123 Source Room-4",
+      "Id": 1089
+    },
+    {
+      "Name": "Hall 123 Source Room-5",
+      "Id": 1090
+    },
+    {
+      "Name": "Hall 123 Source Room-6",
+      "Id": 1091
+    },
+    {
+      "Name": "Hall 131 Source Auditorium",
+      "Id": 1092
+    },
+    {
+      "Name": "Hall 131 Source Computer",
+      "Id": 1093
+    },
+    {
+      "Name": "Hall 131 Source Media Player",
+      "Id": 1094
+    },
+    {
+      "Name": "Hall 131 Source Room-1",
+      "Id": 1095
+    },
+    {
+      "Name": "Hall 131 Source Room-2",
+      "Id": 1096
+    },
+    {
+      "Name": "Hall 131 Source Room-3",
+      "Id": 1097
+    },
+    {
+      "Name": "Hall 131 Source Room-4",
+      "Id": 1098
+    },
+    {
+      "Name": "Hall 131 Source Room-5",
+      "Id": 1099
+    },
+    {
+      "Name": "Hall 131 Source Room-6",
+      "Id": 1100
+    },
+    {
+      "Name": "Hall Foyer Source Auditorium",
+      "Id": 1101
+    },
+    {
+      "Name": "Hall Foyer Source Computer",
+      "Id": 1102
+    },
+    {
+      "Name": "Hall Foyer Source Media Player",
+      "Id": 1103
+    },
+    {
+      "Name": "Hall Foyer Source Room-1",
+      "Id": 1104
+    },
+    {
+      "Name": "Hall Foyer Source Room-2",
+      "Id": 1105
+    },
+    {
+      "Name": "Hall Foyer Source Room-3",
+      "Id": 1106
+    },
+    {
+      "Name": "Hall Foyer Source Room-4",
+      "Id": 1107
+    },
+    {
+      "Name": "Hall Foyer Source Room-5",
+      "Id": 1108
+    },
+    {
+      "Name": "Hall Foyer Source Room-6",
+      "Id": 1109
+    },
+    {
+      "Name": "Room (Resource) Source Auditorium",
+      "Id": 1110
+    },
+    {
+      "Name": "Room (Resource) Source Computer",
+      "Id": 1111
+    },
+    {
+      "Name": "Room (Resource) Source Media Player",
+      "Id": 1112
+    },
+    {
+      "Name": "Room (Resource) Source Room-1",
+      "Id": 1113
+    },
+    {
+      "Name": "Room (Resource) Source Room-2",
+      "Id": 1114
+    },
+    {
+      "Name": "Room (Resource) Source Room-3",
+      "Id": 1115
+    },
+    {
+      "Name": "Room (Resource) Source Room-4",
+      "Id": 1116
+    },
+    {
+      "Name": "Room (Resource) Source Room-5",
+      "Id": 1117
+    },
+    {
+      "Name": "Room (Resource) Source Room-6",
+      "Id": 1118
+    },
+    {
+      "Name": "Home Screen Hallway 101",
+      "Id": 1119
+    },
+    {
+      "Name": "Source Select Hall 101",
+      "Id": 1120
+    },
+    {
+      "Name": "Hall 101 Advanced Selections",
+      "Id": 1121
+    },
+    {
+      "Name": "Home Screen Hallway 123",
+      "Id": 1122
+    },
+    {
+      "Name": "Source Select Hall 123",
+      "Id": 1123
+    },
+    {
+      "Name": "Hall 123 Advanced Selections",
+      "Id": 1124
+    },
+    {
+      "Name": "Home Screen Hallway 131",
+      "Id": 1125
+    },
+    {
+      "Name": "Source Select Hall 131",
+      "Id": 1126
+    },
+    {
+      "Name": "Hall 131 Advanced Selections",
+      "Id": 1127
+    },
+    {
+      "Name": "Home Screen Foyer",
+      "Id": 1128
+    },
+    {
+      "Name": "Source Select Foyer",
+      "Id": 1129
+    },
+    {
+      "Name": "Hall Foyer Advanced Selections",
+      "Id": 1130
+    },
+    {
+      "Name": "Home Screen Resource Room",
+      "Id": 1131
+    },
+    {
+      "Name": "Source Select Resource Room",
+      "Id": 1132
+    },
+    {
+      "Name": "Hall Resource RM Advanced Selections",
+      "Id": 1133
+    },
+    {
+      "Name": "Source Select Foyer Global",
+      "Id": 1134
+    },
+    {
+      "Name": "Source Select Foyer Advanced Global",
+      "Id": 1135
+    },
+    {
+      "Name": "Global Reset Confirmation",
+      "Id": 1136
+    },
+    {
+      "Name": "Sorce Select 1&4",
+      "Id": 1137
+    }
+  ]
+}

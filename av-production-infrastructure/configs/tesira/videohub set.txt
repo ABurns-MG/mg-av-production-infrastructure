@@ -1,0 +1,80 @@
+Input, 1, Classroom 1
+Input, 2, Classroom 2
+Input, 3, Classroom 3
+Input, 4, Classroom 4
+Input, 5, Classroom 5
+Input, 6, Classroom 6
+Input, 7, Display Mac 1
+Input, 8, Display Mac 2
+Input, 9, Display Mac 3
+Input, 10, Display Mac 4
+Input, 11, -
+Input, 12, Worship Center Feed
+Input, 13, Multiview Worship Feed
+Input, 14, -
+Input, 15, -
+Input, 16, -
+Input, 17, -
+Input, 18, -
+Input, 19, -
+Input, 20, -
+Input, 21, -
+Input, 22, -
+Input, 23, -
+Input, 24, -
+Input, 25, -
+Input, 26, -
+Input, 27, -
+Input, 28, -
+Input, 29, -
+Input, 30, -
+Input, 31, -
+Input, 32, -
+Input, 33, -
+Input, 34, -
+Input, 35, -
+Input, 36, -
+Input, 37, -
+Input, 38, -
+Input, 39, -
+Input, 40, -
+Output, 1, Projector 1
+Output, 2, Projector 2
+Output, 3, Projector 3
+Output, 4, Projector 4
+Output, 5, Projector 5
+Output, 6, Projector 6
+Output, 7, Classroom TV1
+Output, 8, Classroom TV2
+Output, 9, Classroom TV3
+Output, 10, Classroom TV4
+Output, 11, Classroom TV5
+Output, 12, Classroom TV6
+Output, 13, Foyer TV1
+Output, 14, Foyer TV2
+Output, 15, Kids Check in TV1
+Output, 16, Kids Check in TV2
+Output, 17, Nursery Lobby TV
+Output, 18, Nursing Mothers TV
+Output, 19, Pastors Office
+Output, 20, -
+Output, 21, -
+Output, 22, -
+Output, 23, -
+Output, 24, -
+Output, 25, -
+Output, 26, -
+Output, 27, -
+Output, 28, -
+Output, 29, -
+Output, 30, -
+Output, 31, -
+Output, 32, -
+Output, 33, -
+Output, 34, -
+Output, 35, -
+Output, 36, -
+Output, 37, -
+Output, 38, -
+Output, 39, -
+Output, 40, Mac Mini Audio
