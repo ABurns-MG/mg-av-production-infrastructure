@@ -1,21 +1,26 @@
 # Main Sanctuary – Switcher Settings
 
-## Switcher
-
-Datavideo SE-3200
+> **Model:** Datavideo SE-3200  
+> **IP:** 192.168.0.101 (VLAN 110) | **MAC:** 00:07:36:0a:85:c8  
+> **Last Updated:** 2026-05-24
 
 ## Input Configuration
 
-| Input # | Source | Format | Notes |
-|---------|--------|--------|-------|
-| (To be documented) | | | |
+| Input # | Source | Format | IP | Notes |
+|---------|--------|--------|-----|-------|
+| 1 | Remote Stream Camera 1 | SDI | 192.168.0.12 | PTZ via AW-RP150 |
+| 2 | Remote Stream Camera 2 | SDI | 192.168.0.13 | PTZ via AW-RP150 |
+| 3 | Remote Stream Camera 3 | SDI | 192.168.0.14 | PTZ via AW-RP150 |
+| 4 | Camera 4 (Booth) | SDI | 192.168.0.15 | PTZ via AW-RP150 |
+| Audio | BCast-Audio (AVIO-DAO2) | Analog | — | DM7 TX 63-64 (Broadcast L/R) |
 
 ## Output Configuration
 
 | Output # | Destination | Format | Notes |
 |----------|-------------|--------|-------|
 | PGM | Livestream encoder | SDI | Primary program output |
-| (Others TBD) | | | |
+| PGM | NovaStar LED Wall | SDI/HDMI | IMAG feed (10.0.250.26) |
+| AUX | Confidence monitors | SDI | Stage / green room |
 
 ## Key Settings
 
