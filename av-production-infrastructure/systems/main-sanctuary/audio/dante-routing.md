@@ -6,6 +6,31 @@
 
 ---
 
+## Device Cross-Reference (Dante ↔ UniFi Network)
+
+Dante device names encode the **last 3 bytes of the Dante NIC MAC address** as a suffix (e.g., `c9a984` → `ac:44:f2:c9:a9:84`). This table maps each Dante device to its UniFi-observed network identity.
+
+| Dante Device Name | MAC (Dante NIC) | Dante IP (VLAN 130) | Mgmt IP (VLAN 250) | Manufacturer |
+|-------------------|----------------|---------------------|---------------------|--------------|
+| Y001-Yamaha-DM7-c9a984 | ac:44:f2:c9:a9:84 | 192.168.10.138 | 10.0.250.31 | Yamaha |
+| Y001-Yamaha-Rio3224-D2-25e264 | 00:1d:c1:25:e2:64 | 192.168.10.149 | — | Audinate |
+| Y002-Yamaha-Rio1608-D2-28589c | 00:1d:c1:28:58:9c | 192.168.10.238 | — | Audinate |
+| AllenHth-2182fc | 00:1d:c1:21:82:fc | 192.168.10.22 | — | Audinate (A&H ME card) |
+| ULXD4Q-ea9fd2 | — | 192.168.10.59 | 10.0.250.174 | Shure |
+| ULXD4Q-eacb78 | — | — | — | Shure |
+| KLANG-IEM (0FC611) | 00:04:c4:0f:c6:11 | DHCP | 10.10.20.232 | Audiotonix |
+| MG-AVL-Ableton | 14:98:77:83:07:1d | 192.168.10.10 | — | Apple (Mac Mini) |
+| ProPresenter-MacMini | 20:a5:cb:ca:81:6a | 192.168.10.79 | — | Apple |
+| Resolume-Mac-Studio | 9c:76:0e:3a:58:5f | DHCP | — | Apple |
+| BCast-Audio | 00:1d:c1:xx:xx:xx | DHCP | — | Audinate (AVIO-DAO2) |
+| IEM AVIO Adapters (×12) | 00:1d:c1:54/55:xx:xx | DHCP | — | Audinate (AVIO-DAO2) |
+
+> **Note:** The DLive C3500 (`192.168.10.5` / `10.0.250.8`, MAC `00:04:c4:09:0f:68`) appears in UniFi as a saved fixed address but has been **relocated to MercyGate League City**. It is not part of the active Main Sanctuary Dante network.
+
+> **Cross-reference source:** [`configs/network/avl-clients.md`](../../../configs/network/avl-clients.md)
+
+---
+
 ## Table of Contents
 
 1. [DM7 (Console – Clock Master)](#y001-yamaha-dm7-c9a984)

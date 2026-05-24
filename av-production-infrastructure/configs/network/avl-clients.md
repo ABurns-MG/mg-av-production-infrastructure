@@ -15,7 +15,7 @@ All Dante-networked audio devices. IGMP snooping enabled for multicast managemen
 | **Yamaha Rio3224-D2** | 192.168.10.149 | 00:1d:c1:25:e2:64 | Audinate | Stage box in AVL rack |
 | **Yamaha Rio1608-D2** | 192.168.10.238 | 00:1d:c1:28:58:9c | Audinate | Stage box by drums |
 | **Allen & Heath ME Option Card** | 192.168.10.22 | 00:1d:c1:21:82:fc | Audinate | ME-1 backup IEM interface |
-| **DLive C3500 Dante** | 192.168.10.5 | 00:04:c4:09:0f:68 | Audiotonix | Shared MAC with surface; Dante port |
+| **DLive C3500 Dante** | 192.168.10.5 | 00:04:c4:09:0f:68 | Audiotonix | ⚠️ **Relocated to MercyGate League City** — saved fixed address only |
 | **Shure ULXD4Q** | 192.168.10.59 | 00:0e:dd:ab:e5:d5 | Shure | Bottom wireless unit |
 | **ProPresenter Dante** | 192.168.10.79 | 20:a5:cb:ca:81:6a | Apple | AVLProPrMacMini (Dante NIC) |
 | **AVL-Broadcast-Mac** | 192.168.10.10 | 14:98:77:83:07:1d | Apple | LogicPro/Ableton broadcast processing |
@@ -63,7 +63,7 @@ Control and management network for AVL devices (non-audio traffic).
 | **London DSP Processor** | 10.0.250.98 | 00:0f:d4:03:7c:28 | Soundcraft | BSS London (zone DSP) |
 | **Allen & Heath IP8 Remote** | 10.0.250.9 | 00:04:c4:05:e5:f0 | Audiotonix | At mixing console; PoE+ only |
 | **Allen & Heath Mix Rack** | 10.0.250.7 | 00:04:c4:06:34:9d | Audiotonix | DLive mix rack |
-| **DLive C3500 Surface** | 10.0.250.8 | 00:04:c4:09:0f:68 | Audiotonix | Same MAC as Dante port; surface IP |
+| **DLive C3500 Surface** | 10.0.250.8 | 00:04:c4:09:0f:68 | Audiotonix | ⚠️ **Relocated to MercyGate League City** — saved fixed address only |
 | **Shure Wireless Microphone** | 10.0.250.174 | 00:0e:dd:a5:1e:3b | Shure | Wireless management/WWB |
 
 ---
