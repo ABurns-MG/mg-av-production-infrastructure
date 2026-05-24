@@ -7,16 +7,16 @@
 ```mermaid
 flowchart TD
 	subgraph ClockMaster["★ Clock Master"]
-		DM7["Y001-Yamaha-DM7-c9a984<br/>Yamaha DM7 (144 TX/144 RX)<br/>Preferred Master + Ext Word Clock"]
+		DM7["Y001-Yamaha-DM7-c9a984<br/>Yamaha DM7 (144 TX/144 RX)<br/>192.168.10.138<br/>Preferred Master + Ext Word Clock"]
 	end
 
 	subgraph StageBoxes["Stage Boxes"]
 		RIO32["Y001-Yamaha-Rio3224-D2<br/>32 TX / 24 RX<br/>192.168.10.149"]
-		RIO16["Y002-Yamaha-Rio1608-D2<br/>16 TX / 8 RX<br/>Drums Only"]
+		RIO16["Y002-Yamaha-Rio1608-D2<br/>16 TX / 8 RX<br/>192.168.10.238<br/>Drums Only"]
 	end
 
 	subgraph MonitorSystem["IEM Monitor System"]
-		KLANG["KLANG-IEM<br/>DiGiCo DMI DANTE 64@96z<br/>64 TX / 64 RX"]
+		KLANG["KLANG-IEM<br/>DiGiCo DMI DANTE 64@96z<br/>64 TX / 64 RX<br/>Mgmt: 10.10.20.232"]
 		IEM1["IEM1-FL5"]
 		IEM2["IEM2-BASS"]
 		IEM3["IEM3-EG1"]
@@ -32,21 +32,21 @@ flowchart TD
 	end
 
 	subgraph Wireless["Shure Wireless"]
-		ULXD1["ULXD4Q-ea9fd2<br/>FL1, HDST-2, FL3, FL4"]
+		ULXD1["ULXD4Q-ea9fd2<br/>192.168.10.59<br/>FL1, HDST-2, FL3, FL4"]
 		ULXD2["ULXD4Q-eacb78<br/>FL5, FL6, FL7, HDST-1"]
 	end
 
 	subgraph Workstations["DVS Workstations"]
-		ABL["MG-AVL-Ableton<br/>Mac Mini (Processing)"]
+		ABL["MG-AVL-Ableton<br/>192.168.10.10<br/>Mac Mini (Processing)"]
 		JD["JD-MG-MacBook-Pro<br/>Multitrack Playback"]
 		MT["MultiTrack-Playback-mini<br/>Secondary Playback"]
 		RES["Resolume-Mac-Studio<br/>Video Audio"]
-		PP["ProPresenter-MacMini<br/>Presentation Audio"]
+		PP["ProPresenter-MacMini<br/>192.168.10.79<br/>Presentation Audio"]
 	end
 
 	subgraph Outputs["Audio Outputs"]
 		BCAST["BCast-Audio<br/>AVIO-DAO2 → SE-3200"]
-		AH["AllenHth-2182fc<br/>Allen & Heath (Recorder)"]
+		AH["AllenHth-2182fc<br/>192.168.10.22<br/>Allen & Heath (Recorder)"]
 	end
 
 	%% Stage inputs to DM7 and KLANG

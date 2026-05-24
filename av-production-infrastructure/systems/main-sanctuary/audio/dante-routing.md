@@ -24,6 +24,7 @@
 ## Y001-Yamaha-DM7-c9a984
 
 **Model:** Yamaha DM7 (V1.73) | **Capacity:** 144 TX / 144 RX | **Role:** ★ Clock Master, FOH + Broadcast Console  
+**Dante IP:** 192.168.10.138 | **Console Net IP:** 10.0.250.31  
 **Preferred Master:** Yes | **External Word Clock:** Yes | **Encoding:** 32-bit | **Unicast Latency:** 5 ms
 
 ### DM7 Transmit Channels (Key Outputs)
@@ -207,6 +208,7 @@
 ## MG-AVL-Ableton
 
 **Model:** Dante Virtual Soundcard (macOS) v4.5.1 | **Hardware:** Mac Mini | **Encoding:** 32-bit  
+**Dante IP:** 192.168.10.10  
 **Role:** Primary audio processing — receives raw channels, returns processed audio to DM7
 
 ### Ableton TX Channels (Processed Returns → DM7)
@@ -285,7 +287,7 @@
 
 ## Y002-Yamaha-Rio1608-D2-28589c
 
-**Model:** Yamaha Rio1608-D2 | **Role:** Drum stage box (all drum microphones)
+**Model:** Yamaha Rio1608-D2 | **IP:** 192.168.10.238 | **Role:** Drum stage box (all drum microphones)
 
 ### Rio1608 TX Channels (Drums → Network)
 
@@ -308,6 +310,7 @@
 ## KLANG-IEM
 
 **Model:** DiGiCo DMI DANTE 64@96z (V4.2.4) | **Capacity:** 64 TX / 64 RX  
+**Dante IP:** DHCP (VLAN 130) | **Management IP:** 10.10.20.232  
 **Role:** In-Ear Monitor mix processor — receives all inputs, creates personalized stereo mixes for each musician
 
 ### KLANG TX Channels (IEM Mixes → AVIO Adapters)
