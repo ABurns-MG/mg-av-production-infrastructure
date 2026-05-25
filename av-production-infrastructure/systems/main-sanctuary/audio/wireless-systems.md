@@ -53,23 +53,25 @@ The WWB7 export reveals different IPs than what UniFi reported:
 | 3 | FL7 | 566.575 | RX 59 | Front Line 7 |
 | 4 | HDST-1 | 475.775 | RX 60 | Headset 1 (Pastor) |
 
-### QLXD4 [S1] — Analog (no Dante)
+### QLXD4 [S1] — Analog (no Dante) | IP: 10.0.250.174
 
 | Ch | Name | Frequency (MHz) | Connection | Role |
 |----|------|-----------------|------------|------|
-| 1 | FL2 | 533.150 | Analog to Rio3224 | Front Line 2 |
+| 1 | FL2 | 533.150 | Analog → DM7 Omni In | Front Line 2 |
 
-### QLXD4 [S2] — Analog (no Dante)
+### QLXD4 [S2] — Analog (no Dante) | IP: 10.0.250.137
 
 | Ch | Name | Frequency (MHz) | Connection | Role |
 |----|------|-----------------|------------|------|
-| 1 | LV1 | 529.000 | Analog to Rio3224 | Lavalier 1 |
+| 1 | LV1 | 529.000 | Analog → DM7 Omni In | Lavalier 1 |
 
 ---
 
 ## IEM Transmitters (Shure PSM900 – Band G6)
 
 All PSM900 units are RF transmitters for in-ear monitors. Audio feed comes from KLANG via AVIO-DAO2 adapters (Dante), converted to analog, then fed to PSM900 inputs.
+
+> **AVIO Adapter IPs:** All AVIO-DAO2 adapters are on VLAN 130 (192.168.10.0/24) with DHCP-assigned addresses. No static IPs are configured. Dante device names (e.g., `IEM6-FL2`) are the authoritative identifiers.
 
 | IEM Unit | Musician | Frequency (MHz) | KLANG TX Ch | AVIO Adapter |
 |----------|----------|-----------------|-------------|--------------|

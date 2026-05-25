@@ -59,7 +59,7 @@
 | Ch | Name | Color | Icon | Source | Signal |
 |----|------|-------|------|--------|--------|
 | 23 | FL1 | Red | — | ULXD4Q-ea9fd2 TX 1 | Front Line vocal 1 |
-| 24 | FL2 | Red | — | DM7 direct (wired) | Front Line vocal 2 |
+| 24 | FL2 | Red | — | DM7 Omni In (from QLXD4 S1 analog) | Front Line vocal 2 |
 | 25 | FL3 | Red | — | ULXD4Q-ea9fd2 TX 3 | Front Line vocal 3 |
 | 26 | FL4 | Red | — | ULXD4Q-ea9fd2 TX 4 | Front Line vocal 4 |
 | 27 | JD VOX | Red | — | Rio3224 TX 29 | Music Director vocal (wired) |
