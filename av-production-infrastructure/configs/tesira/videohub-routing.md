@@ -1,14 +1,15 @@
 # Blackmagic Videohub – SDI Routing Matrix
 
-> **Source:** `videohub set.txt` (exported from Videohub Smart Control)  
+> **Source:** `videohub set.txt` (exported from Videohub Smart Control) + UniFi MongoDB  
 > **Model:** Blackmagic Smart Videohub 40×40  
+> **IP:** 10.10.20.121 | **MAC:** 7c:2e:0d:07:f7:88  
 > **Export Date:** 2026-05-24
 
 ---
 
 ## Overview
 
-The Blackmagic 40×40 SDI router distributes video from the Main Sanctuary and media sources to classrooms, hallways, foyer displays, and utility destinations throughout the facility.
+The Blackmagic 40×40 SDI router distributes video from the Main Sanctuary and media sources to classrooms, hallways, foyer displays, and utility destinations throughout the facility. Each output feeds a **Blackmagic Teranex Mini** which de-embeds the SDI audio for the Tesira DSP system.
 
 ---
 
@@ -78,7 +79,47 @@ The Blackmagic 40×40 SDI router distributes video from the Main Sanctuary and m
 
 ## Integration with Tesira
 
-The "Mac Mini Audio" output (Out 40) is likely the SDI de-embed feed that provides "Worship Center Feed" audio to the Tesira DSP system for hallway/classroom distribution.
+The "Mac Mini Audio" output (Out 40) and each classroom/worship feed passes through a **Blackmagic Teranex Mini SDI to Audio** de-embedder. The de-embedded audio is fed to the Tesira DSP for zone distribution.
+
+### Teranex SDI De-Embedders
+
+| Device Name | IP | MAC | Videohub Output | Audio Destination |
+|-------------|-----|-----|-----------------|-------------------|
+| **Teranex Classroom 1** | 10.10.20.122 | 7c:2e:0d:07:fc:2e | Out 1/7 | Tesira (Classroom 1 audio) |
+| **Teranex Classroom 2** | 10.10.20.123 | 7c:2e:0d:18:bb:cb | Out 2/8 | Tesira (Classroom 2 audio) |
+| **Teranex Classroom 3** | 10.10.20.124 | 7c:2e:0d:07:fc:14 | Out 3/9 | Tesira (Classroom 3 audio) |
+| **Teranex Classroom 4** | 10.10.20.125 | 7c:2e:0d:07:fc:15 | Out 4/10 | Tesira (Classroom 4 audio) |
+| **Teranex Classroom 5** | 10.10.20.126 | 7c:2e:0d:17:c7:bc | Out 5/11 | Tesira (Classroom 5 audio) |
+| **Teranex Classroom 6** | 10.10.20.127 | 7c:2e:0d:17:c7:d0 | Out 6/12 | Tesira (Classroom 6 audio) |
+| **Teranex Worship Center** | 10.10.20.128 | 7c:2e:0d:07:fc:12 | Out 12 (Worship Center Feed) | Tesira (Worship audio for hallways/foyer) |
+| **Teranex DisplayMac 1** | 10.10.21.254 | 7c:2e:0d:08:16:75 | Out (Display Mac 1) | Tesira (Mac playback audio) |
+| **Teranex DisplayMac 2** | 10.10.20.13 | 7c:2e:0d:08:16:68 | Out (Display Mac 2) | Tesira (Mac playback audio) |
+| **Teranex DisplayMac 4** | 10.10.21.0 | 7c:2e:0d:08:3b:ee | Out (Display Mac 4) | Tesira (Mac playback audio) |
+
+### Signal Flow (SDI Audio De-Embed)
+
+```
+SE-3200 PGM ──SDI──→ Videohub (In 12: Worship Center Feed)
+                          │
+                     Videohub Out 12 ──SDI──→ Teranex Worship Center
+                                                    │
+                                              Analog Audio Out
+                                                    │
+                                              Tesira SERVER-IO (Input)
+                                                    │
+                                              Zone Routing → Hallways, Foyer, etc.
+```
+
+Each classroom follows the same pattern: Videohub output → Teranex → analog audio → Tesira input for local zone speaker distribution.
+
+### Additional Blackmagic Infrastructure
+
+| Device | IP | MAC | Role |
+|--------|-----|-----|------|
+| **Blackmagic 40×40 Videohub** | 10.10.20.121 | 7c:2e:0d:07:f7:88 | SDI routing matrix |
+| **AVL BMD Multiview** | 10.10.20.40 | 7c:2e:0d:16:ab:e5 | Monitoring multiview |
+| **MG-Cloud-Store** | 10.10.20.7 | 7c:2e:0d:a7:7a:73 | 20TB media archive |
+| **MG_Hyperdeck-A** | 10.10.20.13 | 7c:2e:0d:1c:0e:5e | Podcast/streaming recorder |
 
 ---
 

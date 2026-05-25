@@ -7,19 +7,23 @@
 ## Signal Flow
 
 ```
-Resolume Arena (Mac Studio) ──SDI──→ ATEM 2M/E (Input 1)
-ProPresenter (Mac Mini) ──SDI Key/Fill──→ ATEM 2M/E (Input 2-3)
-                                              │
-                                         SuperSource 1
-                                         (compositing)
-                                              │
-                                         ATEM Output 1 ──SDI──→ NovaStar ──→ LED Wall
-                                                                (10.0.250.26)
+Resolume Arena (Mac Studio) ──SDI──→ ATEM 2M/E (Input 1) ──→ M/E PGM (background)
+                                                                    │
+                                                                 DSK 1
+                                                               (key/fill)
+                                                                    ↑
+ProPresenter (Mac Mini) ──SDI Key──→ ATEM Input 2 ─────────────────┤
+ProPresenter (Mac Mini) ──SDI Fill──→ ATEM Input 3 ────────────────┘
+                                                                    │
+                                                              ATEM Output 1
+                                                                    │
+                                                              NovaStar 600
+                                                               (10.0.250.26)
+                                                                    │
+                                                               LED Wall
+                                                            (2816×1024)
 
-SE-3200 PGM ──SDI──→ (available ATEM Input 4 for IMAG overlay)
-
-MVX Controller ──→ LED Wall (video mapping)
-   (10.0.250.172)
+SE-3200 PGM ──SDI──→ Videohub (In 12) ──→ Teranex de-embed ──→ Tesira zones
 ```
 
 ---
@@ -28,7 +32,7 @@ MVX Controller ──→ LED Wall (video mapping)
 
 | Display | Location | Processor | Processor IP | Notes |
 |---------|----------|-----------|--------------|-------|
-| LED Wall | Stage center | NovaStar | 10.0.250.26 | 2816×1024 ultra-wide, fed from ATEM SS1 |
+| LED Wall | Stage center | NovaStar 600 | 10.0.250.26 | 2816×1024 ultra-wide, fed from ATEM DSK1 composite |
 
 ---
 

@@ -9,7 +9,7 @@
 
 ## Role
 
-The Blackmagic ATEM 2 M/E is dedicated to **LED wall compositing** using SuperSource. It receives Resolume Arena output and ProPresenter key/fill for overlay compositing, then sends the composed output to the NovaStar LED wall processor.
+The Blackmagic ATEM 2 M/E is dedicated to **LED wall compositing**. Resolume Arena provides the background visual content (Input 1), and ProPresenter is keyed over it using **DSK 1** (Key on Input 2, Fill on Input 3). The composed output goes to the NovaStar LED wall processor.
 
 ---
 
@@ -50,29 +50,38 @@ The Blackmagic ATEM 2 M/E is dedicated to **LED wall compositing** using SuperSo
 | Art Clip | 50% |
 | Art Gain | 70% |
 
-> SuperSource is used to composite Resolume visuals with ProPresenter overlays (lyrics, lower thirds) for the LED wall.
+> SuperSource is available but the **primary compositing method is DSK 1**: ProPresenter Key/Fill is downstream-keyed over the Resolume background.
+
+---
+
+## DSK 1 – Primary Compositing (ProPresenter over Resolume)
+
+| Parameter | Value |
+|-----------|-------|
+| **DSK 1 Fill** | Input 3 (Pro Presenter Fill) |
+| **DSK 1 Key** | Input 2 (Pro Presenter Key) |
+| **Function** | Lyrics, lower thirds, and graphics overlaid on Resolume background |
+
+> **Live signal flow:** Resolume (Input 1) → M/E PGM → DSK 1 composites ProPresenter → Output 1 → NovaStar 600 → LED Wall
 
 ---
 
 ## Mix Effects (M/E) Keyers
 
-Both ME 1 and ME 2 have 4 keyers configured:
+Both ME 1 and ME 2 have 4 keyers configured (default/unused at export time):
 
 | ME | Key | Type | Fill Source | Cut Source | On Air |
 |----|-----|------|------------|------------|--------|
 | 1 | 0–3 | Luma | Media Player | Media Player Key | Off |
 | 2 | 0–3 | Luma | Media Player | Media Player Key | Off |
 
-> Keys are pre-configured but not actively on-air at export time. Likely used for DSK overlays during live production.
-
 ---
 
-## DSK (Downstream Keyers)
+## DSK 2
 
-| DSK | Available |
-|-----|-----------|
-| DSK 1 | Yes (mask configured) |
-| DSK 2 | Yes (mask configured) |
+| DSK | Status |
+|-----|--------|
+| DSK 2 | Available (not assigned) |
 
 ---
 
@@ -95,16 +104,20 @@ Both ME 1 and ME 2 have 4 keyers configured:
 ## Signal Flow
 
 ```
-Resolume Arena (Mac Studio) ──SDI──→ ATEM Input 1
-ProPresenter (Mac Mini) ──SDI Key──→ ATEM Input 2
-ProPresenter (Mac Mini) ──SDI Fill──→ ATEM Input 3
-										 │
-									SuperSource 1
-									(compositing)
-										 │
-									ATEM Output 1 ──SDI──→ NovaStar (10.0.250.26)
-															  │
-														 LED Wall
+Resolume Arena (Mac Studio) ──SDI──→ ATEM Input 1 ──→ M/E PGM (background)
+														  │
+													   DSK 1
+													 (key/fill)
+														  ↑
+ProPresenter (Mac Mini) ──SDI Key──→ ATEM Input 2 ────────┤
+ProPresenter (Mac Mini) ──SDI Fill──→ ATEM Input 3 ───────┘
+														  │
+													ATEM Output 1
+														  │
+												   NovaStar 600
+													(10.0.250.26)
+														  │
+													  LED Wall
 ```
 
 ---

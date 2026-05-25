@@ -87,6 +87,18 @@ PTZ camera control network (VISCA/IP, tally).
 
 | Device | IP | MAC | OUI/Manufacturer | Notes |
 |--------|-----|-----|-----------------|-------|
+| **Blackmagic 40×40 Videohub** | 10.10.20.121 | 7c:2e:0d:07:f7:88 | Blackmagic | SDI routing matrix (Children's / distribution) |
+| **Teranex Classroom 1** | 10.10.20.122 | 7c:2e:0d:07:fc:2e | Blackmagic | SDI→Audio de-embed for Classroom 1 |
+| **Teranex Classroom 2** | 10.10.20.123 | 7c:2e:0d:18:bb:cb | Blackmagic | SDI→Audio de-embed for Classroom 2 |
+| **Teranex Classroom 3** | 10.10.20.124 | 7c:2e:0d:07:fc:14 | Blackmagic | SDI→Audio de-embed for Classroom 3 |
+| **Teranex Classroom 4** | 10.10.20.125 | 7c:2e:0d:07:fc:15 | Blackmagic | SDI→Audio de-embed for Classroom 4 |
+| **Teranex Classroom 5** | 10.10.20.126 | 7c:2e:0d:17:c7:bc | Blackmagic | SDI→Audio de-embed for Classroom 5 |
+| **Teranex Classroom 6** | 10.10.20.127 | 7c:2e:0d:17:c7:d0 | Blackmagic | SDI→Audio de-embed for Classroom 6 |
+| **Teranex Worship Center** | 10.10.20.128 | 7c:2e:0d:07:fc:12 | Blackmagic | SDI→Audio de-embed for Worship Sanctuary feed |
+| **Teranex DisplayMac 1** | 10.10.21.254 | 7c:2e:0d:08:16:75 | Blackmagic | SDI→Audio de-embed for Mac Mini 1 |
+| **Teranex DisplayMac 2** | 10.10.20.13 | 7c:2e:0d:08:16:68 | Blackmagic | SDI→Audio de-embed for Mac Mini 2 |
+| **Teranex DisplayMac 4** | 10.10.21.0 | 7c:2e:0d:08:3b:ee | Blackmagic | SDI→Audio de-embed for Mac Mini 4 |
+| **AVL BMD Multiview** | 10.10.20.40 | 7c:2e:0d:16:ab:e5 | Blackmagic | Monitoring multiviewer |
 | **MG-Cloud-Store** | 10.10.20.7 | 7c:2e:0d:a8:64:28 | Blackmagic | Media Cloud Store 20TB |
 | **KLANG Wireless IEM** | 10.10.20.232 | 00:04:c4:31:17:c0 | Audiotonix | KLANG wireless management |
 | **MG_Hyperdeck-A** | 10.10.20.13 | 7c:2e:0d:1c:0e:5e | Blackmagic | Podcast streaming HyperDeck |

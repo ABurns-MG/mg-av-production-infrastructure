@@ -19,8 +19,27 @@
 | Output # | Destination | Format | Notes |
 |----------|-------------|--------|-------|
 | PGM | Livestream encoder | SDI | Primary program output |
-| PGM | NovaStar LED Wall | SDI/HDMI | IMAG feed (10.0.250.26) |
+| PGM | Blackmagic Videohub (In 12) | SDI | "Worship Center Feed" – distributed to classrooms, foyer, hallways |
 | AUX | Confidence monitors | SDI | Stage / green room |
+
+> **Note:** The SE-3200 does NOT feed the LED wall directly. The LED wall is driven by the ATEM 2 M/E (Resolume + ProPresenter via DSK1 → NovaStar 600). The SE-3200 PGM feeds the Videohub for building-wide distribution, where each output passes through a **Blackmagic Teranex Mini SDI→Audio** de-embedder to supply audio to the Tesira DSP for zone speakers.
+
+### SE-3200 Distribution via Teranex De-Embedders
+
+```
+SE-3200 PGM ──SDI──→ Videohub Input 12 ("Worship Center Feed")
+                          │
+              ┌───────────┼───────────────────────────┐
+              ▼           ▼                           ▼
+         Classroom    Worship Center             Mac Mini
+         Outputs      Sanctuary Output           Outputs
+              │           │                           │
+         Teranex      Teranex                    Teranex
+         (de-embed)   (10.10.20.128)            (DisplayMac)
+              │           │                           │
+         Tesira DSP   Tesira DSP                Tesira DSP
+         (zone audio) (hallway/foyer audio)     (playback audio)
+```
 
 ## Key Settings
 
